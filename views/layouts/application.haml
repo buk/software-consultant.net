@@ -31,8 +31,10 @@
     .container
       = yield
 
-    .ribbon.visible-desktop
-      %a{ href: 'https://github.com/datenimperator/software-consultant.net' } Quellen auf github.com
+    .ribbon.text-info.visible-desktop
+      %a{ href: 'https://github.com/datenimperator/software-consultant.net', rel: 'author' }
+        Quellen auf<br>
+        github.com
 
     = partial(:tracking) if production?
     %script{ src: '//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js' }
