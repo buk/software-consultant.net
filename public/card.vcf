@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Aust;Christian;;;
+FN:Christian Aust
+ORG:Christian Aust;
+TITLE:Software Consultant
+EMAIL;INTERNET;WORK:christian.aust@software-consultant.net
+TEL;CELL;VOICE:+49-151-42555542
+TEL;WORK;FAX:+49-2246-208343-9
+TEL;WORK;VOICE:+49-2246-208343
+ADR;WORK:;;Auelsweg 22;Lohmar;;53797;Deutschland
+URL;type=WORK;type=pref:http://software-consultant.net/
+X-JABBER;type=WORK;type=pref:c.aust@office.software-consultant.net
+END:VCARD

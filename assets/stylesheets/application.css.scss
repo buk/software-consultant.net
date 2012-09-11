@@ -1,0 +1,102 @@
+@import "variables";
+@import "bootstrap";
+@import "bootstrap-responsive";
+@import "compass/css3/box-shadow";
+
+section {
+  padding-top: 24px;
+  margin-bottom: 6em;
+}
+
+#logo-small {
+  vertical-align: top;
+}
+
+#logo {
+  position: relative;
+  top: -40px;
+}
+
+#scribble {
+  margin-top: 1em;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+h3 {
+  margin-top: 0.5em;
+  border-bottom: 1px solid lighten($bodyBackground, 10%);
+}
+
+blockquote small {
+  color: $grayDark;
+  text-align: right;
+}
+
+.project {
+  margin-bottom: 2em;
+}
+
+.contact {
+  height: 24px;
+  margin-bottom: 2em;
+}
+
+.ribbon {
+  position: fixed;
+  bottom: 62px;
+  width: 320px;
+  padding: 1px 0;
+  background: #000;
+  color: #eee;
+
+  @include single-box-shadow;
+
+  right:-82px;
+  -moz-transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+  -ms-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+
+  a {
+    display: block;
+    text-align: center;
+    &:active, &:hover {
+      color: white;
+    }
+  }
+
+}
+
+/* Large desktop */
+
+@media (min-width: 980px) {
+  body {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-unit {
+    padding: 30px;
+
+    h1 {
+      font-size: 18px;
+      line-height: 1.5em;
+    }
+  }
+
+  section {
+    margin-bottom: 1em;
+  }
+
+  .lead {
+    font-size: $baseFontSize;
+    font-weight: normal;
+    line-height: $baseLineHeight;
+    margin-bottom: 0.5em;
+  }
+}

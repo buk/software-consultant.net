@@ -1,0 +1,241 @@
+// // Variables.less
+// Variables to customize the look and feel of Bootstrap
+// -----------------------------------------------------
+
+
+
+// GLOBAL VALUES
+// --------------------------------------------------
+
+// Grays
+// -------------------------
+// $black:                 #000;
+// $grayDarker:            #222;
+// $grayDark:              #333;
+// $gray:                  #555;
+// $grayLight:             #999;
+// $grayLighter:           #eee;
+// $white:                 #fff;
+
+
+// Accent colors
+// ----------------------------
+$blue:                  #049cdb;
+$blueDark:              #0064cd;
+// $green:                 #46a546;
+$red:                   #e2002b;
+// $yellow:                #ffc40d;
+// $orange:                #f89406;
+// $pink:                  #c3325f;
+// $purple:                #7a43b6;
+
+// Scaffolding
+// -------------------------
+$bodyBackground:        #fec327;
+// $textColor:             $grayDark;
+
+// Links
+// -------------------------
+$linkColor:             $red;
+// $linkColorHover:        darken($linkColor, 15%);
+
+// Typography
+// -------------------------
+$sansFontFamily:       "Open Sans", Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $serifFontFamily:       Georgia, "Times New Roman", Times, serif;
+// $monoFontFamily:        Menlo, Monaco, Consolas, "Courier New", monospace;
+
+// $baseFontSize:          13px;
+// $baseFontFamily:        $sansFontFamily;
+// $baseLineHeight:        18px;
+// $altFontFamily:         $serifFontFamily;
+
+$headingsFontFamily:  "Nixie One";
+$headingsFontWeight:  normal;
+// $headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
+// $headingsFontWeight:    bold;    // instead of browser default, bold
+// $headingsColor:         inherit; // empty to use BS default, @textColor
+
+
+// Tables
+// -------------------------
+// $tableBackground:                   transparent; // overall background-color
+// $tableBackgroundAccent:             #f9f9f9; // for striping
+// $tableBackgroundHover:              #f5f5f5; // for hover
+// $tableBorder:                       #ddd; // table and cell border
+
+// Buttons
+// -------------------------
+// $btnBackground:                     $white;
+// $btnBackgroundHighlight:            darken($white, 10%);
+// $btnBorder:                         #ccc;
+
+// $btnPrimaryBackground:              $linkColor;
+// $btnPrimaryBackgroundHighlight:     adjust-hue($btnPrimaryBackground, 15%);
+
+// $btnInfoBackground:                 #5bc0de;
+// $btnInfoBackgroundHighlight:        #2f96b4;
+
+// $btnSuccessBackground:              #62c462;
+// $btnSuccessBackgroundHighlight:     #51a351;
+
+// $btnWarningBackground:              lighten($orange, 15%);
+// $btnWarningBackgroundHighlight:     $orange;
+
+// $btnDangerBackground:               #ee5f5b;
+// $btnDangerBackgroundHighlight:      #bd362f;
+
+// $btnInverseBackground:              $gray;
+// $btnInverseBackgroundHighlight:     $grayDarker;
+
+// Forms
+// -------------------------
+// $inputBackground:               $white;
+// $inputBorder:                   #ccc;
+// $inputBorderRadius:             3px;
+// $inputDisabledBackground:       $grayLighter;
+// $formActionsBackground:         #f5f5f5;
+
+
+// Dropdowns
+// -------------------------
+// $dropdownBackground:            $white;
+// $dropdownBorder:                rgba(0,0,0,.2);
+// $dropdownLinkColor:             $grayDark;
+// $dropdownLinkColorHover:        $white;
+// $dropdownLinkBackgroundHover:   $linkColor;
+
+// $dropdownDividerTop:    #e5e5e5;
+// $dropdownDividerBottom: $white;
+
+
+// COMPONENT VARIABLES
+// --------------------------------------------------
+
+// Z-index master list
+// -------------------------
+// Used for a bird's eye view of components dependent on the z-axis
+// Try to avoid customizing these :)
+// $zindexDropdown:          1000;
+// $zindexPopover:           1010;
+// $zindexTooltip:           1020;
+// $zindexFixedNavbar:       1030;
+// $zindexModalBackdrop:     1040;
+// $zindexModal:             1050;
+
+
+// Sprite icons path
+// -------------------------
+// $iconSpritePath:          asset-url("glyphicons-halflings.png", image);
+// $iconWhiteSpritePath:     asset-url("glyphicons-halflings-white.png", image);
+// $iconSpritePath:          '/assets/glyphicons-halflings.png';
+// $iconWhiteSpritePath:     '/assets/glyphicons-halflings-white.png';
+
+
+// Input placeholder text color
+// -------------------------
+// $placeholderText:         $grayLight;
+
+
+// Hr border color
+// -------------------------
+// $hrBorder:                $grayLighter;
+
+
+// Navbar
+// -------------------------
+// $navbarHeight:                    40px;
+$navbarBackground:                darken($bodyBackground, 10%);
+$navbarBackgroundHighlight:       $bodyBackground;
+
+// $navbarText:                      $grayLight;
+// $navbarLinkColor:                 $grayLight;
+// $navbarLinkColorHover:            $white;
+// $navbarLinkColorActive:           $navbarLinkColorHover;
+// $navbarLinkBackgroundHover:       transparent;
+// $navbarLinkBackgroundActive:      $navbarBackground;
+
+// $navbarSearchBackground:          lighten($navbarBackground, 25%);
+// $navbarSearchBackgroundFocus:     $white;
+// $navbarSearchBorder:              darken($navbarSearchBackground, 30%);
+// $navbarSearchPlaceholderColor:    #ccc;
+// $navbarBrandColor:                $navbarLinkColor;
+
+
+// Hero unit
+// -------------------------
+// $heroUnitBackground:              $grayLighter;
+// $heroUnitHeadingColor:            inherit;
+// $heroUnitLeadColor:               inherit;
+
+
+// Form states and alerts
+// -------------------------
+// $warningText:             #c09853;
+// $warningBackground:       #fcf8e3;
+// $warningBorder:           darken(adjust-hue($warningBackground, -10), 3%);
+
+// $errorText:               #b94a48;
+// $errorBackground:         #f2dede;
+// $errorBorder:             darken(adjust-hue($errorBackground, -10), 3%);
+
+// $successText:             #468847;
+// $successBackground:       #dff0d8;
+// $successBorder:           darken(adjust-hue($successBackground, -10), 5%);
+
+// $infoText:                #3a87ad;
+// $infoBackground:          #d9edf7;
+// $infoBorder:              darken(adjust-hue($infoBackground, -10), 7%);
+
+
+// FIXED GRID
+// --------------------------------------------------
+
+// Default, 940px
+// -------------------------
+// $gridColumns:             12;
+// $gridColumnWidth:         60px;
+// $gridGutterWidth:         20px;
+// $gridRowWidth:            ($gridColumns * $gridColumnWidth) + ($gridGutterWidth * ($gridColumns - 1));
+
+// Portrait tablet to default desktop
+// -------------------------
+// $gridColumnWidthTablet:   42px;
+// $gridGutterWidthTablet:   20px;
+
+// Large desktop and up
+// -------------------------
+// $gridColumnWidthLarge:    70px;
+// $gridGutterWidthLarge:    30px;
+
+
+// FLUID GRID
+// --------------------------------------------------
+
+// Default
+// -------------------------
+// $fluidGridColumnWidth:         6.382978723%;
+// $fluidGridGutterWidth:         2.127659574%;
+
+// Portrait tablet to default desktop
+// -------------------------
+// $fluidGridColumnWidthTablet:   5.801104972%;
+// $fluidGridGutterWidthTablet:   2.762430939%;
+
+// Large desktop and up
+// -------------------------
+// $fluidGridColumnWidthLarge:    5.982905983%;
+// $fluidGridGutterWidthLarge:    2.564102564%;
+
+
+
+// RESPONSIVE DESIGN
+// --------------------------------------------------
+
+// Media widths
+// -------------------------
+// Not supported Sass < 3.2 :(
+// $mediaPhone:              480px;
+// $mediaTablet:             768px;
+// $mediaDesktop:            980px;
+// $mediaLarge:              1200px; // and upper
