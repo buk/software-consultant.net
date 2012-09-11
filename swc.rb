@@ -43,7 +43,7 @@ class Swc < Sinatra::Base
     end
     Sprockets::Sass.add_sass_functions = false
 
-    set :haml, { :format => :html5 }
+    set :haml, { :format => :html5, :ugly => production? }
   end
 
   before do
