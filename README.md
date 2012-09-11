@@ -12,7 +12,7 @@ This project shows how to use Sinatra as a Rack application (so I can use passen
 
 ### Wait, Bootstrap? Again?
 
-Bootstrap is great, but it sucks that most sites use it almost or completely unmodified. That leads to a lot of sites looking just the same. I use Sass to customize bootstrap (see the _variables file) and only include what I actually need. The outcome is minified and gzipped.
+Bootstrap is great, but it sucks that most sites use it almost or completely unmodified. That leads to a lot of sites looking just the same. I use Sass to customize bootstrap (see the `assets/stylesheets/_variables.scss` file) and only include what I actually need (by overriding `bootstrap.scss`). The outcome is minified and gzipped.
 
 ### Used projects
 
@@ -22,7 +22,7 @@ Bootstrap is great, but it sucks that most sites use it almost or completely unm
 * [sprockets](https://github.com/sstephenson/sprockets) Rack-based asset packaging system
 * [sprockets-sass](https://github.com/petebrowne/sprockets-sass) better Sass integration with Sprockets 2.x
 * [sprockets-helpers](https://github.com/petebrowne/sprockets-helpers) asset path helpers for Sprockets 2.x
-* [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass) sass'ified version of the Bootstrap files (which use less)
+* [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass) sass'ified version of the [twitter-bootstrap](http://twitter.github.com/bootstrap/) files (which use less)
 
 Licensing
 ---------
