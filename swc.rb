@@ -44,6 +44,7 @@ class Swc < Sinatra::Base
     Sprockets::Sass.add_sass_functions = false
 
     set :haml, { :format => :html5, :ugly => production? }
+    Sprockets::Sass.options[:style] = :compressed if production?
   end
 
   before do
