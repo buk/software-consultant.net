@@ -34,6 +34,6 @@
     .ribbon.visible-desktop
       %a{ href: 'https://github.com/datenimperator/software-consultant.net' } Quellen auf github.com
 
-    = partial('partials/tracking') if production?
+    = partial(:tracking) if production?
     %script{ src: '//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js' }
     %script{ src: javascript_path('application.js') }
