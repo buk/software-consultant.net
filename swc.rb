@@ -30,6 +30,7 @@ class Swc < Sinatra::Base
     /^\/opensource\/osx-xing-vcard-utility/i => 'https://github.com/datenimperator/vcard-converter',
     /^\/opensource/i => 'https://github.com/datenimperator',
     /^\/assets\/1\/Vorstellung_Christian_Aust\.pdf/i => 'http://software-consultant.net/profil.pdf',
+    /^\/assets\/2\/profil\.pdf/i => 'http://software-consultant.net/profil.pdf',
     /^\/impressum-kontakt/i => 'http://software-consultant.net/'
   }
 
