@@ -23,6 +23,15 @@ class Swc < Sinatra::Base
   set :precompile,    [ /\w+\.(?!js|css).+/, /application.(css|js)$/ ]
   set :assets_prefix, '/assets'
   set :digest_assets, false
+  set :haml,          { :format => :html5 }
+  set :redirects,     {
+    /^\/projektliste\.rtf/i => 'http://software-consultant.net/',
+    /^\/projekte/i => 'http://software-consultant.net/#projekte',
+    /^\/opensource\/osx-xing-vcard-utility/i => 'https://github.com/datenimperator/vcard-converter',
+    /^\/opensource/i => 'https://github.com/datenimperator',
+    /^\/assets\/1\/Vorstellung_Christian_Aust\.pdf/i => 'http://software-consultant.net/profil.pdf',
+    /^\/impressum-kontakt/i => 'http://software-consultant.net/'
+  }
 
   configure do
     # Setup Sprockets
@@ -32,7 +41,6 @@ class Swc < Sinatra::Base
       assets.append_path Compass::Frameworks['bootstrap'].templates_directory + "/../vendor/assets/#{type}"
     end
     assets.append_path "assets/font"
-    assets.js_compressor = JsCompressor.new if production?
 
     # Configure Sprockets::Helpers (if necessary)
     Sprockets::Helpers.configure do |config|
@@ -43,8 +51,11 @@ class Swc < Sinatra::Base
     end
     Sprockets::Sass.add_sass_functions = false
 
-    set :haml, { :format => :html5, :ugly => production? }
-    Sprockets::Sass.options[:style] = :compressed if production?
+    if production?
+      assets.js_compressor = JsCompressor.new if production?
+      settings.haml[:ugly] = true
+      Sprockets::Sass.options[:style] = :compressed
+    end
   end
 
   before do
@@ -56,8 +67,20 @@ class Swc < Sinatra::Base
     haml :index, :layout => :'layouts/application'
   end
 
+  not_found do
+    pass if settings.redirects.any? {|pattern, uri|
+      if pattern.match(request.path)
+        redirect to(uri), 301
+        return true
+      end
+      false
+    }
+    haml :'404', :layout => :'layouts/application'
+  end
+
   helpers do
     include Sprockets::Helpers
+    include Rack::Utils
     include RenderPartial
 
     def production?
