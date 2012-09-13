@@ -1,7 +1,7 @@
 software-consultant.net
 =======================
 
-This is the source code of my professional website located at [software-consultant.net](http://software-consultant.net). The website if public, so the source might be public just as well. Besides, I've learned so much from the work of others, I assume it might be appropriate to share what I've got.
+This is the source code of my professional website located at [software-consultant.net](http://software-consultant.net). The website is public, so the source might be public just as well. Besides, I've learned so much from the work of others, I assume it might be appropriate to share what I've got.
 
 What is it?
 -----------
@@ -23,6 +23,11 @@ Bootstrap is great, but it sucks that most sites use it almost or completely unm
 * [sprockets-sass](https://github.com/petebrowne/sprockets-sass) better Sass integration with Sprockets 2.x
 * [sprockets-helpers](https://github.com/petebrowne/sprockets-helpers) asset path helpers for Sprockets 2.x
 * [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass) sass'ified version of the [twitter-bootstrap](http://twitter.github.com/bootstrap/) files (which use less)
+
+How does it work?
+-----------------
+
+The file `config.ru` is the starting point for all rack-based frameworks (such as Rails or Sinatra), this is what Passenger picks up first when deploying the application. It maps the assets environment to the configured URI prefix (here: "/assets") and the [modular sinatra application](http://www.sinatrarb.com/intro#Sinatra::Base%20-%20Middleware,%20Libraries,%20and%20Modular%20Apps) from the required file `swc.rb`. Note that Sinatra doesn't set the load path for a lib-directory so the require statement uses a relative path.
 
 Licensing
 ---------
