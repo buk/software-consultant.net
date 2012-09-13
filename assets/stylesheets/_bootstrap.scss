@@ -30,11 +30,11 @@
 // @import "bootstrap/sprites";
 // @import "bootstrap/dropdowns";
 // @import "bootstrap/wells";
-// @import "bootstrap/component-animations";
+@import "bootstrap/component-animations";
 // @import "bootstrap/close";
 
 // Components: Buttons & Alerts
-// @import "bootstrap/buttons";
+@import "bootstrap/buttons";
 // @import "bootstrap/button-groups";
 // @import "bootstrap/alerts"; // Note: alerts share common CSS with buttons and thus have styles in _buttons.scss
 
@@ -46,7 +46,7 @@
 // @import "bootstrap/pager";
 
 // Components: Popovers
-// @import "bootstrap/modals";
+@import "bootstrap/modals";
 // @import "bootstrap/tooltip";
 // @import "bootstrap/popovers";
 

@@ -19,5 +19,6 @@ gem 'sprockets-sass'
 gem 'compass'
 gem 'bootstrap-sass'
 gem 'coffee-script'
+gem 'http_accept_language', "~>2.0.0.beta"
 
 gem 'uglifier'

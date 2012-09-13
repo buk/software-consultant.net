@@ -1,3 +1,2 @@
 $ ->
-  $('.nav a.autoscroll').localScroll();
-  console.log('Done');
+  $('#language').modal('show');

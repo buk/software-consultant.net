@@ -1,5 +1,3 @@
-require 'bundler/setup'
-
 require 'sinatra/base'
 require 'sinatra/support'
 require 'sass'
@@ -86,6 +84,11 @@ class Swc < Sinatra::Base
 
     def production?
       Swc.production?
+    end
+
+    def language
+      available = %w(de de-DE en)
+      env.http_accept_language.compatible_language_from(available)
     end
 
   end
