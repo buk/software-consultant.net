@@ -33,6 +33,8 @@ class Swc < Sinatra::Base
   }
 
   configure do
+    enable :logging if development?
+
     # Setup Sprockets
     # assets.logger = Logger.new(STDOUT)
     %w{javascripts stylesheets images}.each do |type|
@@ -62,7 +64,6 @@ class Swc < Sinatra::Base
   end
 
   get '/' do
-    @projects = YAML::load_documents(File.read('projects.yml'))
     haml :index, :layout => :'layouts/application'
   end
 
@@ -89,6 +90,20 @@ class Swc < Sinatra::Base
     def language
       available = %w(de de-DE en)
       env.http_accept_language.compatible_language_from(available)
+    end
+
+    def projects
+      @projects ||= begin
+        logger.info "Reloading projects"
+        YAML::load_documents(File.read('projects.yml'))
+      end
+    end
+
+    def references
+      @references ||= begin
+        logger.info "Reloading references"
+        YAML::load_documents(File.read('references.yml'))
+      end
     end
 
   end

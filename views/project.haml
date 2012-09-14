@@ -18,4 +18,4 @@
         = project['end']
       &ndash;
       %strong Werkzeuge:
-      = project['tools']
+      = project['tools'].is_a?(Array) ? project['tools'].join(', ') : project['tools']

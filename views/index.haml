@@ -140,61 +140,14 @@
 %section#referenzen
   %h2 Referenzen
 
-  %blockquote
-    %p
-      Christian Aust war als Berater und Entwickler in unserem Projekt "SEBI" im Einsatz. Die hervorragend Qualität des Endergebnisses war maßgeblich durch seine Konzeptionsleistung und professionelle Umsetzung auf höchstem Niveau bestimmt. Die eigenständige und zuverlässige Arbeitsweise, sowie die Termin- und Budgettreue waren die Grundlage für die vertrauensvolle Zusammenarbeit, auf die wir zukünftig gerne erneut setzen werden. Herr Austs Arbeit ist uneingeschränkt empfehlenswert.
-    %small
-      Kunde
-      %cite R. Budke, GF b:scope
-      (Juli 2012)
-
-  %blockquote
-    %p
-      Christian Aust is a very well thought of and quick thinking consultant. He is a very reliable person. Christian Aust delivers consultancy as it is: he is consulting and giving advice and not only developing. He has a broad range of skills and knowledge which is very benficial if it comes to Interfaces where skills of various areas are needed. Furthermore Christian Aust never exceeded the budget. I will work with Christian Aust in the future as well.
-    %small
-      Kunde
-      %cite O. Stegmann, CEO ROC Deutschland
-      (Januar 2012)
-
-  %blockquote
-    %p
-      Christian Aust has set up my main website […] and not only from the positive feedback I get I know that he has done a tremendous job. He was very creative with innovative ideas, highly available when I needed him, fast and worth every penny. It has been a pleasure and a professional experience. Looking forward to work with him in the near future.
-    %small
-      Kunde
-      %cite Dr. Thomas Rose
-      (Juli 2011)
-
-  %blockquote
-    %p
-      Christian Aust war schon in mehreren Projekten unserer Kunden erfolgreich im Einsatz und überzeugte dort mit kompetenter und engagierter Beratung. Synergie-Effekt ist bekannt für erstklassige Unterstützung mit Spezialisten wie mit Christian Aust und mit solchen Mitarbeitern werden wir unserem Anspruch an top-professionelle IT-Dienstleistung gerecht.
-    %small
-      Partner
-      %cite K. Grundmann, CEO Synergie Effekt GmbH
-      (September 2010)
-
-  %blockquote
-    %p
-      Christian Aust hat [2002-2004] für Arinso die ersten webbasierten SAP-HR-Szenarien entwickelt, welche nicht auf einem SAP-Portal implementiert wurden; dieser Prototyp war auch auf der Cebit zu sehen. Darüber hinaus hat er intensiv bei einem Projekt in Skandinavien als Technologie-Experte mitgearbeitet, seine Leistung und sein Wissen wurde sowohl vom Kunden als auch vom gesamten, internationalen Berater- und Entwicklerteam wert geschätzt.
-    %small
-      Vorgesetzter
-      %cite F.-R. Gross, Managing Partner Kivala-HR
-      (Juni 2009)
-
-  %blockquote
-    %p
-      Christian Aust [hat 2005] bei uns wichtige (überwiegend Java-basierte) Applikationen in hoher Qualität und großer Kompetenz entwickelt. Von daher: Sehr empfehlenswert!
-    %small
-      Vorgesetzter
-      %cite S. Mosblech, GF people interactive GmbH
-      (Juni 2009)
-
+  = partial(:reference, collection: references)
 
 %section#projekte
   %h2 Projektliste
 
   %p
     Diese Liste umfasst die letzten
-    = @projects.size
+    = projects.size
     Projekte, in denen ich gearbeitet habe. Eine vollständige Liste seit 1996 sende ich Ihnen gerne auf Anfrage.
 
-  = partial(:project, collection: @projects)
+  = partial(:project, collection: projects)

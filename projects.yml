@@ -3,22 +3,89 @@ title: „SEBI“ add-on Suchmaschinen Appliance
 role: Berater, Entwickler
 start: '01.2012'
 end: '06.2012'
-tools: Ruby on Rails, HTML5, CSS3, jQuery, Lucene, memcache, git, Debian, mysql
+tools: [Ruby on Rails, HTML5, CSS3, jQuery, Lucene, memcache, git, Debian, mysql]
 customer: Unternehmensberatung
-description: Ich entwickele eine auf opensource-Komponenten basierte Suchmaschine, die sich für die Verwendung mit SAP eignet. Die Suchmaschine zeichnet sich durch hohe Trefferqualität, fortschrittliche Suchfunktionen und gleichzeitig hohe Geschwindigkeit aus. Das Produkt wird als betriebsfertige Appliance einschließlich Hardware von mir konzipiert.
+description: >
+  Ich entwickele eine auf opensource-Komponenten basierte Suchmaschine, die sich
+  für die Verwendung mit SAP eignet. Die Suchmaschine zeichnet sich durch hohe
+  Trefferqualität, fortschrittliche Suchfunktionen und gleichzeitig hohe Geschwindigkeit
+  aus. Das Produkt wird als betriebsfertige Appliance einschließlich Hardware von
+  mir konzipiert.
 ---
 title: Produktentwicklung eRecruiting
 role: Berater, Entwickler
 start: '02.2011'
 end: '03.2012'
-tools: Ruby on Rails, HTML5, CSS3, jQuery, memcache, subversion, solr, mysql
+tools: [Ruby on Rails, HTML5, CSS3, jQuery, memcache, subversion, solr, mysql]
 customer: Softwarehersteller
-description: Für einen mittelständischen Softwarehersteller konzipiere und entwickele ich die Neugestaltung einer Recruiting-Software. Meine Aufgaben umfassen neben konzeptioneller Arbeit auch die Schulung des vorhandenen Teams. Die für ASP-Betrieb konzipierte Lösung zeichnet sich durch extreme Anpassungsfähigkeit bei gleichzeitiger Standardisierung des Betriebs aus. Als technologische Basis kommt u.a. Ruby on Rails und HTML5 zum Einsatz. In Zusammenarbeit mit dem Auftraggeber erstelle ich Pflichtenhefte und Konzepte sowie Aufwandsschätzungen und Zeitplanungen. Besondere Bedeutung kommt der Datensicherheit und Compliance gem. BDSG zu.
+description: >
+  Für einen mittelständischen Softwarehersteller konzipiere und entwickele ich die
+  Neugestaltung einer Recruiting-Software. Meine Aufgaben umfassen neben konzeptioneller
+  Arbeit auch die Schulung des vorhandenen Teams. Die für ASP-Betrieb konzipierte
+  Lösung zeichnet sich durch extreme Anpassungsfähigkeit bei gleichzeitiger
+  Standardisierung des Betriebs aus. Als technologische Basis kommt u.a. Ruby on Rails
+  und HTML5 zum Einsatz. In Zusammenarbeit mit dem Auftraggeber erstelle ich Pflichtenhefte
+  und Konzepte sowie Aufwandsschätzungen und Zeitplanungen. Besondere Bedeutung
+  kommt der Datensicherheit und Compliance gem. BDSG zu.
 ---
 title: Produktentwicklung RaaS/SAP BI
 role: Berater, Entwickler
 start: '11.2010'
 end: '05.2012'
-tools: SAP BI, Ruby on Rails, HTML5, CSS3, jQuery, Apache Server, proxy, Zertifikate, VPN, mysql
+tools: [SAP BI, Ruby on Rails, HTML5, CSS3, jQuery, Apache Server, proxy, Zertifikate, VPN, mysql]
 customer: Unternehmensberatung
-description: Im Auftrag eines SAP-Spezialisten entwerfe und betreibe ich ein benutzerfreundliches Frontend für SAP BI-basierte Dienste meines Kunden. Zahlreiche Schnittstellenthemen sowie die Sicherheit der sensiblen Kundendaten prägen das Projekt auf Basis von Ruby on Rails. Ich leite die Implementierung und bin für Auswahl und Einsatz weiterer externer Entwickler verantwortlich. In Zusammenarbeit mit dem Auftraggeber erstelle ich Pflichtenhefte und Konzepte sowie Aufwandsschätzungen und Zeitplanungen.
+description: >
+  Im Auftrag eines SAP-Spezialisten entwerfe und betreibe ich ein benutzerfreundliches
+  Frontend für SAP BI-basierte Dienste meines Kunden. Zahlreiche Schnittstellenthemen
+  sowie die Sicherheit der sensiblen Kundendaten prägen das Projekt auf Basis von
+  Ruby on Rails. Ich leite die Implementierung und bin für Auswahl und Einsatz weiterer
+  externer Entwickler verantwortlich. In Zusammenarbeit mit dem Auftraggeber erstelle
+  ich Pflichtenhefte und Konzepte sowie Aufwandsschätzungen und Zeitplanungen.
+---
+title: Feinkonzept Website-Relaunch
+role: Berater
+start: '08.2010'
+end: '09.2010'
+tools: [Microsoft Office, Microsoft Visio, Interviews]
+customer: Rundfunk
+description: >
+  Ich begleite den Relaunch eines Portals mehrerer Sparten eines öffentlich-rechtlichen
+  Auftraggebers als Berater. Eine Vielzahl von Informationsangeboten soll in einem
+  einheitlichen Erscheinungsbild präsentiert und betrieben werden. Zu meinen Aufgaben
+  gehört die Abstimmung unterschiedlicher Abteilungen, die Moderation der Entscheidungsfindung
+  und die Präsentation von Ergebnissen.
+---
+title: Relaunch Job-Suchmaschine
+role: Berater, Entwickler
+start: '06.2010'
+end: '07.2010'
+tools: [Ruby on Rails, sphinx Suchmaschine, Shell scripting, HTML, CSS, jQuery, Javascript, Subversion]
+customer: Unternehmensberatung
+description: >
+  Konzeptionelle, technische und grafische Überarbeitung des Prototypen der Job-Suchmaschine
+  metajob.it, mit der Kennzahlen und Analysen zum deutschen Projektmarkt berechnet werden.
+  metajob.it bietet eine umfassende meta-Suche über Projektangebote für Freelancer und
+  Selbständige im IT-Bereich.
+---
+title: Migration einer SAP Portalanwendung
+role: Berater
+start: '05.2010'
+end: '07.2010'
+tools: [SAP R/3, XML, Javascript, Webservices, VPN, Berechtigungen, AJAX, HTML, CSS]
+customer: Pharma/Chemie
+description: >
+  Erweiterung und Migration einer bestehenden Portalanwendung IE6 nach IE8, Anfertigung
+  von technischer Dokumentation, Aufwandsschätzung und Koordination weiterer externer
+  Dienstleiter.
+---
+title: Branchenportal (SEO)
+role: Berater, Entwickler
+start: '02.2010'
+end: '04.2010'
+tools: [Ruby on Rails, Radiant CMS, jQuery, HTML, CSS, Berechtigungssteuerung]
+customer: Verlag
+description: >
+  Erstellung eines themenspezifischen Content-Portals, mit dem größtmögliche Attraktivität
+  für Suchmaschinen erreicht werden soll. Gleichzeitig soll der im Hinblick auf die
+  redaktionelle Arbeit zu leistende Aufwand minimiert werden.
+
