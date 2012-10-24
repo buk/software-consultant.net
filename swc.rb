@@ -12,6 +12,7 @@ require './lib/js_compressor'
 require './lib/render_partial'
 
 require 'yaml'
+require 'json'
 
 # ~/.rvm/gems/ruby-1.9.3-p194@swc4/gems/bootstrap-sass-2.1.0.0/vendor/assets/stylesheets
 
@@ -65,6 +66,25 @@ class Swc < Sinatra::Base
 
   get '/' do
     haml :index, :layout => :'layouts/application'
+  end
+
+  get '/projects.json' do
+    content_type :json
+    param_names = %w{ title description customer role tools }
+    max = params['max'] ? params['max'].to_i : 0
+    projects.find_all do |project|
+      return true unless param_names.any?{|name| params.keys.include?(name)}
+      param_names.any? do |name|
+        next unless params[name]
+        v = case project[name]
+          when nil then ''
+          when Array then project[name].join(' ')
+          when String then project[name]
+          else project[name].to_s
+        end
+        v =~ Regexp.new(params[name], true)
+      end
+    end[0..(max-1)].to_json
   end
 
   not_found do
