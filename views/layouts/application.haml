@@ -29,17 +29,15 @@
             %li
               %a.autoscroll{ href: '#projekte' } Projekte
 
-    .container
+    .container{ itemscope:true, itemtype:'http://schema.org/Person'}
       = yield
 
     .ribbon.text-info.visible-desktop
-      %a{ href: 'https://github.com/datenimperator/software-consultant.net', rel: 'author' }
+      %a{ href: 'https://github.com/datenimperator/software-consultant.net' }
         Quellen auf<br>
         github.com
 
     = partial(:language) if language != 'de'
-    /
-      == language: #{language}
     = partial(:tracking) if production?
 
     %script{ src: '//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js' }

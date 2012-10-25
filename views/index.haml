@@ -1,7 +1,7 @@
 .hero-unit
-  %img#logo.img-polaroid.pull-right.hidden-phone{ src: asset_path('ca2.png'), alt: 'Christian Aust' }
-  %h1 Christian Aust
-  %p Ich berate und entwickle Software für das Internet.
+  %img#logo.img-polaroid.pull-right.hidden-phone{ src: asset_path('ca2.png'), alt: 'Christian Aust', itemprop:'image' }
+  %h1{ itemprop:'name' } Christian Aust
+  %p{ itemprop:'description' } Ich berate und entwickle Software für das Internet.
 
 %p.lead
   Ihr Projekt unterstütze ich mit Konzeption, Entwicklung und Betrieb, als Berater, Projektleiter und als Teil des Teams. Ich bin vertraut mit der Arbeitsweise von Agenturen und Konzernen, bin stressfest, zuverlässig und ganz allgemein ein netter Kollege.
@@ -34,30 +34,34 @@
       %h3
         %i.icon-home
         Kontakt
-      %address
+      .author
         %strong Christian Aust
         %small
-          %a{ rel: 'author', href: 'https://plus.google.com/105874409348870423162/about?gl=DE&hl=de-DE' }
+          %a{ rel: :publisher, href: 'https://plus.google.com/105874409348870423162/about?gl=DE&hl=de-DE' }
             Google Places&trade;
-        %br
-        Software Berater<br>
-        Auelsweg 22<br>
-        53797 Lohmar
-      %p
-        %strong USt-ID
-        DE 251152105
+        <br>
+        %span{ itemprop:'jobTitle' } Software Consultant
 
-      %ul.icons
-        %li
-          %i.icon-phone
-          %a{ href: 'callto:+492246208343'} +49 (0)2246 208343
-        %li
-          %i.icon-envelope
-          %a{ href: 'mailto:info@software-consultant.net'} info@software-consultant.net
+        %address{ itemprop:'address', itemscope:true, itemtype:'http://schema.org/PostalAddress' }
+          %span{ itemprop:'streetAddress' } Auelsweg 22
+          <br>
+          %span{ itemprop:'postalCode' } 53797
+          %span{ itemprop:'addressLocality' } Lohmar
+        %p
+          %strong USt-ID
+          DE 251152105
 
-        %li
-          %i.icon-print
-          %a{ href: 'fax:+492246208343'} +49 (0)2246 208343-9
+        %ul.icons
+          %li
+            %i.icon-phone
+            %a{ href: 'callto:+492246208343', itemprop:'telephone' } +49 (0)2246 208343
+          %li
+            %i.icon-envelope
+            %a{ href: 'mailto:info@software-consultant.net', itemprop:'email'} info@software-consultant.net
+
+          %li
+            %i.icon-print
+            %a{ href: 'fax:+492246208343', itemprop:'faxNumber'} +49 (0)2246 208343-9
 
 
 
@@ -72,27 +76,27 @@
             Christian Aust
         %li
           %i.icon-linkedin-sign
-          %a{ rel: :author, href: 'http://de.linkedin.com/in/christianaust/de', target: '_blank' }
+          %a{ href: 'http://de.linkedin.com/in/christianaust/de', target: '_blank' }
             Christian Aust
         %li
           %i.icon-github
-          %a{ rel: :author, href: 'https://github.com/datenimperator/', target: '_blank' }
+          %a{ href: 'https://github.com/datenimperator/', target: '_blank' }
             datenimperator
         %li
           %i.icon-twitter
-          %a{ rel: :author, href: 'https://twitter.com/#!/datenimperator', target: '_blank' }
+          %a{ href: 'https://twitter.com/#!/datenimperator', target: '_blank' }
             datenimperator
         %li
           %i.icon-star
-          %a{ rel: :author, href: 'https://www.freelance.de/Freiberufler/Christian_Aust', target: '_blank' }
+          %a{ href: 'https://www.freelance.de/Freiberufler/Christian_Aust', target: '_blank' }
             freelance.de
         %li
           %i.icon-star
-          %a{ rel: :author, href: 'http://www.freelancermap.de/profil/ChristianAust3/1', target: '_blank' }
+          %a{ href: 'http://www.freelancermap.de/profil/ChristianAust3/1', target: '_blank' }
             freelancermap.de
         %li
           %i.icon-star
-          %a{ rel: :author, href: 'https://www.xing.com/profile/Christian_Aust10', target: '_blank' }
+          %a{ href: 'https://www.xing.com/profile/Christian_Aust10', target: '_blank' }
             xing.com
 
   .pull-right
@@ -134,7 +138,7 @@
 
     .span4
       %h3 Gängige Werkzeuge
-      ExtJS, jQuery, Prototype, HAML, Sass, Coffeescript, Capistrano, Subversion, Git, rspec, cucumber, Apache, nginx, Debian, Ubuntu, Redhat, Ruby on rails, Lucene, Elasticsearch, solr, sphinx
+      ExtJS, jQuery, Prototype, HAML, Sass, Coffeescript, Capistrano, Subversion, Git, rspec, cucumber, Apache, nginx, Debian, Ubuntu, Redhat, Ruby on rails, Sinatra, rake, Lucene, Elasticsearch, solr, sphinx, memcache
 
     .span4
       %h3 Betriebssysteme
