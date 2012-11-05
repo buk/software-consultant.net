@@ -20,5 +20,6 @@ gem 'compass'
 gem 'bootstrap-sass'
 gem 'coffee-script'
 gem 'http_accept_language', "~>2.0.0.beta"
+gem 'will_paginate'
 
 gem 'uglifier'

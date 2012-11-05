@@ -23,11 +23,11 @@
 // Base CSS
 @import "bootstrap/type";
 // @import "bootstrap/code";
-// @import "bootstrap/forms";
-// @import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/tables";
 
 // Components: common
-// @import "bootstrap/sprites";
+@import "bootstrap/sprites";
 // @import "bootstrap/dropdowns";
 // @import "bootstrap/wells";
 @import "bootstrap/component-animations";
@@ -35,14 +35,14 @@
 
 // Components: Buttons & Alerts
 @import "bootstrap/buttons";
-// @import "bootstrap/button-groups";
+@import "bootstrap/button-groups";
 // @import "bootstrap/alerts"; // Note: alerts share common CSS with buttons and thus have styles in _buttons.scss
 
 // Components: Nav
 @import "bootstrap/navs";
 @import "bootstrap/navbar";
 // @import "bootstrap/breadcrumbs";
-// @import "bootstrap/pagination";
+@import "bootstrap/pagination";
 // @import "bootstrap/pager";
 
 // Components: Popovers
@@ -55,7 +55,7 @@
 // @import "bootstrap/labels-badges";
 // @import "bootstrap/progress-bars";
 // @import "bootstrap/accordion";
-// @import "bootstrap/carousel";
+@import "bootstrap/carousel";
 @import "bootstrap/hero-unit";
 
 // Utility classes

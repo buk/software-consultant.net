@@ -99,8 +99,17 @@
           %a{ href: 'https://www.xing.com/profile/Christian_Aust10', target: '_blank' }
             xing.com
 
-  .pull-right
+  #handwriting.pull-right
     %img#scribble.hidden-phone{ src: asset_path('scribble.png'), alt: 'Was kann ich für Sie tun?' }
+
+%section#referenzen
+  %h2 Referenzen
+
+  #references.carousel.slide
+    .carousel-inner
+      = partial(:reference, collection: references)
+    %a.carousel-control.left{ href:'#references', 'data-slide'=>'prev'} &lsaquo;
+    %a.carousel-control.right{ href:'#references', 'data-slide'=>'next'} &rsaquo;
 
 %section#angebot
   %h2 Mein Angebot
@@ -145,17 +154,55 @@
       Mac OS X, iOS, Linux/UNIX, Windows
 
 
-%section#referenzen
-  %h2 Referenzen
-
-  = partial(:reference, collection: references)
-
 %section#projekte
+  %a{ name: 'projekte' }
   %h2 Projektliste
 
   %p
-    Diese Liste umfasst die letzten
-    = projects.size
-    Projekte, in denen ich gearbeitet habe. Eine vollständige Liste seit 1996 sende ich Ihnen gerne auf Anfrage.
+    Eine vollständige Liste seit 1996 sende ich Ihnen gerne auf Anfrage.
 
-  = partial(:project, collection: projects)
+
+  .projects
+
+    %form.form-search.pull-right
+      %input.input-medium.search-query{ type:'text', name:'q', placeholder:'Filter' }
+      %button.btn{ type:'submit' } Einschränken
+
+    = will_paginate @visible_projects, renderer: SWC::Sinatra, class: 'pagination pagination-mini'
+
+    %table#projects.table
+      %colgroup
+        %col
+        %col{ width: '15%' }
+        %col{ width: '20%' }
+        %col{ width: '15%' }
+      %thead
+        %tr
+          %th Titel
+          %th Kunde
+          %th Rolle
+          %th.right Wann?
+      %tbody
+        - @visible_projects.each do |project|
+          %tr.even
+            %td
+              %strong= project['title']
+            %td
+              %small= project['customer']
+            %td
+              %small= project['role']
+            %td.right
+              %small
+                = project['start']
+                - unless '' == project['end']
+                  bis
+                  = project['end']
+
+          %tr.odd
+            %td{ colspan: 4 }
+              %p= project['description']
+              %p.meta
+                %small
+                  %strong Werkzeuge:
+                  = project['tools'].is_a?(Array) ? project['tools'].join(', ') : project['tools']
+

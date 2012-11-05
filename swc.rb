@@ -6,10 +6,12 @@ require 'bootstrap-sass'
 require 'sprockets'
 require 'sprockets/helpers'
 require 'sprockets-sass'
+require 'will_paginate/array'
 
 # Helpers
 require './lib/js_compressor'
 require './lib/render_partial'
+require './lib/swc_link_renderer'
 
 require 'yaml'
 require 'json'
@@ -65,6 +67,8 @@ class Swc < Sinatra::Base
   end
 
   get '/' do
+    page = params[:page] || 1
+    @visible_projects = projects.paginate( page: page, per_page: 3 )
     haml :index, :layout => :'layouts/application'
   end
 
@@ -104,8 +108,9 @@ class Swc < Sinatra::Base
   end
 
   helpers do
-    include Sprockets::Helpers
-    include Rack::Utils
+    include ::Sprockets::Helpers
+    include ::Rack::Utils
+    include ::WillPaginate::Sinatra::Helpers
     include RenderPartial
 
     def production?

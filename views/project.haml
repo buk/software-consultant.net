@@ -1,21 +1,22 @@
-.project
-  %h3= project['title']
+.item
+  .project
+    %h3= project['title']
 
-  %p= project['description']
+    %p= project['description']
 
-  %p.meta
-    %small
-      %strong Kunde:
-      = project['customer']
-      &ndash;
-      %strong Meine Rolle:
-      = project['role']
-      &ndash;
-      %strong Dauer:
-      = project['start']
-      - unless '' == project['end']
-        bis
-        = project['end']
-      &ndash;
-      %strong Werkzeuge:
-      = project['tools'].is_a?(Array) ? project['tools'].join(', ') : project['tools']
+    %p.meta
+      %small
+        %strong Kunde:
+        = project['customer']
+        &ndash;
+        %strong Meine Rolle:
+        = project['role']
+        &ndash;
+        %strong Dauer:
+        = project['start']
+        - unless '' == project['end']
+          bis
+          = project['end']
+        &ndash;
+        %strong Werkzeuge:
+        = project['tools'].is_a?(Array) ? project['tools'].join(', ') : project['tools']
