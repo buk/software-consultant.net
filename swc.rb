@@ -87,6 +87,11 @@ class Swc < Sinatra::Base
     end[0..(max-1)].to_json
   end
 
+  get '/availability.json' do
+    content_type :json
+    availability.to_json
+  end
+
   not_found do
     pass if settings.redirects.any? {|pattern, uri|
       if pattern.match(request.path)
@@ -124,6 +129,13 @@ class Swc < Sinatra::Base
         logger.info "Reloading references"
         YAML::load_documents(File.read('references.yml'))
       end
+    end
+
+    def availability
+      {
+        :free => 0.1,
+        :next_full => Date.new(2013, 1, 1)
+      }
     end
 
   end
