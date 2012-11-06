@@ -30,6 +30,18 @@
           %a{ href: '/card.vcf' }
             Visitenkarte (vcard)
 
+      %h3
+        %i.icon-calendar
+        Verfügbarkeit
+
+      %p
+        Derzeit bin ich zu etwa
+        = (availability[:free]*100).to_i.to_s
+        Prozent für weitere Aufgaben verfügbar.
+        Voraussichtlich ab
+        %strong= l(availability[:next_full], format: :month_and_year)
+        kann ich meine gesamte Zeit für Ihr Projekt einsetzen.
+
     .span3
       %h3
         %i.icon-home

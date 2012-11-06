@@ -7,6 +7,7 @@ gem 'rvm-capistrano', :group=>:development
 gem 'therubyracer', :group=>:production
 
 gem 'rack-cache'
+gem 'i18n'
 gem 'sinatra', :require => 'sinatra/base'
 gem 'sinatra-support'
 

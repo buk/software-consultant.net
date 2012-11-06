@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require 'sinatra/base'
 require 'sinatra/support'
 require 'sass'
@@ -19,6 +21,10 @@ require 'json'
 # ~/.rvm/gems/ruby-1.9.3-p194@swc4/gems/bootstrap-sass-2.1.0.0/vendor/assets/stylesheets
 
 class Swc < Sinatra::Base
+  register Sinatra::I18nSupport
+  load_locales './config/locales'
+  set :default_locale, 'de'  # Optional; defaults to 'en'
+
   set :root,          File.dirname(__FILE__)
   set :assets,        Sprockets::Environment.new(root)
   set :precompile,    [ /\w+\.(?!js|css).+/, /application.(css|js)$/ ]
