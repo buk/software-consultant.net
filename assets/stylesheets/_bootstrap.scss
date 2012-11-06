@@ -27,7 +27,7 @@
 @import "bootstrap/tables";
 
 // Components: common
-@import "bootstrap/sprites";
+// @import "bootstrap/sprites";
 // @import "bootstrap/dropdowns";
 // @import "bootstrap/wells";
 @import "bootstrap/component-animations";
@@ -35,7 +35,7 @@
 
 // Components: Buttons & Alerts
 @import "bootstrap/buttons";
-@import "bootstrap/button-groups";
+// @import "bootstrap/button-groups";
 // @import "bootstrap/alerts"; // Note: alerts share common CSS with buttons and thus have styles in _buttons.scss
 
 // Components: Nav
