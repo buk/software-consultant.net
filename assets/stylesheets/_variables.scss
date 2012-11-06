@@ -24,14 +24,15 @@ $blue:                  #049cdb;
 $blueDark:              #0064cd;
 // $green:                 #46a546;
 $red:                   #e2002b;
-// $yellow:                #ffc40d;
+$yellow:                #fec327;
+$yellowDark:            darken($yellow, 10%);
 // $orange:                #f89406;
 // $pink:                  #c3325f;
 // $purple:                #7a43b6;
 
 // Scaffolding
 // -------------------------
-$bodyBackground:        #fec327;
+$bodyBackground:        $yellow;
 // $textColor:             $grayDark;
 
 // Links
@@ -62,13 +63,13 @@ $headingsFontWeight:  normal;
 // $tableBackground:                   transparent; // overall background-color
 // $tableBackgroundAccent:             #f9f9f9; // for striping
 // $tableBackgroundHover:              #f5f5f5; // for hover
-// $tableBorder:                       #ddd; // table and cell border
+$tableBorder:                       $yellowDark; // table and cell border
 
 // Buttons
 // -------------------------
 // $btnBackground:                     $white;
 // $btnBackgroundHighlight:            darken($white, 10%);
-// $btnBorder:                         #ccc;
+$btnBorder:                         $yellowDark;
 
 // $btnPrimaryBackground:              $linkColor;
 // $btnPrimaryBackgroundHighlight:     adjust-hue($btnPrimaryBackground, 15%);
@@ -91,7 +92,7 @@ $headingsFontWeight:  normal;
 // Forms
 // -------------------------
 // $inputBackground:               $white;
-// $inputBorder:                   #ccc;
+$inputBorder:                   $yellowDark;
 // $inputBorderRadius:             3px;
 // $inputDisabledBackground:       $grayLighter;
 // $formActionsBackground:         #f5f5f5;
@@ -139,14 +140,14 @@ $headingsFontWeight:  normal;
 
 // Hr border color
 // -------------------------
-// $hrBorder:                $grayLighter;
+$hrBorder:                $yellowDark;
 
 
 // Navbar
 // -------------------------
 // $navbarHeight:                    40px;
-$navbarBackground:                darken($bodyBackground, 10%);
-$navbarBackgroundHighlight:       $bodyBackground;
+$navbarBackground:                $yellowDark;
+$navbarBackgroundHighlight:       $yellow;
 
 // $navbarText:                      $grayLight;
 // $navbarLinkColor:                 $grayLight;

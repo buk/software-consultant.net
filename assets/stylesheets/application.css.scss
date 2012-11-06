@@ -104,26 +104,33 @@ blockquote {
   @include border-radius(6px);
   background-color: lighten($bodyBackground, 10%);
   padding: 20px;
-  .pagination {
-    margin-top: 0;
-  }
-}
 
-table {
-  tbody {
-    .odd {
-      td, th {
-        border-top: none;
+  .form-search {
+    margin-bottom: 0;
+  }
+
+  .nav {
+    margin-bottom: 0;
+  }
+
+  table {
+    background-color: white;
+    tbody {
+      .odd {
+        td, th {
+          border-top: none;
+        }
+      }
+      .right {
+        text-align: right;
       }
     }
-    .right {
-      text-align: right;
+
+    th, td {
+      border-top-color: darken($bodyBackground, 10%) !important;
     }
   }
 
-  th, td {
-    border-top-color: darken($bodyBackground, 10%) !important;
-  }
 }
 
 /* Large desktop */

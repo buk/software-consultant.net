@@ -182,7 +182,7 @@
       %input.input-medium.search-query{ type:'text', name:'q', placeholder:'Filter' }
       %button.btn{ type:'submit' } Einschränken
 
-    = will_paginate @visible_projects, renderer: SWC::Sinatra, class: 'pagination pagination-mini'
+    = will_paginate @visible_projects, renderer: SWC::Sinatra, class: nil
 
     %table#projects.table
       %colgroup
