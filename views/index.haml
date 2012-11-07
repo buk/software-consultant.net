@@ -172,12 +172,12 @@
   %a{ name: 'projekte' }
   %h2 Projektliste
 
-  %p
-    Diese Tabelle können Sie als
-    %a{ href:'/projects.rtf', title:'Projektliste als RTF (zB für Word) herunterladen' }
-      %i.icon-download-alt
-      vollständige Liste im RTF-Format
-    herunterladen.
+  / %p
+  /   Diese Tabelle können Sie als
+  /   %a{ href:'/projects.rtf', title:'Projektliste als RTF (zB für Word) herunterladen' }
+  /     %i.icon-download-alt
+  /     vollständige Liste im RTF-Format
+  /   herunterladen.
 
   #projects
     = partial(:projects, locals: {visible_projects: @visible_projects} )

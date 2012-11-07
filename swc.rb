@@ -96,6 +96,7 @@ class Swc < Sinatra::Base
 
   get '/projects.rtf' do
     content_type :rtf
+    erb 'projects.rtf'.to_sym
   end
 
   get '/availability.json' do
