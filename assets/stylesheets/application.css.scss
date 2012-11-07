@@ -36,10 +36,6 @@ blockquote {
   border-left: none;
 }
 
-.project {
-  margin-bottom: 2em;
-}
-
 .contact {
   height: 24px;
   margin-bottom: 2em;
@@ -81,6 +77,10 @@ blockquote {
   }
 }
 
+.project {
+  margin-bottom: 2em;
+}
+
 blockquote, .project {
   p {
     margin: 0 0 10px;
@@ -100,7 +100,7 @@ blockquote {
   }
 }
 
-.projects {
+#projects {
   @include border-radius(6px);
   background-color: lighten($bodyBackground, 10%);
   padding: 20px;
@@ -121,9 +121,10 @@ blockquote {
           border-top: none;
         }
       }
-      .right {
-        text-align: right;
-      }
+    }
+
+    .right {
+      text-align: right;
     }
 
     th, td {

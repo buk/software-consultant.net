@@ -13,7 +13,7 @@
         %i.icon-user
         Über mich
       %p
-        Ich bin spezialisiert auf Internetsoftware und vernetzte Informationen. 20 Jahre Erfahrung als Entwickler und Projektleiter ermöglichen fundierte Entscheidungen zu zukunftsfähiger Architektur und solidem Betrieb von Internetsoftware aller Art.
+        Mit Internet-Technologie beschäftige ich mich seit 1993. Ich bin spezialisiert auf Internetsoftware und vernetzte Informationen. Fast 20 Jahre Erfahrung als Entwickler und Projektleiter ermöglichen fundierte Entscheidungen zu zukunftsfähiger Architektur und solidem Betrieb von Internetsoftware aller Art.
 
     .span3.hidden-phone
       %h3
@@ -173,50 +173,11 @@
   %h2 Projektliste
 
   %p
-    Eine vollständige Liste seit 1996 sende ich Ihnen gerne auf Anfrage.
+    Diese Tabelle können Sie als
+    %a{ href:'/projects.rtf', title:'Projektliste als RTF (zB für Word) herunterladen' }
+      %i.icon-download-alt
+      vollständige Liste im RTF-Format
+    herunterladen.
 
-
-  .projects
-
-    %form.form-search.pull-right
-      %input.input-medium.search-query{ type:'text', name:'q', placeholder:'Filter' }
-      %button.btn{ type:'submit' } Einschränken
-
-    = will_paginate @visible_projects, renderer: SWC::Sinatra, class: nil
-
-    %table#projects.table
-      %colgroup
-        %col
-        %col{ width: '15%' }
-        %col{ width: '20%' }
-        %col{ width: '15%' }
-      %thead
-        %tr
-          %th Titel
-          %th Kunde
-          %th Rolle
-          %th.right Wann?
-      %tbody
-        - @visible_projects.each do |project|
-          %tr.even
-            %td
-              %strong= project['title']
-            %td
-              %small= project['customer']
-            %td
-              %small= project['role']
-            %td.right
-              %small
-                = project['start']
-                - unless '' == project['end']
-                  bis
-                  = project['end']
-
-          %tr.odd
-            %td{ colspan: 4 }
-              %p= project['description']
-              %p.meta
-                %small
-                  %strong Werkzeuge:
-                  = project['tools'].is_a?(Array) ? project['tools'].join(', ') : project['tools']
-
+  #projects
+    = partial(:projects, locals: {visible_projects: @visible_projects} )

@@ -21,9 +21,9 @@ module SWC
 
     def page_number(page)
       if page == current_page
-        tag('li', link(page, page), :class => 'active')
+        tag('li', link(page, page, 'data-remote'=>true), :class => 'active')
       else
-        tag('li', link(page, page, :rel => rel_value(page)))
+        tag('li', link(page, page, 'data-remote'=>true, :rel => rel_value(page)))
       end
     end
 

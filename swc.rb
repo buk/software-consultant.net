@@ -74,27 +74,28 @@ class Swc < Sinatra::Base
 
   get '/' do
     page = params[:page] || 1
-    @visible_projects = projects.paginate( page: page, per_page: 3 )
+    @query = params[:q]
+    @visible_projects = search_projects(@query).paginate( page: page, per_page: 5 )
+    return haml :projects if request.xhr?
+
     haml :index, :layout => :'layouts/application'
   end
 
   get '/projects.json' do
     content_type :json
-    param_names = %w{ title description customer role tools }
+
+    terms = {}
     max = params['max'] ? params['max'].to_i : 0
-    projects.find_all do |project|
-      return true unless param_names.any?{|name| params.keys.include?(name)}
-      param_names.any? do |name|
-        next unless params[name]
-        v = case project[name]
-          when nil then ''
-          when Array then project[name].join(' ')
-          when String then project[name]
-          else project[name].to_s
-        end
-        v =~ Regexp.new(params[name], true)
-      end
-    end[0..(max-1)].to_json
+
+    param_names.each do |name|
+      terms[name] = params[name] if params[name]
+    end
+
+    search_projects(terms, max).to_json
+  end
+
+  get '/projects.rtf' do
+    content_type :rtf
   end
 
   get '/availability.json' do
@@ -148,7 +149,33 @@ class Swc < Sinatra::Base
         :next_full => Date.new(2013, 1, 1)
       }
     end
+  end
 
+  private
+
+  def param_names
+    @param_names ||= %w{ title description customer role tools }.map(&:to_sym)
+  end
+
+  def search_projects(terms, max=0)
+
+    return projects[0..(max-1)] if terms.nil?
+    terms = { :any=>terms } if terms.is_a?(String)
+
+    projects.find_all do |project|
+      param_names.any? do |name|
+        t = terms[name] || terms[:any]
+        next unless t
+        name = name.to_s
+        v = case project[name]
+          when nil then ''
+          when Array then project[name].join(' ')
+          when String then project[name]
+          else project[name].to_s
+        end
+        v =~ Regexp.new(t, true)
+      end
+    end[0..(max-1)]
   end
 
 end
