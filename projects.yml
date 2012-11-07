@@ -203,9 +203,9 @@ end: '12.2008'
 tools: [Windows, Debugger, Ethernet-Analyse, ODBC, Microsoft Office]
 customer: OEM
 description: >
-  Untersuchung einer kundenindividuellen BDE Software auf mögliche datenschutzrechtliche
-  Schwachstellen durch penetration tests, fuzzing und Analysen. Erstellung eines Abschlußberichtes
-  als Grundlage einer Vorstandsentscheidung.
+  Untersuchung einer kundenindividuellen BDE-Software auf mögliche datenschutzrechtliche
+  Schwachstellen durch penetration tests, fuzzing und black box Analysen. Erstellung eines
+  Abschlußberichtes als Grundlage einer Vorstandsentscheidung.
 ---
 title: Custom DSL Firewall
 role: Berater
@@ -225,7 +225,7 @@ tools: [AJAX, PHP 5, ExtJS, Javascript, HTML, CSS, Subversion]
 customer: Medienagentur
 description: >
   Implementation einer Onlinesoftware zur Projektsteuerung für eine Medienagentur
-  in der Printbranche. Mithilfe der Software wird der komplexe Erstellungsprozess
+  in der Printbranche. Mithilfe der Software wird der komplexe Erstellungs- und Freigabeprozess
   von Katalogen mit vielen hundert Seiten maßgeblich vereinfacht.
 ---
 title: Volltextsuche für SAP Materialwirtschaft
@@ -235,8 +235,11 @@ end: '08.2008'
 tools: [SAP Netweaver, RFC, JCO, J2EE, Apache Lucene, AIX, Subversion, NWDI]
 customer: Energiewirtschaft
 description: >
-  Erweiterung eines bestehenden SAP MM Materialkataloges auf Basis von Lucene um
-  eine performante Hochleistungs-Volltextsuche.
+  Implementierung einer performanten und komfortablen Suchfunktion für SAP MM (Materialwirtschaft).
+  Der Kunde verwaltet einen umfangreichen Materialbestand in SAP (etwa 2,5 Millionen Einträge). Die
+  von mir entworfene Suchmaschine auf der Basis von Lucene erfasst alle Attribute der Materialien,
+  zusätzlich Datenblätter und weitere Quellen und vereint diese in einem gemeinsamen Index. Über
+  eine F4-Wertehilfe ist die Lösung vollkommen transparent in SAP integriert.
 ---
 title: Portal-Konzeption
 role: Berater
@@ -257,6 +260,10 @@ tools: [SAP R/3, SAP Enterprise Portal, Java, SOA, XML, Javascript, Webservices,
 customer: Pharma
 description: >
   Design und Implementierung eines benutzerfreundlichen Frontends für personalwirtschaftliche Prozesse.
+  Der Kunde benötigte eine webbasierte und ci-konforme Lösung für die Mitarbeiterbewertung
+  von 65.000 Mitarbeitern weltweit. Unsere Lösung setzte auf eine (zur damaligen Zeit) extrem
+  innovative dynamische Architektur, bei der Daten via Javascript und AJAX zwischen Frontend
+  und Backend ausgetauscht wurden.
 ---
 title: Umfrageportal
 role: Berater, Entwickler
@@ -265,22 +272,27 @@ end: '12.2006'
 tools: [Java, J2EE, SAP Netweaver, Tomcat, Hibernate, mySQL, Velocity]
 customer: Unternehmensberatung
 description: >
-  Konzeption und Erstellung eines mehrsprachigen Portals für Online-Umfragen.
+  Konzeption und Erstellung eines mehrsprachigen Portals für Online-Umfragen. In
+  den folgenden 6 Jahren war ich für Betrieb und Wartung der Lösung verantwortlich.
 ---
 title: Produktdatenbank
 role: Berater, Entwickler
 start: '08.2004'
 end: '07.2005'
-tools: [Java, J2EE, Hibernate, Oracle, mySQL, Struts/Velocity]
+tools: [Java, J2EE, Hibernate, Oracle, mySQL, Struts, Velocity]
 customer: Medienagentur
 description: >
-  Planung, Aufbau und Inbetriebnahme eines Produkt-Planungssystems.
+  Planung, Aufbau und Inbetriebnahme eines Produkt-Planungssystems, mit dem mehrere Dutzend
+  individueller Webanwendungen eines Telekommunikationskonzerns mit Produktdaten
+  versorgt werden. Die Herausforderung bestand darin, die Vielfalt der Produkte in
+  einem Datenmodell abzubilden. Meine Lösung war weitgehend unverändert mehr als 5 Jahre
+  lang in Betrieb.
 ---
 title: Marketing- und  Eventsteuerung
 role: Entwickler
 start: '01.2004'
 end: '07.2004'
-tools: [Java, J2EE, Hibernate, Oracle, mySQL, Struts/Velocity]
+tools: [Java, J2EE, Hibernate, Oracle, mySQL, Struts, Velocity]
 customer: Medienagentur
 description: >
   Pflege einer bestehenden Webanwendung, über die die deutschen Marketingaktivitäten
@@ -293,7 +305,8 @@ end: '12.2003'
 tools: [Java, Ant, JCoverage, div. Tools]
 customer: Verwaltung
 description: >
-  Erstellung einer ständigen Qualitätsanalyse für eine umfangreiche Java-Software.
+  Erstellung einer ständigen Qualitätsanalyse für eine sehr umfangreiche Java-Software
+  (mehr als 25.000 Java-Klassen).
 ---
 title: e-Recruiting Applikation
 role: Berater, Entwickler
@@ -321,7 +334,7 @@ end: '01.2003'
 tools: [SAP R/3 4.6C, SAP Enterprise Portal 5, Java]
 customer: Verpackungshersteller
 description: >
-  Erstellung von Portalanwendungen für personalwirtschaftliche Prozesse mit SAP HCM.
+  Erstellung von javabasierten Portalanwendungen für personalwirtschaftliche Prozesse mit SAP HCM.
 ---
 title: Businessportal "mobile solutions"
 role: Entwickler
@@ -330,7 +343,8 @@ end: '04.2003'
 tools: [SAP R/3 4.6C, ABAP, Java, Tomcat, Tibco, EJB, JCO]
 customer: Telekommunikation
 description: >
-  Portal mit Schwerpunkt ESS/Mobile Devices
+  Aufbereitung von Daten aus SAP für ein Portal mit Schwerpunkt "mobile Devices".
+  Implementierung von ESS/MSS Funktionen.
 ---
 title: Mediendatenbank
 role: Entwickler
@@ -367,7 +381,9 @@ end: '12.2000'
 tools: [Mac OSX, Java, SQL, XML, Apache, Tomcat]
 customer: Auktionator
 description: >
-  Mehrsprachiges Internet Portal Software für Kunsthandel, Versteigerung von Kunstgegenständen und Begleitung von Verkaufsaktionen.
+  Mehrsprachiges Internet Portal Software für Kunsthandel, Versteigerung von Kunstgegenständen
+  und Begleitung von Verkaufsaktionen. Als besondere Funktion konnte die Beschreibung
+  der zu versteigernden Güter weitgehend automatisch übersetzt werden.
 ---
 title: Branchensoftware für Verpackungsindustrie
 role: Entwickler
@@ -376,7 +392,10 @@ end: '08.1999'
 tools: [Windows, Delphi 3, Interbase 5]
 customer: Medienagentur
 description: >
-  Abbildung von Funktionen zu Projektmanagement, Dokumentenmanagement, Groupwaresystem, Workflow services.
+  Abbildung von Funktionen zu Projektmanagement, Dokumentenmanagement, Groupwaresystem,
+  Workflow services. Die Windows-basierte Software verband verschiedene Partner
+  während der Prozesses der Verpackungserstellung: Redaktion und Gestaltung,
+  Textkontrolle, Satz, Lithografie uznd Druck. Als Freigabemedium wurde PDF eingesetzt.
 ---
 title: Multimedia-Datenbank
 role: Entwickler
@@ -394,4 +413,7 @@ end: '08.1996'
 tools: [Perl, CGI, HTML]
 customer: Medienagentur
 description: >
-  Implementierung des ersten Verkaufsportales für Versicherungen im deutschen Internet.
+  Implementierung des ersten Verkaufsportales für Versicherungen im deutschen Internet. Meine
+  Aufgabe war die Umsetzung von Versicherungsdetails in online-Beratungsfunktionen und
+  die Anbindung an die Vertragsübergabe. Das war das erste Mal, dass eine deutsche Versicherung
+  Verträge direkt online erstellt und vorbereitet hat.
