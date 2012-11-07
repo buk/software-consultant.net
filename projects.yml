@@ -1,8 +1,18 @@
 ---
+title: Geo-Auswertung von Betriebsdaten
+role: Entwickler
+start: '10.2012'
+end: 'aktuell'
+tools: [Ruby on Rails, HTML5, CSS3, jQuery, Nokia Maps, Elasticsearch, rSpec, git, Redis, mysql]
+customer: Webagentur
+description: >
+  Im Rahmen eines Forschungsprojektes entwickle ich eine Anwendung zur geographischen Analyse
+  von Betriebsdaten im Mobilfunkumfeld.
+---
 title: IT Infrastruktur
 role: Berater
 start: '09.2012'
-end: ''
+end: 'aktuell'
 tools: [Linux, Email, Webserver, Postfix, Apache, typo3]
 customer: Verein
 description: >
@@ -55,7 +65,7 @@ description: >
 title: Produktentwicklung RaaS/SAP BI
 role: Berater, Entwickler
 start: '11.2010'
-end: '05.2012'
+end: 'aktuell'
 tools: [SAP BI, Ruby on Rails, HTML5, CSS3, jQuery, Apache Server, proxy, Zertifikate, VPN, mysql]
 customer: Unternehmensberatung
 description: >
@@ -112,4 +122,276 @@ description: >
   Erstellung eines themenspezifischen Content-Portals, mit dem größtmögliche Attraktivität
   für Suchmaschinen erreicht werden soll. Gleichzeitig soll der im Hinblick auf die
   redaktionelle Arbeit zu leistende Aufwand minimiert werden.
-
+---
+title: Architektur-Management
+role: Berater
+start: '11.2009'
+end: '02.2010'
+tools: [MS Office, Visio, Umfragen]
+customer: Energiewirtschaft
+description: >
+  Der IT Dienstleister eines großen Energieunternehmens möchte die strategische
+  Architekturplanung der eingesetzten Applikationen und Systeme verbessern. Meine
+  Aufgabe ist die Inventarisierung und Katalogisierung vorhandener Assets, die
+  Erarbeitung funktionaler und organisatorischer Übersichtskarten und die Vorbereitung
+  von Präsentationsmaterial als Entscheidungsgrundlage.
+---
+title: SWC-Webseite
+role: Berater
+start: '12.2009'
+end: '12.2009'
+tools: [Ruby on Rails, Radiant CMS, jQuery, HTML, CSS]
+customer: Unternehmensberatung
+description: >
+  Ich erstelle eine neue Unternehmenshomepage mithilfe von Radiant CMS, einem
+  Content management system auf der Basis von Ruby on rails.
+---
+title: Präsentationsgenerator
+role: Architekt, Entwickler
+start: '09.2009'
+end: '10.2009'
+tools: [Ruby on rails, Shell scripting, HTML, CSS, ExtJS, Javascript, Subversion]
+customer: Medienagentur
+description: >
+  Entwicklung eines Mehrbenutzer-Portals, mit dem individuelle Präsentationen
+  geplant werden. Die Präsentationen werden zur Verkaufsunterstützung im Salesbereich
+  (POS) eingesetzt und können automatisiert ablaufen, jedoch personalisierte Inhalte haben.
+---
+title: Job-Suchmaschine
+role: Architekt, Entwickler
+start: '06.2009'
+end: '08.2009'
+tools: [Ruby on Rails, sphinx Suchmaschine, Shell scripting, HTML, CSS, ExtJS,  Javascript, Subversion]
+customer: Unternehmensberatung
+description: >
+  Entwicklung eines Proof-of-concept Prototypen einer Suchmaschine, die Webseiten
+  mittels eines eigenen Crawlers in neuartiger Weise verarbeitet und die Ergebnisse
+  mit statistischen Analyseverfahren aggregiert.
+---
+title: SAP HCM Integration
+role: Entwickler
+start: '05.2009'
+end: '05.2009'
+tools: [SAP Netweaver, J2EE, JCO, Eclipse, Subversion, Berechtigungssteuerung]
+customer: Chemie
+description: >
+  Integration einer Webanwendung mit ESS-Funktionen in eine SAP HCM Umgebung.
+---
+title: Aufwandsabschätzung SOA-Implementation
+role: Berater
+start: '04.2009'
+end: '04.2009'
+tools: [SOA, UML, OOD, Microsoft Office]
+customer: Telekommunikation
+description: >
+  Aufwandsabschätzung einer Integration verschiedener Portale und Webanwendungen
+  einer Telekommunikationskunden mit abschließender Machbarkeitsbewertung.
+---
+title: Redesign WebDynpro/Java
+role: Entwickler
+start: '12.2008'
+end: '03.2009'
+tools: [SAP Netweaver, Oracle 10g, WebDynpro Java, NWDI]
+customer: Energiewirtschaft
+description: >
+  Re-Implementierung einer bestehenden Webdynpro-Anwendung.
+---
+title: Security Audit
+role: Berater
+start: '12.2008'
+end: '12.2008'
+tools: [Windows, Debugger, Ethernet-Analyse, ODBC, Microsoft Office]
+customer: OEM
+description: >
+  Untersuchung einer kundenindividuellen BDE Software auf mögliche datenschutzrechtliche
+  Schwachstellen durch penetration tests, fuzzing und Analysen. Erstellung eines Abschlußberichtes
+  als Grundlage einer Vorstandsentscheidung.
+---
+title: Custom DSL Firewall
+role: Berater
+start: '10.2008'
+end: '10.2008'
+tools: [Debian Linux, iptables, webmin, Perl, custom hardware, VPN, RSA Token]
+customer: Unternehmensberatung
+description: >
+  Entwicklung und Inbetriebnahme einer spezialisierten Firewall zur Bündelung von
+  mehreren DSL-Leitungen, incl. Fernwartung und VPN.
+---
+title: Workflow-Tool für Print-Agentur
+role: Berater, Entwickler
+start: '09.2008'
+end: '11.2008'
+tools: [AJAX, PHP 5, ExtJS, Javascript, HTML, CSS, Subversion]
+customer: Medienagentur
+description: >
+  Implementation einer Onlinesoftware zur Projektsteuerung für eine Medienagentur
+  in der Printbranche. Mithilfe der Software wird der komplexe Erstellungsprozess
+  von Katalogen mit vielen hundert Seiten maßgeblich vereinfacht.
+---
+title: Volltextsuche für SAP Materialwirtschaft
+role: Berater, Entwickler
+start: '04.2008'
+end: '08.2008'
+tools: [SAP Netweaver, RFC, JCO, J2EE, Apache Lucene, AIX, Subversion, NWDI]
+customer: Energiewirtschaft
+description: >
+  Erweiterung eines bestehenden SAP MM Materialkataloges auf Basis von Lucene um
+  eine performante Hochleistungs-Volltextsuche.
+---
+title: Portal-Konzeption
+role: Berater
+start: '02.2008'
+end: '04.2008'
+tools: [Webservices, SOA, UML, XML, OOD, Office]
+customer: Telekommunikation
+description: >
+  Ein Telekommunikationskonzern plante die Integration verschiedener Produktionsprozesse
+  in eine gemeinsame IT-Landschaft. Meine Aufgabe war die Modellierung von Service-Schnittstellen
+  anhand von Fachkonzepten.
+---
+title: Portalanwendung Performance-Management
+role: Entwickler
+start: '02.2008'
+end: '04.2008'
+tools: [SAP R/3, SAP Enterprise Portal, Java, SOA, XML, Javascript, Webservices, AJAX, HTML, CSS, Javascript, Berechtigungssteuerung]
+customer: Pharma
+description: >
+  Design und Implementierung eines benutzerfreundlichen Frontends für personalwirtschaftliche Prozesse.
+---
+title: Umfrageportal
+role: Berater, Entwickler
+start: '11.2005'
+end: '12.2006'
+tools: [Java, J2EE, SAP Netweaver, Tomcat, Hibernate, mySQL, Velocity]
+customer: Unternehmensberatung
+description: >
+  Konzeption und Erstellung eines mehrsprachigen Portals für Online-Umfragen.
+---
+title: Produktdatenbank
+role: Berater, Entwickler
+start: '08.2004'
+end: '07.2005'
+tools: [Java, J2EE, Hibernate, Oracle, mySQL, Struts/Velocity]
+customer: Medienagentur
+description: >
+  Planung, Aufbau und Inbetriebnahme eines Produkt-Planungssystems.
+---
+title: Marketing- und  Eventsteuerung
+role: Entwickler
+start: '01.2004'
+end: '07.2004'
+tools: [Java, J2EE, Hibernate, Oracle, mySQL, Struts/Velocity]
+customer: Medienagentur
+description: >
+  Pflege einer bestehenden Webanwendung, über die die deutschen Marketingaktivitäten
+  einer internationalen Großbank zentralisiert werden.
+---
+title: Messplatz für Software-Qualität
+role: Berater, Entwickler
+start: '10.2003'
+end: '12.2003'
+tools: [Java, Ant, JCoverage, div. Tools]
+customer: Verwaltung
+description: >
+  Erstellung einer ständigen Qualitätsanalyse für eine umfangreiche Java-Software.
+---
+title: e-Recruiting Applikation
+role: Berater, Entwickler
+start: '06.2003'
+end: '08.2003'
+tools: [SAP R/3 4.6C, ITS Internet Transaction Server, HTML, CSS, Javascript]
+customer: Bank
+description: >
+  Konzerninterne Karrieresite für deutsche Großbank, incl. Liste offener Vakanzen,
+  Qualifikationsanalyse und Fortbildungsmaßnahmen.
+---
+title: ESS/MSS Portal
+role: Berater, Entwickler
+start: '02.2003'
+end: '05.2003'
+tools: [SAP R/3 4.6C, SAP Enterprise Portal 5, HR, Java, HTML, CSS, Javascript]
+customer: Konsumgüter
+description: >
+  SAP Portal mit Schwerpunkt ESS/MSS, Auslandsprojekt bei einem belgischen Hersteller von Konsumgütern.
+---
+title: Implementierung Karriereportal
+role: Berater, Entwickler
+start: '05.2002'
+end: '01.2003'
+tools: [SAP R/3 4.6C, SAP Enterprise Portal 5, Java]
+customer: Verpackungshersteller
+description: >
+  Erstellung von Portalanwendungen für personalwirtschaftliche Prozesse mit SAP HCM.
+---
+title: Businessportal "mobile solutions"
+role: Entwickler
+start: '02.2002'
+end: '04.2003'
+tools: [SAP R/3 4.6C, ABAP, Java, Tomcat, Tibco, EJB, JCO]
+customer: Telekommunikation
+description: >
+  Portal mit Schwerpunkt ESS/Mobile Devices
+---
+title: Mediendatenbank
+role: Entwickler
+start: '10.2001'
+end: '12.2001'
+tools: [Java, Tomcat, Oracle, EJB]
+customer: Medienagentur
+description: >
+  Multilinguales Verkaufsportal für Werbemedien (Print, TV, Außenwerbung);
+  Entwicklung und Einsatz in Deutschland und UK
+---
+title: Knowledge Management
+role: Berater, Entwickler
+start: '07.2001'
+end: '09.2001'
+tools: [SUN Solaris, Apple WebObjects, Oracle, Java, EJB]
+customer: Medienagentur
+description: >
+  Review eines webbasierten Wissensportals für Unternehmen, Linksammlung auf der Basis von Apple WebObjects.
+---
+title: Ticketsystem zur Fehlerverwaltung
+role: Berater, Entwickler
+start: '01.2001'
+end: '03.2001'
+tools: [Mac OSX, Java, SQL, XML, Apache, Tomcat]
+customer: Unternehmensberatung
+description: >
+  Intranet System für Fehlerverwaltung und -behandlung in Softwareprojekten
+---
+title: Auktionsportal
+role: Berater, Entwickler
+start: '03.2000'
+end: '12.2000'
+tools: [Mac OSX, Java, SQL, XML, Apache, Tomcat]
+customer: Auktionator
+description: >
+  Mehrsprachiges Internet Portal Software für Kunsthandel, Versteigerung von Kunstgegenständen und Begleitung von Verkaufsaktionen.
+---
+title: Branchensoftware für Verpackungsindustrie
+role: Entwickler
+start: '07.1998'
+end: '08.1999'
+tools: [Windows, Delphi 3, Interbase 5]
+customer: Medienagentur
+description: >
+  Abbildung von Funktionen zu Projektmanagement, Dokumentenmanagement, Groupwaresystem, Workflow services.
+---
+title: Multimedia-Datenbank
+role: Entwickler
+start: '01.1997'
+end: '04.1997'
+tools: [Windows, Delphi 3]
+customer: Medienagentur
+description: >
+  Implementierung eines datenbank-gestützten Kataloges auf CD-ROM für einen Unternehmensverband.
+---
+title: Versicherungsportal
+role: Entwickler
+start: '01.1996'
+end: '08.1996'
+tools: [Perl, CGI, HTML]
+customer: Medienagentur
+description: >
+  Implementierung des ersten Verkaufsportales für Versicherungen im deutschen Internet.
