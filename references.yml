@@ -10,6 +10,7 @@ type: Kunde
 name: R. Budke
 position: GF b:scope
 given_at: Juli 2012
+lang: de
 ---
 reference: >
   Christian Aust is a very well thought of and quick thinking consultant. He is a very
@@ -22,6 +23,7 @@ type: Kunde
 name: O. Stegmann
 position: GF ROC Deutschland
 given_at: Januar 2012
+lang: en
 ---
 reference: >
   Christian Aust has set up my main website […] and not only from the positive feedback
@@ -33,6 +35,7 @@ type: Kunde
 name: Dr. Thomas Rose
 position: Coach & Trainer
 given_at: Juli 2011
+lang: en
 ---
 reference: >
   Christian Aust war schon in mehreren Projekten unserer Kunden erfolgreich im Einsatz
@@ -43,6 +46,7 @@ type: Partner
 name: K. Grundmann
 position: CEO Synergie Effekt GmbH
 given_at: September 2010
+lang: de
 ---
 reference: >
   Christian Aust hat [2002-2004] für Arinso die ersten webbasierten SAP-HR-Szenarien
@@ -55,6 +59,7 @@ type: Vorgesetzter
 name: F.-R. Gross
 position: Managing Partner Kivala-HR
 given_at: Juni 2009
+lang: de
 ---
 reference: >
   Christian Aust [hat 2005] bei uns wichtige (überwiegend Java-basierte) Applikationen
@@ -63,3 +68,4 @@ type: Vorgesetzter
 name: S. Mosblech
 position: GF people interactive GmbH
 given_at: Juni 2009
+lang: de
