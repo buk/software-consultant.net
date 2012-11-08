@@ -172,7 +172,7 @@ title: SAP HCM Integration
 role: Entwickler
 start: '05.2009'
 end: '05.2009'
-tools: [SAP Netweaver, J2EE, JCO, Eclipse, Subversion, Berechtigungssteuerung]
+tools: [SAP Netweaver, Java, J2EE, JCO, Eclipse, Subversion, Berechtigungssteuerung]
 customer: Chemie
 description: >
   Integration einer Webanwendung mit ESS-Funktionen in eine SAP HCM Umgebung.
@@ -191,7 +191,7 @@ title: Redesign WebDynpro/Java
 role: Entwickler
 start: '12.2008'
 end: '03.2009'
-tools: [SAP Netweaver, Oracle 10g, WebDynpro Java, NWDI]
+tools: [SAP Netweaver, Oracle 10g, WebDynpro Java, Java, NWDI]
 customer: Energiewirtschaft
 description: >
   Re-Implementierung einer bestehenden Webdynpro-Anwendung.
@@ -232,7 +232,7 @@ title: Volltextsuche für SAP Materialwirtschaft
 role: Berater, Entwickler
 start: '04.2008'
 end: '08.2008'
-tools: [SAP Netweaver, RFC, JCO, J2EE, Apache Lucene, AIX, Subversion, NWDI]
+tools: [SAP Netweaver, RFC, Java, JCO, J2EE, Apache Lucene, AIX, Subversion, NWDI]
 customer: Energiewirtschaft
 description: >
   Implementierung einer performanten und komfortablen Suchfunktion für SAP MM (Materialwirtschaft).
@@ -256,7 +256,7 @@ title: Portalanwendung Performance-Management
 role: Entwickler
 start: '02.2008'
 end: '04.2008'
-tools: [SAP R/3, SAP Enterprise Portal, Java, SOA, XML, Javascript, Webservices, AJAX, HTML, CSS, Javascript, Berechtigungssteuerung]
+tools: [SAP R/3, SAP Enterprise Portal, Java, SOA, XML, Webservices, AJAX, HTML, CSS, Javascript, Berechtigungssteuerung]
 customer: Pharma
 description: >
   Design und Implementierung eines benutzerfreundlichen Frontends für personalwirtschaftliche Prozesse.
@@ -322,7 +322,7 @@ title: ESS/MSS Portal
 role: Berater, Entwickler
 start: '02.2003'
 end: '05.2003'
-tools: [SAP R/3 4.6C, SAP Enterprise Portal 5, HR, Java, HTML, CSS, Javascript]
+tools: [SAP R/3 4.6C, SAP Enterprise Portal 5, Java, J2EE, HTML, CSS, Javascript]
 customer: Konsumgüter
 description: >
   SAP Portal mit Schwerpunkt ESS/MSS, Auslandsprojekt bei einem belgischen Hersteller von Konsumgütern.
@@ -340,7 +340,7 @@ title: Businessportal "mobile solutions"
 role: Entwickler
 start: '02.2002'
 end: '04.2003'
-tools: [SAP R/3 4.6C, ABAP, Java, Tomcat, Tibco, EJB, JCO]
+tools: [SAP R/3 4.6C, ABAP, Java, J2EE, Tomcat, Tibco, EJB, JCO]
 customer: Telekommunikation
 description: >
   Aufbereitung von Daten aus SAP für ein Portal mit Schwerpunkt "mobile Devices".
@@ -350,7 +350,7 @@ title: Mediendatenbank
 role: Entwickler
 start: '10.2001'
 end: '12.2001'
-tools: [Java, Tomcat, Oracle, EJB]
+tools: [Java, J2EE, Tomcat, Oracle, EJB]
 customer: Medienagentur
 description: >
   Multilinguales Verkaufsportal für Werbemedien (Print, TV, Außenwerbung);
@@ -360,7 +360,7 @@ title: Knowledge Management
 role: Berater, Entwickler
 start: '07.2001'
 end: '09.2001'
-tools: [SUN Solaris, Apple WebObjects, Oracle, Java, EJB]
+tools: [SUN Solaris, Apple WebObjects, Oracle, Java, J2EE, EJB]
 customer: Medienagentur
 description: >
   Review eines webbasierten Wissensportals für Unternehmen, Linksammlung auf der Basis von Apple WebObjects.
