@@ -12,7 +12,7 @@ $ ->
 
   $('#projects .nav a').live 'ajax:success', (evt, data) ->
     $('#projects').html(data)
-    if piwikTracker
+    if typeof(piwikTracker) != 'undefined'
       curpage = $('#projects .nav .active a').text()
       query = $('#projects table').data('query')
       title = "Projekte"
@@ -23,14 +23,16 @@ $ ->
         piwikTracker.trackPageView(title)
       catch error
         $.error(error)
+    false
 
  $('#search').live 'ajax:success', (evt, data) ->
     $('#projects').html(data)
-    if piwikTracker
+    if typeof(piwikTracker) != 'undefined'
       totalcount = $('#projects table').data('total-count')
       query = $('#projects table').data('query')
       try
         piwikTracker.trackSiteSearch(query, false, totalcount)
       catch error
         $.error(error)
+    false
 
