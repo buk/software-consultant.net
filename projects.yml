@@ -33,7 +33,7 @@ description: >
   kombinieren. Die Software liefert Kennzahlen zum Qualitätsmanagement des Endkunden, dazu
   werden umfangreiche Daten aus Support- und anderen Datenbanken untersucht.
 ---
-title: „SEBI“ add-on Suchmaschinen Appliance
+title: '"SEBI" add-on Suchmaschinen Appliance'
 role: Berater, Entwickler
 start: '01.2012'
 end: '06.2012'
@@ -50,7 +50,7 @@ title: Produktentwicklung eRecruiting
 role: Berater, Entwickler
 start: '02.2011'
 end: '03.2012'
-tools: [Ruby on Rails, HTML5, CSS3, jQuery, memcache, subversion, solr, mysql]
+tools: [Ruby on Rails, HTML5, CSS3, jQuery, memcache, subversion, solr, mysql, LDAP]
 customer: Softwarehersteller
 description: >
   Für einen mittelständischen Softwarehersteller konzipiere und entwickele ich die
@@ -66,7 +66,7 @@ title: Produktentwicklung RaaS/SAP BI
 role: Berater, Entwickler
 start: '11.2010'
 end: 'aktuell'
-tools: [SAP BI, Ruby on Rails, HTML5, CSS3, jQuery, Apache Server, proxy, Zertifikate, VPN, mysql]
+tools: [SAP BI, RFC, SOAP, Ruby on Rails, HTML5, CSS3, jQuery, Apache Server, proxy, Zertifikate, VPN, mysql]
 customer: Unternehmensberatung
 description: >
   Im Auftrag eines SAP-Spezialisten entwerfe und betreibe ich ein benutzerfreundliches
@@ -80,7 +80,7 @@ title: Feinkonzept Website-Relaunch
 role: Berater
 start: '08.2010'
 end: '09.2010'
-tools: [Microsoft Office, Microsoft Visio, Interviews]
+tools: [Microsoft Office, Microsoft Visio, Access, Interviews]
 customer: Rundfunk
 description: >
   Ich begleite den Relaunch eines Portals mehrerer Sparten eines öffentlich-rechtlichen
@@ -140,7 +140,7 @@ title: SWC-Webseite
 role: Berater
 start: '12.2009'
 end: '12.2009'
-tools: [Ruby on Rails, Radiant CMS, jQuery, HTML, CSS]
+tools: [Ruby on Rails, Radiant CMS, jQuery, HTML, CSS, Subversion]
 customer: Unternehmensberatung
 description: >
   Ich erstelle eine neue Unternehmenshomepage mithilfe von Radiant CMS, einem
