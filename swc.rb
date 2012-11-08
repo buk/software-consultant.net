@@ -74,8 +74,8 @@ class Swc < Sinatra::Base
 
   get '/' do
     page = params[:page] || 1
-    @query = params[:q]
-    @visible_projects = search_projects(@query).paginate( page: page, per_page: 5 )
+    @query = params[:q] || ''
+    @visible_projects = search_projects(@query == '' ? nil : @query.split(' ')).paginate( page: page, per_page: 5 )
     return haml :projects if request.xhr?
 
     haml :index, :layout => :'layouts/application'
@@ -161,20 +161,23 @@ class Swc < Sinatra::Base
   def search_projects(terms, max=0)
 
     return projects[0..(max-1)] if terms.nil?
-    terms = { :any=>terms } if terms.is_a?(String)
+    terms = { :any=>terms } unless terms.is_a?(Hash)
 
     projects.find_all do |project|
       param_names.any? do |name|
         t = terms[name] || terms[:any]
-        next unless t
-        name = name.to_s
-        v = case project[name]
-          when nil then ''
-          when Array then project[name].join(' ')
-          when String then project[name]
-          else project[name].to_s
+        if t
+          r1 = t.is_a?(Array) ? t.map{|term| Regexp.escape(term.to_s) }.join('|') : Regexp.escape(t.to_s)
+          r2 = Regexp.new("\\b(#{r1})\\b", true)
+          name = name.to_s
+          v = case project[name]
+            when nil then ''
+            when Array then project[name].join(' ')
+            when String then project[name]
+            else project[name].to_s
+          end
+          v =~ r2
         end
-        v =~ Regexp.new(t, true)
       end
     end[0..(max-1)]
   end
