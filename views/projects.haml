@@ -5,7 +5,7 @@
 
 = will_paginate @visible_projects, renderer: SWC::Sinatra, class: nil
 
-%table.table
+%table.table{ 'data-total-count'=>@visible_projects.total_entries, 'data-query'=>@query }
   %colgroup
     %col
     %col{ width: '15%' }
