@@ -15,28 +15,36 @@
       %th Titel
       %th Kunde
       %th.right Wann?
-  %tbody
-    - @visible_projects.each do |project|
-      %tr.even
-        %td
-          %strong= project['title']
-        %td
-          %small= project['customer']
-        %td.right
-          %small
-            = project['start']
-            - unless '' == project['end']
-              bis
-              = project['end']
-
-      %tr.odd
+  - if @visible_projects.total_entries == 0
+    %tbody
+      %tr
         %td{ colspan: 3 }
-          %p= project['description']
-          %p.meta
+          Ihre Suche nach
+          = @query
+          liefert kein Ergebnis.
+  - else
+    %tbody
+      - @visible_projects.each do |project|
+        %tr.even
+          %td
+            %strong= project['title']
+          %td
+            %small= project['customer']
+          %td.right
             %small
-              %strong Werkzeuge:
-              = project['tools'].is_a?(Array) ? project['tools'].join(', ') : project['tools']
-              \|
-              %strong Rolle:
-              = project['role']
+              = project['start']
+              - unless '' == project['end']
+                bis
+                = project['end']
+
+        %tr.odd
+          %td{ colspan: 3 }
+            %p= project['description']
+            %p.meta
+              %small
+                %strong Werkzeuge:
+                = project['tools'].is_a?(Array) ? project['tools'].join(', ') : project['tools']
+                \|
+                %strong Rolle:
+                = project['role']
 
