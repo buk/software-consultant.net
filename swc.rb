@@ -126,7 +126,7 @@ class Swc < Sinatra::Base
     end
 
     def language
-      available = %w(de de-DE en)
+      available = %w(de en)
       env.http_accept_language.compatible_language_from(available)
     end
 
