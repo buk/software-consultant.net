@@ -62,6 +62,18 @@ description: >
   und Konzepte sowie Aufwandsschätzungen und Zeitplanungen. Besondere Bedeutung
   kommt der Datensicherheit und Compliance gem. BDSG zu.
 ---
+title: IT Infrastruktur
+role: Berater
+start: '01.2011'
+end: 'aktuell'
+tools: [Linux, Email, Webserver, Postfix, Apache, trac, Subversion, SSL]
+customer: Unternehmensberatung
+description: >
+  Für meinen Kunden betreibe ich einen Entwicklungsserver sowie eine Reihe von Domains.
+  Dabei bin ich zentraler Ansprechpartner für alle technischen und organisatorischen
+  Belange. Dies schließt Wartung und Monitoring der Dienste ein, um eine maximale
+  Verfügbarkeit sicherzustellen.
+---
 title: Produktentwicklung RaaS/SAP BI
 role: Berater, Entwickler
 start: '11.2010'
@@ -177,6 +189,18 @@ customer: Chemie
 description: >
   Integration einer Webanwendung mit ESS-Funktionen in eine SAP HCM Umgebung.
 ---
+title: IT Infrastruktur
+role: Berater
+start: '01.2011'
+end: 'aktuell'
+tools: [Linux, Firewalls, Email, Webserver, Postfix, Apache, SSL]
+customer: Unternehmensberatung
+description: >
+  Für meinen Kunden betreibe ich den zentralen Email- und Webserver sowie
+  Satellitensysteme in den Niederlassungen. Dabei bin ich zentraler Ansprechpartner
+  für alle technischen und organisatorischen Belange. Dies schließt Wartung und
+  Monitoring der Dienste ein, um eine maximale Verfügbarkeit sicherzustellen.
+---
 title: Aufwandsabschätzung SOA-Implementation
 role: Berater
 start: '04.2009'
@@ -272,8 +296,12 @@ end: '12.2006'
 tools: [Java, J2EE, SAP Netweaver, Tomcat, Hibernate, mySQL, Velocity]
 customer: Unternehmensberatung
 description: >
-  Konzeption und Erstellung eines mehrsprachigen Portals für Online-Umfragen. In
-  den folgenden 6 Jahren war ich für Betrieb und Wartung der Lösung verantwortlich.
+  Ich bin verantwirtlich für Konzeption und Erstellung eines mehrsprachigen Portals
+  für Online-Umfragen. Das Produkt auf der Basis von Java erlaubt die Zusammenstellung
+  von komplexen Fragebögen und den Export der Ergebnisse in nachgelagerte Auswertung.
+  Ein Berechtigungssystem ermöglicht es, von anonymen öffentlichen Umfragen bis hin
+  zu persönlichen Zugangscodes verschiedene Szenarien abzubilden. In den folgenden
+  sechs Jahren war ich auch Partner für Betrieb und Wartung der Lösung.
 ---
 title: Produktdatenbank
 role: Berater, Entwickler
