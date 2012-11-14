@@ -9,6 +9,7 @@ require 'sprockets'
 require 'sprockets/helpers'
 require 'sprockets-sass'
 require 'will_paginate/array'
+require 'rtf'
 
 # Helpers
 require './lib/js_compressor'
@@ -96,7 +97,7 @@ class Swc < Sinatra::Base
 
   get '/projects.rtf' do
     content_type :rtf
-    erb 'projects.rtf'.to_sym
+    projects_as_rtf
   end
 
   get '/availability.json' do
@@ -180,6 +181,35 @@ class Swc < Sinatra::Base
         end
       end
     end[0..(max-1)]
+  end
+
+  def projects_as_rtf
+    styles = {}
+    styles['HEADER'] = ::RTF::CharacterStyle.new
+    styles['HEADER'].bold      = true
+    styles['HEADER'].font_size = 28
+    styles['H1'] = ::RTF::CharacterStyle.new
+    styles['H1'].bold      = true
+    styles['H1'].font_size = 16
+    styles['NORMAL'] = ::RTF::ParagraphStyle.new
+    document = RTF::Document.new(RTF::Font.new(RTF::Font::ROMAN, 'Arial'))
+    document.paragraph do |p|
+      p.apply(styles['HEADER']) do |s|
+        s << 'Projektübersicht'
+      end
+    end
+    projects.each do |project|
+      document.paragraph do |p|
+        p.apply(styles['H1']) do |s|
+          s << project['title']
+        end
+      end
+      document.paragraph(styles['NORMAL']) do |p1|
+        p1 << project['description']
+      end
+      document.line_break
+    end
+    document.to_rtf
   end
 
 end

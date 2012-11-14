@@ -39,9 +39,10 @@ GEM
       rack (>= 0.4)
     rack-protection (1.2.0)
       rack
+    rtf (0.3.3)
     rvm-capistrano (1.2.7)
       capistrano (>= 2.0.0)
-    sass (3.2.2)
+    sass (3.2.3)
     shotgun (0.9)
       rack (>= 1.0)
     sinatra (1.3.3)
@@ -80,6 +81,7 @@ DEPENDENCIES
   http_accept_language (~> 2.0.0.beta)
   i18n
   rack-cache
+  rtf
   rvm-capistrano
   shotgun
   sinatra
