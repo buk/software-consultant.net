@@ -1,7 +1,7 @@
 set :application, "swc4"
 set :repository,  "git://github.com/datenimperator/software-consultant.net.git"
 set :rvm_type, :system
-set :rvm_ruby_string, 'ruby-1.9.3-p286'
+set :rvm_ruby_string, 'ruby-1.9.3'
 
 require 'rvm/capistrano'
 require 'bundler/capistrano'
