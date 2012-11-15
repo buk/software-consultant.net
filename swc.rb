@@ -128,7 +128,8 @@ class Swc < Sinatra::Base
 
     def language
       available = %w(de en)
-      env.http_accept_language.compatible_language_from(available)
+      l = env.http_accept_language.compatible_language_from(available)
+      l.nil? ? available.first : l
     end
 
     def projects
