@@ -46,5 +46,5 @@
                 = project['tools'].is_a?(Array) ? project['tools'].join(', ') : project['tools']
                 \|
                 %strong Rolle:
-                = project['role']
+                = project['roles'].is_a?(Array) ? project['roles'].join(', ') : project['roles']
 

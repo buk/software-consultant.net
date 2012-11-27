@@ -12,6 +12,8 @@ require 'will_paginate/array'
 require 'rtf'
 
 # Helpers
+require './lib/math'
+require './lib/histogram'
 require './lib/js_compressor'
 require './lib/render_partial'
 require './lib/swc_link_renderer'
@@ -63,7 +65,7 @@ class Swc < Sinatra::Base
     Sprockets::Sass.add_sass_functions = false
 
     if production?
-      assets.js_compressor = JsCompressor.new if production?
+      assets.js_compressor = JsCompressor.new
       settings.haml[:ugly] = true
       Sprockets::Sass.options[:style] = :compressed
     end
@@ -77,6 +79,7 @@ class Swc < Sinatra::Base
     page = params[:page] || 1
     @query = params[:q] || ''
     @visible_projects = search_projects(@query == '' ? nil : @query.split(' ')).paginate( page: page, per_page: 5 )
+
     return haml :projects if request.xhr?
 
     haml :index, :layout => :'layouts/application'
@@ -149,15 +152,31 @@ class Swc < Sinatra::Base
     def availability
       {
         :free => 0.1,
-        :next_full => Date.new(2013, 1, 1)
+        :next_full => Date.new(2013, 3, 1)
       }
     end
+
+    def top_tools
+      @top_tools ||= begin
+        start = (Time.now-(60*60*24*365*4)).to_date # 4 years ago
+        last_projects = projects.find_all{|project| project['end']=='aktuell' || Date.parse("01.#{project['start']}")>=start }
+        tool_histogram = Histogram.new.tap do |h|
+          last_projects.each {|project| h << project['tools']}
+        end
+        tool_histogram.top(20).keys
+      end
+    end
+
+    def top_terms(top, terms)
+      terms.map{ |term| top.include?(term) ? "<strong>#{term}</strong>" : term }.join(', ')
+    end
+
   end
 
   private
 
   def param_names
-    @param_names ||= %w{ title description customer role tools }.map(&:to_sym)
+    @param_names ||= %w{ title description customer roles tools }.map(&:to_sym)
   end
 
   def search_projects(terms, max=0)

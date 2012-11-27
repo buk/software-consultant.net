@@ -134,7 +134,11 @@
   %a{ name:'angebot' }
   %h2 Mein Angebot
 
-  %p Ich verfüge über Erfahrung mit diesen Themen und Werkzeugen. Ihres ist nicht dabei? Ich lerne gerne dazu.
+  %p
+    Ich verfüge über Erfahrung mit diesen Themen und Werkzeugen. Die
+    %strong fett
+    gedruckten Einträge waren in den Projekten der letzten 4 Jahre besonders häufig vertreten.
+
 
   .row
     .span4
@@ -146,8 +150,8 @@
       Innovative Webanwendungen, UI prototyping, testgetriebene Entwicklung, QA & QS, Deployments, TDD, BDD
 
     .span4
-      %h3 Netze &amp; Sicherheit
-      TCP/IP, Router, Firewalls, Messaging, VPN, SSL, Zertifikate und CA Setup
+      %h3 Netze &amp; Server
+      = top_terms top_tools, %w{Apache DNS Email TCP/IP Router Firewall Messaging VPN SSL Zertifikate CA\ Setup}.sort
 
   .row
     .span4
@@ -156,11 +160,12 @@
 
     .span4
       %h3 Programmierung
-      Ruby, Java, Python, PHP, SQL, XML/XSL, HTML, CSS, Javascript und andere
+      = top_terms top_tools, %w{Ruby Java Python PHP SQL XML XSL HTML CSS Javascript}.sort
+      und andere
 
     .span4
       %h3 Datenbanken
-      MySQL, PostgreSQL, sqlite, SAP DB, Oracle, MSSQL, redis, riak
+      = top_terms top_tools, %w{MySQL PostgreSQL sqlite SAP\ DB Oracle MSSQL redis riak}.sort
 
   .row
     .span4
@@ -169,14 +174,14 @@
 
     .span4
       %h3 Gängige Werkzeuge
-      ExtJS, jQuery, Prototype, HAML, Sass, Coffeescript, Capistrano, Subversion, Git, rspec, cucumber, Apache, nginx, Debian, Ubuntu, Redhat, Ruby on rails, Sinatra, rake, Lucene, Elasticsearch, solr, sphinx, memcache
+      = top_terms top_tools, %w{ExtJS jQuery Prototype HAML Sass Coffeescript Capistrano Subversion Shell\ scripting git rspec cucumber Apache nginx Debian Ubuntu Redhat  Ruby\ on\ Rails Sinatra rake Lucene Elasticsearch solr sphinx memcache}.sort
+      und andere
 
     .span4
       %h3 Betriebssysteme
       Mac OS X, iOS, Linux/UNIX, Windows
 
-
-%section#projekte
+%section#projekte.hidden-phone
   %a{ name:'projekte' }
   %h2 Projektliste
 

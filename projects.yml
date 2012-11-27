@@ -1,19 +1,20 @@
 ---
 title: Geo-Auswertung von Betriebsdaten
-role: Entwickler
+roles: [Entwickler]
 start: '10.2012'
 end: 'aktuell'
-tools: [Ruby on Rails, HTML5, CSS3, jQuery, Nokia Maps, Elasticsearch, rSpec, git, Redis, mysql]
+tools: [Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, coffescript, Nokia Maps, Elasticsearch, rSpec, git, Redis, MySQL]
 customer: Webagentur
 description: >
   Im Rahmen eines Forschungsprojektes entwickle ich eine Anwendung zur geographischen Analyse
-  von Betriebsdaten im Mobilfunkumfeld.
+  von Betriebsdaten im Mobilfunkumfeld. Dazu gehört auch die Ausgestaltung einer in Zukunft
+  erweiterbaren REST-basierten Schnittstelle (API).
 ---
 title: IT Infrastruktur
-role: Berater
+roles: [Berater]
 start: '09.2012'
 end: 'aktuell'
-tools: [Linux, Email, Webserver, Postfix, Apache, typo3]
+tools: [Linux, Email, Webserver, Postfix, Apache, Firewall, TCP/IP, DNS, typo3]
 customer: Verein
 description: >
   Mein Kunde ist als gemeinnütziger Verein Träger zweier Programme zur Kinder- und
@@ -22,10 +23,10 @@ description: >
   hilfreich zur Seite.
 ---
 title: QC-Tool
-role: Entwickler
+roles: [Entwickler]
 start: '07.2012'
 end: '08.2012'
-tools: [Ruby on Rails, HTML5, CSS3, jQuery, rSpec, git, PostgreSQL]
+tools: [Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, rSpec, git, PostgreSQL]
 customer: Webagentur
 description: >
   Für eine renommierte Webagentur verwende ich testgetriebene Entwicklungsmethoden, um
@@ -34,10 +35,10 @@ description: >
   werden umfangreiche Daten aus Support- und anderen Datenbanken untersucht.
 ---
 title: '"SEBI" add-on Suchmaschinen Appliance'
-role: Berater, Entwickler
+roles: [Berater, Entwickler]
 start: '01.2012'
 end: '06.2012'
-tools: [Ruby on Rails, HTML5, CSS3, jQuery, Lucene, memcache, git, Debian, mysql]
+tools: [Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, Elasticsearch, memcache, git, Debian, MySQL, nginx]
 customer: Unternehmensberatung
 description: >
   Ich entwickele eine auf opensource-Komponenten basierte Suchmaschine, die sich
@@ -47,10 +48,10 @@ description: >
   mir konzipiert.
 ---
 title: Produktentwicklung eRecruiting
-role: Berater, Entwickler
+roles: [Berater, Entwickler]
 start: '02.2011'
 end: '03.2012'
-tools: [Ruby on Rails, HTML5, CSS3, jQuery, memcache, subversion, solr, mysql, LDAP]
+tools: [Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, memcache, subversion, solr, MySQL, LDAP]
 customer: Softwarehersteller
 description: >
   Für einen mittelständischen Softwarehersteller konzipiere und entwickele ich die
@@ -63,10 +64,10 @@ description: >
   kommt der Datensicherheit und Compliance gem. BDSG zu.
 ---
 title: IT Infrastruktur
-role: Berater
+roles: [Berater]
 start: '01.2011'
 end: 'aktuell'
-tools: [Linux, Email, Webserver, Postfix, Apache, trac, Subversion, SSL]
+tools: [Linux, Email, Webserver, Postfix, Apache, DNS, trac, Subversion, SSL]
 customer: Unternehmensberatung
 description: >
   Für meinen Kunden betreibe ich einen Entwicklungsserver sowie eine Reihe von Domains.
@@ -75,10 +76,10 @@ description: >
   Verfügbarkeit sicherzustellen.
 ---
 title: Produktentwicklung RaaS/SAP BI
-role: Berater, Entwickler
+roles: [Berater, Entwickler]
 start: '11.2010'
 end: 'aktuell'
-tools: [SAP BI, RFC, SOAP, Ruby on Rails, HTML5, CSS3, jQuery, Apache Server, proxy, Zertifikate, VPN, mysql]
+tools: [SAP BI, RFC, SOAP, Ruby, Ruby on Rails, HAML, Sass, HTML, CSS, Javascript, jQuery, Apache, Proxy, Zertifikate, VPN, MySQL, Subversion]
 customer: Unternehmensberatung
 description: >
   Im Auftrag eines SAP-Spezialisten entwerfe und betreibe ich ein benutzerfreundliches
@@ -89,7 +90,7 @@ description: >
   ich Pflichtenhefte und Konzepte sowie Aufwandsschätzungen und Zeitplanungen.
 ---
 title: Feinkonzept Website-Relaunch
-role: Berater
+roles: [Berater]
 start: '08.2010'
 end: '09.2010'
 tools: [Microsoft Office, Microsoft Visio, Access, Interviews]
@@ -102,10 +103,10 @@ description: >
   und die Präsentation von Ergebnissen.
 ---
 title: Relaunch Job-Suchmaschine
-role: Berater, Entwickler
+roles: [Berater, Entwickler]
 start: '06.2010'
 end: '07.2010'
-tools: [Ruby on Rails, sphinx Suchmaschine, Shell scripting, HTML, CSS, jQuery, Javascript, Subversion]
+tools: [Ruby, Ruby on Rails, sphinx, Shell scripting, HTML, CSS, HAML, Sass, jQuery, Javascript, Subversion]
 customer: Unternehmensberatung
 description: >
   Konzeptionelle, technische und grafische Überarbeitung des Prototypen der Job-Suchmaschine
@@ -114,21 +115,21 @@ description: >
   Selbständige im IT-Bereich.
 ---
 title: Migration einer SAP Portalanwendung
-role: Berater
+roles: [Berater]
 start: '05.2010'
 end: '07.2010'
-tools: [SAP R/3, XML, Javascript, Webservices, VPN, Berechtigungen, AJAX, HTML, CSS]
+tools: [SAP, XML, Javascript, Webservices, VPN, Berechtigungen, HTML, CSS]
 customer: Pharma/Chemie
 description: >
   Erweiterung und Migration einer bestehenden Portalanwendung IE6 nach IE8, Anfertigung
   von technischer Dokumentation, Aufwandsschätzung und Koordination weiterer externer
-  Dienstleiter.
+  Dienstleister.
 ---
 title: Branchenportal (SEO)
-role: Berater, Entwickler
+roles: [Berater, Entwickler]
 start: '02.2010'
 end: '04.2010'
-tools: [Ruby on Rails, Radiant CMS, jQuery, HTML, CSS, Berechtigungssteuerung]
+tools: [Ruby, Ruby on Rails, Radiant CMS, Javascript, jQuery, HTML, CSS, HAML, Berechtigungssteuerung, Subversion]
 customer: Verlag
 description: >
   Erstellung eines themenspezifischen Content-Portals, mit dem größtmögliche Attraktivität
@@ -136,7 +137,7 @@ description: >
   redaktionelle Arbeit zu leistende Aufwand minimiert werden.
 ---
 title: Architektur-Management
-role: Berater
+roles: [Berater]
 start: '11.2009'
 end: '02.2010'
 tools: [MS Office, Visio, Umfragen]
@@ -149,20 +150,20 @@ description: >
   von Präsentationsmaterial als Entscheidungsgrundlage.
 ---
 title: SWC-Webseite
-role: Berater
+roles: [Berater]
 start: '12.2009'
 end: '12.2009'
-tools: [Ruby on Rails, Radiant CMS, jQuery, HTML, CSS, Subversion]
+tools: [Ruby, Ruby on Rails, Radiant CMS, Javascript, jQuery, HTML, CSS, HAML, Sass, Subversion]
 customer: Unternehmensberatung
 description: >
   Ich erstelle eine neue Unternehmenshomepage mithilfe von Radiant CMS, einem
   Content management system auf der Basis von Ruby on rails.
 ---
 title: Präsentationsgenerator
-role: Architekt, Entwickler
+roles: [Architekt, Entwickler]
 start: '09.2009'
 end: '10.2009'
-tools: [Ruby on rails, Shell scripting, HTML, CSS, ExtJS, Javascript, Subversion]
+tools: [Ruby, Ruby on rails, Shell scripting, HTML, CSS, HAML, Sass, ExtJS, Javascript, Subversion]
 customer: Medienagentur
 description: >
   Entwicklung eines Mehrbenutzer-Portals, mit dem individuelle Präsentationen
@@ -170,10 +171,10 @@ description: >
   (POS) eingesetzt und können automatisiert ablaufen, jedoch personalisierte Inhalte haben.
 ---
 title: Job-Suchmaschine
-role: Architekt, Entwickler
+roles: [Architekt, Entwickler]
 start: '06.2009'
 end: '08.2009'
-tools: [Ruby on Rails, sphinx Suchmaschine, Shell scripting, HTML, CSS, ExtJS,  Javascript, Subversion]
+tools: [Ruby, Ruby on Rails, sphinx Suchmaschine, Shell scripting, HTML, CSS, HAML, Sass, ExtJS, Javascript, Subversion]
 customer: Unternehmensberatung
 description: >
   Entwicklung eines Proof-of-concept Prototypen einer Suchmaschine, die Webseiten
@@ -181,19 +182,19 @@ description: >
   mit statistischen Analyseverfahren aggregiert.
 ---
 title: SAP HCM Integration
-role: Entwickler
+roles: [Entwickler]
 start: '05.2009'
 end: '05.2009'
-tools: [SAP Netweaver, Java, J2EE, JCO, Eclipse, Subversion, Berechtigungssteuerung]
+tools: [SAP, Java, J2EE, JCO, HTML, CSS, Javascript, Eclipse, Subversion]
 customer: Chemie
 description: >
   Integration einer Webanwendung mit ESS-Funktionen in eine SAP HCM Umgebung.
 ---
 title: IT Infrastruktur
-role: Berater
+roles: [Berater]
 start: '01.2011'
 end: 'aktuell'
-tools: [Linux, Firewalls, Email, Webserver, Postfix, Apache, SSL]
+tools: [Linux, Firewall, DNS, Email, Apache, Postfix, SSL]
 customer: Unternehmensberatung
 description: >
   Für meinen Kunden betreibe ich den zentralen Email- und Webserver sowie
@@ -202,7 +203,7 @@ description: >
   Monitoring der Dienste ein, um eine maximale Verfügbarkeit sicherzustellen.
 ---
 title: Aufwandsabschätzung SOA-Implementation
-role: Berater
+roles: [Berater]
 start: '04.2009'
 end: '04.2009'
 tools: [SOA, UML, OOD, Microsoft Office]
@@ -212,16 +213,16 @@ description: >
   einer Telekommunikationskunden mit abschließender Machbarkeitsbewertung.
 ---
 title: Redesign WebDynpro/Java
-role: Entwickler
+roles: [Entwickler]
 start: '12.2008'
 end: '03.2009'
-tools: [SAP Netweaver, Oracle 10g, WebDynpro Java, Java, NWDI]
+tools: [SAP, Oracle 10g, WebDynpro Java, Java, NWDI, HTML]
 customer: Energiewirtschaft
 description: >
   Re-Implementierung einer bestehenden Webdynpro-Anwendung.
 ---
 title: Security Audit
-role: Berater
+roles: [Berater]
 start: '12.2008'
 end: '12.2008'
 tools: [Windows, Debugger, Ethernet-Analyse, ODBC, Microsoft Office]
@@ -232,20 +233,20 @@ description: >
   Abschlußberichtes als Grundlage einer Vorstandsentscheidung.
 ---
 title: Custom DSL Firewall
-role: Berater
+roles: [Berater]
 start: '10.2008'
 end: '10.2008'
-tools: [Debian Linux, iptables, webmin, Perl, custom hardware, VPN, RSA Token]
+tools: [Debian Linux, Firewall, TCP/IP, iptables, webmin, Perl, custom hardware, VPN, RSA Token]
 customer: Unternehmensberatung
 description: >
   Entwicklung und Inbetriebnahme einer spezialisierten Firewall zur Bündelung von
   mehreren DSL-Leitungen, incl. Fernwartung und VPN.
 ---
 title: Workflow-Tool für Print-Agentur
-role: Berater, Entwickler
+roles: [Berater, Entwickler]
 start: '09.2008'
 end: '11.2008'
-tools: [AJAX, PHP 5, ExtJS, Javascript, HTML, CSS, Subversion]
+tools: [PHP, PEAR, ExtJS, Javascript, HTML, CSS, Subversion]
 customer: Medienagentur
 description: >
   Implementation einer Onlinesoftware zur Projektsteuerung für eine Medienagentur
@@ -253,10 +254,10 @@ description: >
   von Katalogen mit vielen hundert Seiten maßgeblich vereinfacht.
 ---
 title: Volltextsuche für SAP Materialwirtschaft
-role: Berater, Entwickler
+roles: [Berater, Entwickler]
 start: '04.2008'
 end: '08.2008'
-tools: [SAP Netweaver, RFC, Java, JCO, J2EE, Apache Lucene, AIX, Subversion, NWDI]
+tools: [SAP, RFC, Java, JCO, J2EE, Lucene, HTML, CSS, Javascript, AIX, Subversion, NWDI]
 customer: Energiewirtschaft
 description: >
   Implementierung einer performanten und komfortablen Suchfunktion für SAP MM (Materialwirtschaft).
@@ -266,7 +267,7 @@ description: >
   eine F4-Wertehilfe ist die Lösung vollkommen transparent in SAP integriert.
 ---
 title: Portal-Konzeption
-role: Berater
+roles: [Berater]
 start: '02.2008'
 end: '04.2008'
 tools: [Webservices, SOA, UML, XML, OOD, Office]
@@ -277,10 +278,10 @@ description: >
   anhand von Fachkonzepten.
 ---
 title: Portalanwendung Performance-Management
-role: Entwickler
+roles: [Entwickler]
 start: '02.2008'
 end: '04.2008'
-tools: [SAP R/3, SAP Enterprise Portal, Java, SOA, XML, Webservices, AJAX, HTML, CSS, Javascript, Berechtigungssteuerung]
+tools: [SAP, SAP Enterprise Portal, Java, SOA, XML, Webservices, HTML, CSS, Javascript]
 customer: Pharma
 description: >
   Design und Implementierung eines benutzerfreundlichen Frontends für personalwirtschaftliche Prozesse.
@@ -290,10 +291,10 @@ description: >
   und Backend ausgetauscht wurden.
 ---
 title: Umfrageportal
-role: Berater, Entwickler
+roles: [Berater, Entwickler]
 start: '11.2005'
 end: '12.2006'
-tools: [Java, J2EE, SAP Netweaver, Tomcat, Hibernate, mySQL, Velocity]
+tools: [Java, J2EE, SAP, HTML, CSS, Javascript, Tomcat, Hibernate, MySQL, Velocity]
 customer: Unternehmensberatung
 description: >
   Ich bin verantwirtlich für Konzeption und Erstellung eines mehrsprachigen Portals
@@ -304,10 +305,10 @@ description: >
   sechs Jahren war ich auch Partner für Betrieb und Wartung der Lösung.
 ---
 title: Produktdatenbank
-role: Berater, Entwickler
+roles: [Berater, Entwickler]
 start: '08.2004'
 end: '07.2005'
-tools: [Java, J2EE, Hibernate, Oracle, mySQL, Struts, Velocity]
+tools: [Java, J2EE, Hibernate, HTML, CSS, Javascript, Oracle, MySQL, Struts, Velocity, Tomcat]
 customer: Medienagentur
 description: >
   Planung, Aufbau und Inbetriebnahme eines Produkt-Planungssystems, mit dem mehrere Dutzend
@@ -317,17 +318,17 @@ description: >
   lang in Betrieb.
 ---
 title: Marketing- und  Eventsteuerung
-role: Entwickler
+roles: [Entwickler]
 start: '01.2004'
 end: '07.2004'
-tools: [Java, J2EE, Hibernate, Oracle, mySQL, Struts, Velocity]
+tools: [Java, J2EE, Hibernate, HTML, CSS, Javascript, Oracle, MySQL, Struts, Velocity, Tomcat]
 customer: Medienagentur
 description: >
   Pflege einer bestehenden Webanwendung, über die die deutschen Marketingaktivitäten
   einer internationalen Großbank zentralisiert werden.
 ---
 title: Messplatz für Software-Qualität
-role: Berater, Entwickler
+roles: [Berater, Entwickler]
 start: '10.2003'
 end: '12.2003'
 tools: [Java, Ant, JCoverage, div. Tools]
@@ -337,76 +338,76 @@ description: >
   (mehr als 25.000 Java-Klassen).
 ---
 title: e-Recruiting Applikation
-role: Berater, Entwickler
+roles: [Berater, Entwickler]
 start: '06.2003'
 end: '08.2003'
-tools: [SAP R/3 4.6C, ITS Internet Transaction Server, HTML, CSS, Javascript]
+tools: [SAP, ITS Internet Transaction Server, HTML, CSS, Javascript]
 customer: Bank
 description: >
   Konzerninterne Karrieresite für deutsche Großbank, incl. Liste offener Vakanzen,
   Qualifikationsanalyse und Fortbildungsmaßnahmen.
 ---
 title: ESS/MSS Portal
-role: Berater, Entwickler
+roles: [Berater, Entwickler]
 start: '02.2003'
 end: '05.2003'
-tools: [SAP R/3 4.6C, SAP Enterprise Portal 5, Java, J2EE, HTML, CSS, Javascript]
+tools: [SAP, SAP Enterprise Portal 5, Java, J2EE, HTML, CSS, Javascript]
 customer: Konsumgüter
 description: >
   SAP Portal mit Schwerpunkt ESS/MSS, Auslandsprojekt bei einem belgischen Hersteller von Konsumgütern.
 ---
 title: Implementierung Karriereportal
-role: Berater, Entwickler
+roles: [Berater, Entwickler]
 start: '05.2002'
 end: '01.2003'
-tools: [SAP R/3 4.6C, SAP Enterprise Portal 5, Java]
+tools: [SAP, SAP Enterprise Portal 5, Java, J2EE]
 customer: Verpackungshersteller
 description: >
   Erstellung von javabasierten Portalanwendungen für personalwirtschaftliche Prozesse mit SAP HCM.
 ---
 title: Businessportal "mobile solutions"
-role: Entwickler
+roles: [Entwickler]
 start: '02.2002'
 end: '04.2003'
-tools: [SAP R/3 4.6C, ABAP, Java, J2EE, Tomcat, Tibco, EJB, JCO]
+tools: [SAP, ABAP, Java, J2EE, HTML, CSS, Javascript, Tomcat, Tibco, EJB, JCO]
 customer: Telekommunikation
 description: >
   Aufbereitung von Daten aus SAP für ein Portal mit Schwerpunkt "mobile Devices".
   Implementierung von ESS/MSS Funktionen.
 ---
 title: Mediendatenbank
-role: Entwickler
+roles: [Entwickler]
 start: '10.2001'
 end: '12.2001'
-tools: [Java, J2EE, Tomcat, Oracle, EJB]
+tools: [Java, J2EE, Tomcat, HTML, CSS, Oracle, EJB]
 customer: Medienagentur
 description: >
   Multilinguales Verkaufsportal für Werbemedien (Print, TV, Außenwerbung);
   Entwicklung und Einsatz in Deutschland und UK
 ---
 title: Knowledge Management
-role: Berater, Entwickler
+roles: [Berater, Entwickler]
 start: '07.2001'
 end: '09.2001'
-tools: [SUN Solaris, Apple WebObjects, Oracle, Java, J2EE, EJB]
+tools: [SUN Solaris, WebObjects, Oracle, Java, J2EE, HTML, EJB]
 customer: Medienagentur
 description: >
   Review eines webbasierten Wissensportals für Unternehmen, Linksammlung auf der Basis von Apple WebObjects.
 ---
 title: Ticketsystem zur Fehlerverwaltung
-role: Berater, Entwickler
+roles: [Berater, Entwickler]
 start: '01.2001'
 end: '03.2001'
-tools: [Mac OSX, Java, SQL, XML, Apache, Tomcat]
+tools: [Mac OSX, Java, HTML, CSS, SQL, XML, Apache, Tomcat]
 customer: Unternehmensberatung
 description: >
   Intranet System für Fehlerverwaltung und -behandlung in Softwareprojekten
 ---
 title: Auktionsportal
-role: Berater, Entwickler
+roles: [Berater, Entwickler]
 start: '03.2000'
 end: '12.2000'
-tools: [Mac OSX, Java, SQL, XML, Apache, Tomcat]
+tools: [Mac OSX, Java, HTML, CSS, SQL, XML, Apache, Tomcat]
 customer: Auktionator
 description: >
   Mehrsprachiges Internet Portal Software für Kunsthandel, Versteigerung von Kunstgegenständen
@@ -414,7 +415,7 @@ description: >
   der zu versteigernden Güter weitgehend automatisch übersetzt werden.
 ---
 title: Branchensoftware für Verpackungsindustrie
-role: Entwickler
+roles: [Entwickler]
 start: '07.1998'
 end: '08.1999'
 tools: [Windows, Delphi 3, Interbase 5]
@@ -426,7 +427,7 @@ description: >
   Textkontrolle, Satz, Lithografie uznd Druck. Als Freigabemedium wurde PDF eingesetzt.
 ---
 title: Multimedia-Datenbank
-role: Entwickler
+roles: [Entwickler]
 start: '01.1997'
 end: '04.1997'
 tools: [Windows, Delphi 3]
@@ -435,7 +436,7 @@ description: >
   Implementierung eines datenbank-gestützten Kataloges auf CD-ROM für einen Unternehmensverband.
 ---
 title: Versicherungsportal
-role: Entwickler
+roles: [Entwickler]
 start: '01.1996'
 end: '08.1996'
 tools: [Perl, CGI, HTML]
