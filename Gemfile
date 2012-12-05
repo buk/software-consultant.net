@@ -3,9 +3,7 @@ source :rubygems
 gem 'shotgun', :group=>:development
 gem 'capistrano', :group=>:development
 gem 'rvm-capistrano', :group=>:development
-
-gem 'libv8', '~> 3.11.8', :group=>:production
-gem 'therubyracer', :group=>:production
+gem 'therubyracer', :group=>:development
 
 gem 'rack-cache'
 gem 'i18n'
