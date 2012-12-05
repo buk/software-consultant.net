@@ -1,3 +1,4 @@
+# encoding: utf-8
 #############################
 # Statistics Module for Ruby
 # (C) Derrick Pallas

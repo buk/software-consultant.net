@@ -1,3 +1,4 @@
+# encoding: utf-8
 class Array
   def extract_options!
     last.is_a?(::Hash) ? pop : {}
