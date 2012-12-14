@@ -1,4 +1,26 @@
 ---
+title: Fachspezifisches Produktportal
+roles: [Berater, Entwickler]
+start: '12.2012'
+end: 'aktuell'
+tools: [Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, coffescript, Elasticsearch, rSpec, git, MySQL]
+customer: Finanzunternehmen
+description: >
+  Ich liefere für meinen Kunden eine flexible Suchmaschine und Datenbank für Produktbeschreibungen. Die
+  in dem Rahmen zu erstellende Webanwendung erlaubt umfangreiche Integrationen durch REST-basierte Schnittstellen.
+  Ein Berechtigungskonzept mit Freigabemöglichkeit gestattet zielgenauen Zugriff auf Informationen. Besonderer
+  Augenmerk liegt auf der Suchmaschinen-Funktion, die umfangreiche Filter- und Anzeigemöglichkeiten bietet.
+---
+title: IT Infrastruktur
+roles: [Berater, Entwickler]
+start: '12.2012'
+end: 'aktuell'
+tools: [Webserver, Firewall]
+customer: Verband
+description: >
+  Für einen Landesverband konzipiere ich eine verteilte Infrastruktur zur Ablage elektronischer Medien. In
+  einer weiteren Phase wird eine prototypische Implementation der dafür notwendigen Serversoftware erstellt.
+---
 title: Geo-Auswertung von Betriebsdaten
 roles: [Entwickler]
 start: '10.2012'
@@ -22,7 +44,7 @@ description: >
   erstelle Backups und stehe bei allen Fragen rund um das Thema Internet-Software
   hilfreich zur Seite.
 ---
-title: QC-Tool
+title: Webanwendung zum Qualitätsmanagement
 roles: [Entwickler]
 start: '07.2012'
 end: '08.2012'
@@ -32,7 +54,7 @@ description: >
   Für eine renommierte Webagentur verwende ich testgetriebene Entwicklungsmethoden, um
   eine komplexe Schnittstelle zum Datenimport mit einer leicht zu nutzenden Oberfläche zu
   kombinieren. Die Software liefert Kennzahlen zum Qualitätsmanagement des Endkunden, dazu
-  werden umfangreiche Daten aus Support- und anderen Datenbanken untersucht.
+  werden umfangreiche Daten aus Support- und anderen Datenbanken untersucht und aggregiert.
 ---
 title: '"SEBI" add-on Suchmaschinen Appliance'
 roles: [Berater, Entwickler]
