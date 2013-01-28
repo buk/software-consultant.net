@@ -3,10 +3,10 @@ title: Fachspezifisches Produktportal
 roles: [Berater, Entwickler]
 start: '12.2012'
 end: 'aktuell'
-tools: [Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, coffescript, Elasticsearch, rSpec, git, MySQL]
+tools: [Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, coffescript, Elasticsearch, rSpec, git, MySQL, memcache]
 customer: Finanzunternehmen
 description: >
-  Ich liefere für meinen Kunden eine flexible Suchmaschine und Datenbank für Produktbeschreibungen. Die
+  Ich liefere für meinen Kunden eine flexible Suchmaschine und Datenbank für Produkt aus der Finanzbranche. Die
   in dem Rahmen zu erstellende Webanwendung erlaubt umfangreiche Integrationen durch REST-basierte Schnittstellen.
   Ein Berechtigungskonzept mit Freigabemöglichkeit gestattet zielgenauen Zugriff auf Informationen. Besonderer
   Augenmerk liegt auf der Suchmaschinen-Funktion, die umfangreiche Filter- und Anzeigemöglichkeiten bietet.
