@@ -108,6 +108,13 @@ class Swc < Sinatra::Base
     availability.to_json
   end
 
+  get '/availability.png' do
+    content_type :png
+    png = ChunkyPNG::Image.new(16, 16, ChunkyPNG::Color::TRANSPARENT)
+    # availability.
+    png.to_blog
+  end
+
   not_found do
     pass if settings.redirects.any? {|pattern, uri|
       if pattern.match(request.path)

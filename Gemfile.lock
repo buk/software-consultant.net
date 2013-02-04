@@ -73,6 +73,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass
   capistrano
+  chunky_png
   coffee-script
   compass
   haml
