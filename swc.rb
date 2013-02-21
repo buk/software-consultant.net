@@ -159,7 +159,7 @@ class Swc < Sinatra::Base
     def availability
       {
         :free => 0.1,
-        :next_full => Date.new(2013, 3, 1)
+        :next_full => Date.new(2013, 5, 1)
       }
     end
 
