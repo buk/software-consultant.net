@@ -1,5 +1,6 @@
 set :application, "swc4"
 set :repository,  "git://github.com/datenimperator/software-consultant.net.git"
+set :branch, "swc2"
 set :rvm_type, :system
 set :rvm_ruby_string, 'ruby-1.9.3'
 
