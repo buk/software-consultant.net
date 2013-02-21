@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gem 'shotgun', :group=>:development
 gem 'capistrano', :group=>:development
