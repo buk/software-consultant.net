@@ -6,7 +6,6 @@ gem 'nesta', git:'git://github.com/datenimperator/nesta.git'
 
 group :development do
   gem 'mr-sparkle'
-  gem 'rake'
   gem 'capistrano'
   gem 'rvm-capistrano'
 end
@@ -15,6 +14,7 @@ gem 'i18n'
 gem 'sinatra-support'
 gem 'sinatra-contrib'
 
+gem 'rake'
 gem 'rack-cache'
 gem 'haml'
 gem 'haml-coderay'
