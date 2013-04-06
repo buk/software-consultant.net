@@ -1,5 +1,4 @@
 # encoding: utf-8
-#!/usr/bin/env rake
 require "bundler/setup"
 
 Bundler.require(:default, :test)
@@ -7,7 +6,7 @@ Bundler.require(:default, :test)
 namespace :import do
   desc "Create project pages from projects.yml"
   task :projects do
-    projects = YAML::load_documents(File.read('../software-consultant.net/projects.yml'))
+    projects = YAML::load_documents(File.read('projects.yml'))
     projects.each do |project|
       name = project['start'].split('.').reverse
       name << project['title']

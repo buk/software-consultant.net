@@ -1,5 +1,13 @@
-Categories: programmierung
-
 # Javascript
 
-lorem
+Javascript (auch: ECMAscript, JScript, LiveScript) wurde 1995 im Netscape Navigator 2.0 vorgestellt und ein Jahr später von Microsoft im Internet Explorer adaptiert. Die Programmiersprache enthielt immer schon Elemente der funktionalen und objektorientierten Programmierung, wurde aber anfänglich nur als Mittel zur *Anhübschung* von ansonsten statischen HTML-Seiten wahrgenommen. Lange Zeit war Javascript das Mittel der Wahl, um animierte Menüs bereitzustellen oder in Formularen einfache Überprüfungen vorzunehmen. Entsprechend galten diese Komponenten als *amateurhaft* und wenig professionell.
+
+## AJAX
+
+Das änderte sich langsam ab 2004. Google hatte GMail vorgestellt, eine für die damalige Zeit unerhört interaktive und dynamische Nutzungsweise einer Webanwendung, die stark an Desktop-Programmierung und wenig an statische Webseiten erinnerte. Dreh- und Angelpunkt war eine Javascript-Komponente, die das Nachladen von Information ermöglichte. Diese hatte es zwar schon einige Jahre lang gegeben, sie wurde jedoch kaum genutzt.
+
+In der Folge entstanden zahlreiche Bibliotheken auf der Basis von Javascript, die nebenbei die Professionalisierung der Sprache und ihrer Anwendung stark nach vorne trieben. Heute gilt Javascript als vollwertige Programmiersprache und wird in einer Vielzahl von Fällen auf Clients und Servern genutzt.
+
+Dabei finden Programmierer viele aus anderen Sprachen bekannte Konzepte in Javascript wieder. Das macht es jedoch kompliziert für jene, die mit [HTML & CSS](html-css) einen überwiegend gestalterischen Hintergrund haben: Die Webentwicklung ist heute deutlich anspruchsvoller als vor 10 Jahren. Ohne profunde Programmierkenntnisse ist ein Webprojekt kaum mehr zu bewältigen.
+
+Ich biete Ihnen die erforderlichen Kenntnisse, damit ihr Webprojekt ein Erfolg werden kann.

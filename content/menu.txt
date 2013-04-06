@@ -1,12 +1,8 @@
 christian-aust
 software-consulting
-  software-consulting/audits
-  software-consulting/training
 programmierung
-  programmierung/java
-  programmierung/javascript
   programmierung/html-css
+  programmierung/javascript
   programmierung/ruby-on-rails
 projekte
 blog
-  blog/archive

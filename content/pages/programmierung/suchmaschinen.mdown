@@ -1,0 +1,15 @@
+Description: Ich bin spezialisiert auf leistungsfähige kundenindividuelle Suchmaschinen, die das Wissen in ihrer Organisation nutzbar machen können.
+
+# Suchmaschinen
+
+Je mehr Daten wir anhäufen, desto mehr Zeit verbringen wir mit dem Suchen dieser Daten. Dabei ist nicht der perfekt organisierte Mensch der Maßstab, der jederzeit alles in einer im gut vertrauten Systematik wiederfinden kann. Sobald Menschen zusammenarbeiten, müssen Informationen übergeben werden. Dabei gibt es Reibungsverluste, viel Zeit und somit Energie wird verwendet, um diese zu kompensieren. Meistens ohne Erfolg: Bereits investierte Zeit wird erneut benötigt, um Dinge zu erstellen, die es eigentlich schon gegeben hätte.
+
+## Nutzbare Information
+
+Ein Auftragsschein, eine Budgetkalkulation, die letzte Email vom Kunden - alles wird von uns irgendwann gesucht. Ich vertrete die Ansicht, dass Information, die nicht zugänglich ist, *wertlos* ist, weil sie nicht genutzt werden kann.
+
+Ein gutes Beispiel sind die in vielen Firmen existierenden Fileserver, auf denen in zahllosen Verzeichnissen und Unterverzeichnissen tausende von Dateien einem digitalen Tod entgegensiechen. Alte Präsentation und Briefe, Programme, Entwürfe und allerlei anderes bilden zwar den Erfahrungsschatz der Firma, können aber nicht genutzt werden, weil niemand in dem Heuhaufen etwas findet. Sie sind somit nutzlos.
+
+## sphinx, solr, Elasticsearch & Co.
+
+Es gibt neben kommerziellen Anbietern inzwischen auch einige überaus hochwertige OpenSource-Komponenten, die Such- und Indizierungslogik implementieren. Ich biete Ihnen meine Erfahrung aus zahlreichen Suchmaschinen-Projekten an, um auch ihre Informationen schnell und umfassen zugänglich zu machen. Ich habe mehrfach (zB in diesem [Projekt im Umfeld von SAP](/projekte/2008-04-volltextsuche-fuer-sap-materialwirtschaft)) beobachten können, wie positiv eine solche Suchfunktion von den Mitarbeitern und Nutzern bewertet wird.

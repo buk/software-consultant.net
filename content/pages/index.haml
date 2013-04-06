@@ -27,7 +27,7 @@ Link text: Start
   .large-3.columns
     = haml :contact
 
-.row.hide-for-small
+.row.hide-for-small{ style:'margin-bottom:1.0em' }
   .column
     %img.scale{ src:image_path('schreibtisch.jpg'), alt:'Schreibtisch von Christian Aust, Software Consultant', width:1000, height:200 }
 
@@ -40,15 +40,12 @@ Link text: Start
       %a{ href:page.path } Mehr zu #{page.title}
 
   .large-3.columns
-    %h4.subheader Für Projektvermittler
-    %p
-      Verfügbarkeit, Profil und anderes Wissenswertes finden Sie
-      %a{ href:url('/recruiter') } auf dieser Seite
-
     %h4.subheader Blog-Artikel
     %ul.square
       - latest_articles(4).each do |article|
         %li
           %a{ href:url(article.abspath) }= article.heading
+    %p
+      %a{ href:url('/blog') } Mehr im Blog
 
 

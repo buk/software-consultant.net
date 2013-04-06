@@ -41,7 +41,7 @@
           = yield
     = haml :footer, layout: false
     = haml :contact_view, layout: false
-    = haml :analytics, layout: false
     = yield_content :bottom
     %script{ src:'//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' }
     = javascript_tag('application')
+    = haml :analytics, layout: false

@@ -1,5 +1,0 @@
-Categories: programmierung
-
-# Java
-
-lorem

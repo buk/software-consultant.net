@@ -1,5 +1,17 @@
-Categories: programmierung
-
 # HTML & CSS
 
-lorem
+HTML & CSS sind wichtige Bausteine des Internets, auch wenn sie nicht zu den Programmiersprachen im engeren Sinne zählen. Ich arbeite seit 1995 mit Software auf HTML-Basis, nachdem ich zuvor *Client-Server-Programme* für Windows und andere Systeme geschrieben hatte.
+
+In den ersten Fassungen war HTML bis Version 3.2 ein ziemliches Durcheinander von Präsentations- und Formatierungsbefehlen. Dazu kam, dass Hersteller von Browsersoftware jederzeit eigene Erweiterungen des Standards ergänzten. Microsoft hatte mit dem Internet Explorer wirtschaftlich die Nase vorn und gab somit auch in Sachen Standarddefinition den Ton an. Viele Internetangebote entstanden damals auf der Basis *Internet Explorer only*, was natürlich nicht im Sinne des Erfinders war.
+
+Später zogen Netscape/Firefox und Opera nach, während Microsoft an Boden verlor. Der Standard HTML 4 war besser durchdacht und fand stärkere Unterstützung, sodass ein wenig Ruhe einkehrte.
+
+## Vielfältige Nutzung ist die Herausforderung
+
+Heute liegt mit HTML 5 zwar ein in vieler Hinsicht ausgereifter Standard vor, mit der Webkit-Bibliothek als Basis von Safari und Chrome gibt es jedoch schon wieder ein de-facto-Monopol, das auf zahlreichen Geräten Anwendung findet. Apple, Mozilla und Microsoft sind im Bereich von CSS auch wieder stark darin, eigene Ergänzungen zu definieren, die auf Software anderer Hersteller nicht oder nur anders verfügbar ist.
+
+Dazu kommt, dass wir heute mit einer Vielzahl von Endgeräten zu tun haben – weit mehr, als das vor 10 Jahren der Fall war. Smartphones, Tablets und Desktop-Computer sind unterschiedlicher denn je. Ein Internet-Angebot soll heute mobil bei 320x480 Pixel Auflösung genauso benutzbar sein wie auf einem Schreibtisch mit 3000x2000 Pixel Größe. Hochauflösende Displays verdoppeln die Pixeldichte, es herrscht wieder ein ziemliches Durcheinander.
+
+Darin besteht die Herausforderung für heutige Internet-Entwickler: *Wie konzipiere ich die Entwicklung so, dass sie auch weiterhin benutzbar bleiben kann?* Man darf als sicher annehmen, dass Internetangebote einem ständigen Wandel unterliegen werden, weil sie die Ansprüche an ihre Nutzung dauernd erhöhen. Die Frage ist nicht, *ob* etwas erneut überarbeitet werden muss, sondern *wann* und *ob das überhaupt möglich ist*.
+
+Ich biete Ihnen die nötige Erfahrung, ein Projekt heute so zu konzipieren, dass es auch in Zukunft wartbar und nutzbar bleibt. Nehmen Sie mich in Anspruch!

@@ -1,0 +1,15 @@
+# Hosting
+
+Ich biete Ihnen nicht nur den Entwurf und die Erstellung von Internet-Software an, sondern übernehme auch Betrieb und Wartung ihrer Software. Dabei bin ich spezialisiert auf Linux-basierte Server mit oder ohne Virtualisierung. Die von mir aktuell betreuten Dienste umfassen:
+
+* Serverwartung
+* Backup
+* Monitoring
+* Firewall-Konfiguration (zB mit [iptables](http://de.wikipedia.org/wiki/Iptables))
+* Mailserver (zB auf der Basis von [postfix](http://www.postfix.org) und [dovecot](http://www.dovecot.org))
+* Webserver (zB auf der Basis von [Apache 2](http://httpd.apache.org) oder [nginx](http://nginx.org/en/))
+* Datenbankserver (zB mit [mysql](http://www.mysql.de) oder [postgresql](http://www.postgresql.org))
+* Suchmaschinen (zB mit [elasticsearch](http://www.elasticsearch.org))
+* Systemintegration (zB mit [SAP](http://www.sap.com/germany/index.epx))
+
+Auf der Basis von Wartungs- und Pflegeverträgen bin ich ihr zuverlässiger Partner für den Betrieb ihrer Anwendungen. Fordern Sie ein Angebot an!

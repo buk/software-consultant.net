@@ -1,5 +1,0 @@
-Description: Ich bin spezialisiert auf leistungsfähige kundenindividuelle Suchmaschinen, das Wissen in ihrer Organisation nutzbar zu machen.
-
-# Suchmaschinen
-
-suchmaschinen

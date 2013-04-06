@@ -1,30 +1,41 @@
 ---
-title: Fachspezifisches Produktportal
+title: Account Management
+roles: [Berater]
+start: '02.2013'
+end: 'aktuell'
+tools: [Microsoft Office, Mindmaps, ]
+customer: Werbeagentur
+description: >
+  Als Interim Manager betreue ich die CRM-Aktivitäten des Accounts meines Kunden.
+---
+title: Portal für Finanzprodukte
 roles: [Berater, Entwickler]
 start: '12.2012'
 end: 'aktuell'
 tools: [Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, coffescript, Elasticsearch, rSpec, git, MySQL, memcache]
 customer: Finanzunternehmen
 description: >
-  Ich liefere für meinen Kunden eine flexible Suchmaschine und Datenbank für Produkt aus der Finanzbranche. Die
-  in dem Rahmen zu erstellende Webanwendung erlaubt umfangreiche Integrationen durch REST-basierte Schnittstellen.
-  Ein Berechtigungskonzept mit Freigabemöglichkeit gestattet zielgenauen Zugriff auf Informationen. Besonderer
-  Augenmerk liegt auf der Suchmaschinen-Funktion, die umfangreiche Filter- und Anzeigemöglichkeiten bietet.
+  Für meinen Kunden aus der Finanzbranche liefere ich eine flexible Suchmaschine und Datenbank. Die Lösung ist ausgelegt
+  für viele hunderttausende von Produktbeschreibungen. Ein mehrstufiges Berechtigungskonzept erlaubt die Pflege
+  von Daten durch eigenständige Accounts, die über genau definierte Berechtigungen verfügen. Es gibt umfangreiche
+  Integrationen durch REST-basierte Schnittstellen, mit denen Daten zeitgesteuert von sehr unterschiedlichen Quellen
+  importiert werden können. Besonderer Augenmerk liegt auf der Suchmaschinen-Funktion, die umfangreiche Filter-
+  und Anzeigemöglichkeiten bietet.
 ---
 title: IT Infrastruktur
 roles: [Berater, Entwickler]
 start: '12.2012'
-end: 'aktuell'
+end: '12.2012'
 tools: [Webserver, Firewall]
 customer: Verband
 description: >
-  Für einen Landesverband konzipiere ich eine verteilte Infrastruktur zur Ablage elektronischer Medien. In
+  Für einen Verband konzipiere ich eine verteilte Infrastruktur zur Ablage elektronischer Medien. In
   einer weiteren Phase wird eine prototypische Implementation der dafür notwendigen Serversoftware erstellt.
 ---
 title: Geo-Auswertung von Betriebsdaten
 roles: [Entwickler]
 start: '10.2012'
-end: 'aktuell'
+end: '02.2013'
 tools: [Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, coffescript, Nokia Maps, Elasticsearch, rSpec, git, Redis, MySQL]
 customer: Webagentur
 description: >

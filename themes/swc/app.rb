@@ -3,8 +3,6 @@
 
 require 'active_support/core_ext/hash'
 require 'sinatra/content_for'
-require 'yaml'
-require 'pp'
 
 $:.unshift File.join(File.dirname(__FILE__), 'lib')
 require 'swc'
@@ -28,6 +26,7 @@ module Nesta
       # register SWC::Redirects
       register SWC::Projects
       register SWC::Availability
+      register SWC::Redirects
       register Sinatra::I18nSupport
       load_locales File.join(Env.root, 'config', 'locales')
       set :default_locale, 'de'
