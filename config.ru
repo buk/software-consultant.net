@@ -35,7 +35,6 @@ map Sprockets::Helpers.prefix do
 
     Sprockets::Helpers.configure do |config|
       config.environment = env
-      config.digest = true
     end
   end
   run environment
