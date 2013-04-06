@@ -1,7 +1,7 @@
 Template: project
 Customer: Werbeagentur
 Keywords: projekt, Microsoft Office, Mindmaps, Berater
-Description: Als Interim Manager betreue ich die CRM-Aktivitäten des Accounts meines
+Description: Als Interim Manager betreue ich die CRM-Aktivitäten des Accounts meines Kunden.
 Tools: Microsoft Office, Mindmaps
 Roles: Berater
 Start: 02.2013

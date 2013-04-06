@@ -1,23 +1,24 @@
 - content_for :sidebar do
   = haml :sidebar_projects, :layout => false
 
-%article.project
+.project
   ~ @page.to_html(self)
+  = haml :page_meta, :layout => false, :locals => { :page => @page }
+
 - if @page.project?
-  %aside
-    .panel
-      %h3.subheader Das Projekt auf einen Blick
-      %p
-        %strong Kunde:
-        = @page.metadata('customer')
-      %p
-        %strong Meine Rolle:
-        = @page.metadata('roles')
-      %p
-        %strong Zeitraum:
-        = @page.metadata('start')
-        –
-        = @page.metadata('end')
-      %p
-        %strong Werkzeuge:
-        = @page.metadata('tools')
+  %aside.panel
+    %h3.subheader Das Projekt auf einen Blick
+    %p
+      %strong Kunde:
+      = @page.metadata('customer')
+    %p
+      %strong Meine Rolle:
+      = @page.metadata('roles')
+    %p
+      %strong Zeitraum:
+      = @page.metadata('start')
+      –
+      = @page.metadata('end')
+    %p
+      %strong Werkzeuge:
+      = @page.metadata('tools')

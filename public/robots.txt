@@ -1,0 +1,3 @@
+# robots.txt
+# See http://en.wikipedia.org/wiki/Robots_exclusion_standard
+Sitemap: http://software-consultant.net/sitemap.xml

@@ -15,7 +15,7 @@ module Nesta
     end
 
     def project?
-      @metadata.key?('customer')
+      %w{Customer Roles Tools}.any?{|key|metadata(key) ? true : false}
     end
   end
 

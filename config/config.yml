@@ -27,7 +27,7 @@ theme: swc
 # site's short name here. A comment form will automatically be added to
 # the bottom of your pages.
 #
-# disqus_short_name: software-consultant
+disqus_short_name: software-consultant
 
 # cache
 #     Set it to true if you'd like Nesta to cache your pages in ./public.
@@ -37,6 +37,10 @@ theme: swc
 #
 cache: false
 
+# handle_assets
+#     Set to true if Nesta should handle assets. False if you are using
+#     something else.
+#
 handle_assets: false
 
 # content

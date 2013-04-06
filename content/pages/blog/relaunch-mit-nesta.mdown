@@ -1,0 +1,15 @@
+Date: 4 April 2013
+Summary: Sinatra ist eine gute Basis für Web-Programmierung mit Ruby. Zum Verwalten mehrerer Seiten kommt jetzt noch Nesta CMS hinzu.
+
+# Nesta CMS
+
+Im Laufe der letzten 12 Monate wurde mir klar, dass der alte Aufbau meiner Webseite nicht ausreicht. Zwar war Sinatra als Basis stabil und schnell, der Aufwand zur Verwaltung einer wachsenden Anzahl von Seiten jedoch zu groß.
+
+[Nesta CMS](http://nestacms.com) ist ein auf Dateien basierendes CMS mit Sinatra und Ruby. Auch wenn es [Stimmen](https://twitter.com/VolkerGoebbels/status/298096168532049920) gibt, die einer Verwendung von Dateien als Basis eines CMS keine Chance geben, so hat das Konzept aus meiner Sicht doch einige entscheidende Vorteile:
+
+* Es gibt keine Datenbank, und somit keine Migrationen. Entwicklungs- und Produktivsysteme haben automatisch den gleichen Inhalt.
+* Das Produktivsystem ist nicht dynamisch schreibbar, und kann somit weniger leicht Ziel von Modifikationen durch Hacker werden. Das ist in meinen Augen ein Sicherheitsgewinn. Es wird auch keine Nutzerverwaltung benötigt.
+* Dateien verwaltet man mit Dateiverwaltungswerkzeugen, wie Subversion oder git. Es ist trivial, auf diese Weise Versionen zu verwalten. Mit Datenbanken ist das nicht so leicht. *(Mal versucht, die Datenbank einer Wordpress-Installation lediglich auf eine andere Domain zu legen?)*
+* Wenn in einer Organisation Regeln für die online-Freigabe von Inhalten bestehen, so sind diese auf der Basis der Signoff-Funktionen zB von git leicht umsetzbar. Datenbankbasierte CMS müssen dies aufwändig nachbilden.
+
+Mein Anspruch an ein CMS ist, dass es mir *behilflich* sein muss, ohne bei Modifikationen im Weg zu sein. Mit Ruby, Sinatra und Nesta bin ich dem Ziel ein großes Stück näher gekommen.

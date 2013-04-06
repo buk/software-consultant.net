@@ -5,5 +5,5 @@
   ~ @page.to_html(self)
   = haml :page_meta, :layout => false, :locals => { :page => @page }
 
-= haml :comments, :layout => false
+= haml(:comments, :layout => false) if @page.date
 

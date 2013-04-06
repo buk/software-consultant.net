@@ -32,7 +32,7 @@ module SWC
             roles: begin
               h = Hash.new(0)
               projects.each do |p|
-                p.metadata('roles').split(',').each{|role| h[role.strip] += 1}
+                p.roles.each{|role| h[role.strip] += 1}
               end
               h
             end,
