@@ -1,0 +1,54 @@
+Title: Christian Aust, freier Berater für Internet-Software
+Keywords: christian aust, internet, software berater, software consultant, internet software
+Description: Christian Aust, Software Berater. Ich berate und entwickle Software für das Internet.
+Template: start
+Link text: Start
+
+.row
+  .column
+    %hgroup.standout
+      %h1 Christian Aust, Software Berater
+      %h2 Ich berate und entwickle Software für das Internet.
+
+.row
+  .large-6.columns
+    %h3.subheader Über mich
+    :markdown
+      Ich habe mich auf *Internettechnologie* spezialisiert und arbeite als *freier Softwareberater* projektbezogen für meine Kunden, zu denen Unternehmen, Vereine und Einzelunternehmer zählen. Ich biete Planung, Realisierung und Betrieb von Web-Anwendungen. Weitere Schwerpunkte sind *Datenschutz* und *Wissensmanagement*. [Mehr über mich](/christian-aust)
+
+  .large-3.columns
+    %h3.subheader Verfügbarkeit
+    %p
+      Derzeit bin ich zu etwa #{(availability[:free]*100).to_i} Prozent für weitere Aufgaben verfügbar.
+      Voraussichtlich ab
+      %strong= l(availability[:next_full], format: :month_and_year)
+      kann ich meine gesamte Zeit für Ihr Projekt einsetzen.
+
+  .large-3.columns
+    = haml :contact
+
+.row.hide-for-small
+  .column
+    %img.scale{ src:image_path('schreibtisch.jpg'), alt:'Schreibtisch von Christian Aust, Software Consultant', width:1000, height:200 }
+
+.row
+  - %w{ /software-consulting /programmierung /projekte }.each do |url|
+    - page = ::Nesta::Page.find_by_path(url)
+    .large-3.columns
+      %h4.subheader= page.title
+      %p= page.metadata('Description')
+      %a{ href:page.path } Mehr zu #{page.title}
+
+  .large-3.columns
+    %h4.subheader Für Projektvermittler
+    %p
+      Verfügbarkeit, Profil und anderes Wissenswertes finden Sie
+      %a{ href:url('/recruiter') } auf dieser Seite
+
+    %h4.subheader Blog-Artikel
+    %ul.square
+      - latest_articles(4).each do |article|
+        %li
+          %a{ href:url(article.abspath) }= article.heading
+
+

@@ -1,0 +1,15 @@
+- if page.date
+  %footer
+    %ul.inline-list.muted.small
+      %li
+        %i.icon-user
+        %a{ href:url('/christian-aust'), rel:'author' }= page.author['name']
+      - if page.date
+        %li
+          %i.icon-calendar
+          %time{ datetime:page.date.to_s, pubdate:true}= l(page.date.to_date)
+      - unless page.categories.empty?
+        %li
+          %i.icon-folder-open
+          = page.categories.map{|category| "<a href='#{url(category.abspath)}'>#{category.link_text}</a>" }.join(', ')
+

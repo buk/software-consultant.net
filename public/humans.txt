@@ -1,0 +1,21 @@
+Author: Christian Aust
+Contact: humans.txt [at] kontakt.software-consultant.net
+Twitter: datenimperator
+From: Lohmar, Germany
+
+/* THANKS */
+
+ZURB, for a fantastic framework
+http://www.zurb.com/
+Twitter: ZURB
+
+Font Awesome by Dave Gandy
+http://fortawesome.github.com/Font-Awesome
+Twitter: fortaweso_me
+
+Sinatra, the Ruby Web DSL
+http://www.sinatrarb.com/
+
+Nesta CMS
+http://nestacms.com/
+Twitter: nestacms

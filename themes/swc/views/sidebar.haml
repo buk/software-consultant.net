@@ -1,0 +1,11 @@
+- top = ::Nesta::Page.find_by_path(@page.path.split('/').first)
+- unless top.nil?
+  - unless top.subpages.empty?
+    %nav#pages
+      %h3.subheader Im Detail
+      - display_menu(top.subpages, :class => "side-nav")
+
+  - unless top.articles.empty?
+    %nav#categories
+      %h3.subheader Mehr zum Thema
+      - display_menu(top.articles, :class => "side-nav")

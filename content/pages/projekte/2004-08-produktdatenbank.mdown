@@ -1,0 +1,14 @@
+Template: project
+Customer: Medienagentur
+Keywords: projekt, Java, J2EE, Hibernate, HTML, CSS, Javascript, Oracle, MySQL, Struts, Velocity, Tomcat, Berater, Entwickler
+Description: Planung, Aufbau und Inbetriebnahme eines Produkt-Planungssystems, mit dem mehrere Dutzend
+Tools: Java, J2EE, Hibernate, HTML, CSS, Javascript, Oracle, MySQL, Struts, Velocity, Tomcat
+Roles: Berater, Entwickler
+Start: 08.2004
+End: 08.2004
+
+# Produktdatenbank
+
+Planung, Aufbau und Inbetriebnahme eines Produkt-Planungssystems, mit dem mehrere Dutzend individueller Webanwendungen eines Telekommunikationskonzerns mit Produktdaten versorgt werden. Die Herausforderung bestand darin, die Vielfalt der Produkte in einem Datenmodell abzubilden. Meine Lösung war weitgehend unverändert mehr als 5 Jahre lang in Betrieb.
+
+

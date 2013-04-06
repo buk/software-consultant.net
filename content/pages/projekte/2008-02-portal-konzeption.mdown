@@ -1,0 +1,14 @@
+Template: project
+Customer: Telekommunikation
+Keywords: projekt, Webservices, SOA, UML, XML, OOD, Office, Berater
+Description: Ein Telekommunikationskonzern plante die Integration verschiedener Produktionsprozesse in eine gemeinsame
+Tools: Webservices, SOA, UML, XML, OOD, Office
+Roles: Berater
+Start: 02.2008
+End: 02.2008
+
+# Portal-Konzeption
+
+Ein Telekommunikationskonzern plante die Integration verschiedener Produktionsprozesse in eine gemeinsame IT-Landschaft. Meine Aufgabe war die Modellierung von Service-Schnittstellen anhand von Fachkonzepten.
+
+

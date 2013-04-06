@@ -1,0 +1,14 @@
+Template: project
+Customer: Medienagentur
+Keywords: projekt, Ruby, Ruby on rails, Shell scripting, HTML, CSS, HAML, Sass, ExtJS, Javascript, Subversion, Architekt, Entwickler
+Description: Entwicklung eines Mehrbenutzer-Portals, mit dem individuelle Präsentationen geplant werden. Die
+Tools: Ruby, Ruby on rails, Shell scripting, HTML, CSS, HAML, Sass, ExtJS, Javascript, Subversion
+Roles: Architekt, Entwickler
+Start: 09.2009
+End: 09.2009
+
+# Präsentationsgenerator
+
+Entwicklung eines Mehrbenutzer-Portals, mit dem individuelle Präsentationen geplant werden. Die Präsentationen werden zur Verkaufsunterstützung im Salesbereich (POS) eingesetzt und können automatisiert ablaufen, jedoch personalisierte Inhalte haben.
+
+

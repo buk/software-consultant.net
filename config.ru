@@ -1,16 +1,46 @@
+require 'rubygems'
 require 'bundler/setup'
 
-require 'rack/cache'
-require 'http_accept_language'
-require './swc'
+Bundler.require(:default, (ENV["RACK_ENV"] || "development").to_sym)
 
-use HttpAcceptLanguage::Middleware
-use Rack::Cache, verbose: false
+# The project root directory
+require 'nesta/env'
+Nesta::Env.root = ::File.dirname(__FILE__)
 
-map Swc.assets_prefix do
-  run Swc.assets
+# Load in our Nesta configs
+nesta_config = YAML::load(File.open( File.join(Nesta::Env.root, 'config', 'config.yml')))
+nesta_theme = nesta_config['theme']
+nesta_content = nesta_config['content']
+
+if ENV['RACK_ENV'] == 'production'
+  use Rack::ConditionalGet
+  use Rack::ETag
+  use Rack::Cache
+else
+  # Nice looking errors
+  use Rack::ShowExceptions
 end
 
-map '/' do
-  run Swc
+map Sprockets::Helpers.prefix do
+  environment = Sprockets::Environment.new(Nesta::Env.root) do |env|
+    env.append_path File.join(Nesta::Env.root, nesta_content, 'attachments')
+    %w{javascripts stylesheets images fonts}.each do |type|
+      env.append_path File.join(Nesta::Env.root, nesta_content, 'assets', type)
+      env.append_path File.join(Nesta::Env.root, 'themes', nesta_theme, 'assets', type)
+    end
+
+    # Add zurb-foundation asset paths
+    gem_root = Gem.loaded_specs['zurb-foundation'].full_gem_path
+    env.append_path File.join(gem_root, 'js')
+
+    Sprockets::Helpers.configure do |config|
+      config.environment = env
+    end
+  end
+  run environment
+end
+
+map "/" do
+  require 'nesta/app'
+  run Nesta::App
 end

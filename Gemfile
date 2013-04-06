@@ -1,30 +1,30 @@
 source 'https://rubygems.org'
 
-gem 'shotgun', :group=>:development
-gem 'capistrano', :group=>:development
-gem 'rvm-capistrano', :group=>:development
-# gem 'therubyracer', :group=>:development
+# gem 'nesta', path:'../nesta'
+gem 'nesta', git:'git://github.com/datenimperator/nesta.git'
+# gem 'nesta', '~> 0.9.13'
+
+group :development do
+  gem 'mr-sparkle'
+  gem 'rake'
+  gem 'capistrano'
+  gem 'rvm-capistrano'
+end
+
+gem 'i18n'
+gem 'sinatra-support'
+gem 'sinatra-contrib'
 
 gem 'rack-cache'
-gem 'i18n'
-gem 'sinatra', :require => 'sinatra/base'
-gem 'sinatra-support'
-
 gem 'haml'
-
-gem 'sprockets'
-gem 'sprockets-helpers'
-gem 'sprockets-sass'
+gem 'haml-coderay'
 
 gem 'compass'
-gem 'bootstrap-sass'
+gem 'zurb-foundation'
+gem 'sprockets-sass'
+gem 'sprockets-helpers'
 gem 'coffee-script'
-gem 'http_accept_language', "~>2.0.0.beta"
-gem 'will_paginate'
-gem 'rtf'
 
-# this is already a dependency of compass but since I'll be using it explicitly
-# I should add it to the Gemfile, too
-gem 'chunky_png'
+gem 'activesupport'
 
-gem 'uglifier'
+# gem (RUBY_VERSION =~ /^1.9/) ? 'ruby-debug19': 'ruby-debug'

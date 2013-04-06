@@ -1,0 +1,60 @@
+#contact.reveal-modal
+  .row
+    .column
+      %h3 Kontakt
+
+      %p Haben Sie eine Frage, beschäftigt Sie eine Idee? Zögern Sie nicht, mich zu kontaktieren, ich freue mich über ihre Nachricht!
+
+  .row
+    .large-3.columns
+      %h4.subheader Anschrift
+      %address.vcard
+        %p.fn Christian Aust
+        %p.organization-name software-consultant.net
+        %p.address
+          %span.street-address Auelsweg 22<br>
+          %span.postal-code 53797
+          %span.city Lohmar<br>
+
+    .large-3.columns
+      %h4.subheader Social media
+      %ul.icons
+        %li
+          %i.icon-google-plus
+          = ext_link_to 'Google+', 'https://plus.google.com/101164729259418948334'
+        %li
+          %i.icon-twitter
+          = ext_link_to 'Twitter', 'https://twitter.com/datenimperator'
+        %li
+          %i.icon-linkedin
+          = ext_link_to 'linkedIn', 'http://de.linkedin.com/in/christianaust/de'
+        %li
+          %i.icon-star
+          = ext_link_to 'xing.com', 'https://www.xing.com/profile/Christian_Aust10'
+
+    .large-3.columns
+      %h4.subheader Persönlich
+      %ul.icons
+        %li
+          %i.icon-phone
+          tel:
+          %a.tel{ href:'tel:+492246208343'} 02246 208343
+        %li
+          %i.icon-phone
+          skype: datenimperator
+        %li
+          %i.icon-edit
+          info@software-consultant.net
+
+    .large-3.columns
+      %h4.subheader Profile
+      %ul.icons
+        %li
+          %i.icon-github-alt
+          = ext_link_to 'Github', 'https://github.com/datenimperator/'
+        %li
+          %i.icon-star
+          = ext_link_to 'freelance.de', 'https://www.freelance.de/Freiberufler/Christian_Aust'
+        %li
+          %i.icon-star
+          = ext_link_to 'freelancermap.de', 'http://www.freelancermap.de/profil/ChristianAust3/1'

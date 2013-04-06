@@ -1,0 +1,14 @@
+Template: project
+Customer: Medienagentur
+Keywords: projekt, Windows, Delphi 3, Entwickler
+Description: Implementierung eines datenbank-gestützten Kataloges auf CD-ROM für einen Unternehmensverband.
+Tools: Windows, Delphi 3
+Roles: Entwickler
+Start: 01.1997
+End: 01.1997
+
+# Multimedia-Datenbank
+
+Implementierung eines datenbank-gestützten Kataloges auf CD-ROM für einen Unternehmensverband.
+
+

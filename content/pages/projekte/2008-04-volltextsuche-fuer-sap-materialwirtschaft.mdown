@@ -1,0 +1,14 @@
+Template: project
+Customer: Energiewirtschaft
+Keywords: projekt, SAP, RFC, Java, JCO, J2EE, Lucene, HTML, CSS, Javascript, AIX, Subversion, NWDI, Berater, Entwickler
+Description: Implementierung einer performanten und komfortablen Suchfunktion für SAP MM (Materialwirtschaft).
+Tools: SAP, RFC, Java, JCO, J2EE, Lucene, HTML, CSS, Javascript, AIX, Subversion, NWDI
+Roles: Berater, Entwickler
+Start: 04.2008
+End: 04.2008
+
+# Volltextsuche für SAP Materialwirtschaft
+
+Implementierung einer performanten und komfortablen Suchfunktion für SAP MM (Materialwirtschaft). Der Kunde verwaltet einen umfangreichen Materialbestand in SAP (etwa 2,5 Millionen Einträge). Die von mir entworfene Suchmaschine auf der Basis von Lucene erfasst alle Attribute der Materialien, zusätzlich Datenblätter und weitere Quellen und vereint diese in einem gemeinsamen Index. Über eine F4-Wertehilfe ist die Lösung vollkommen transparent in SAP integriert.
+
+

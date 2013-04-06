@@ -1,0 +1,66 @@
+Link text: Für Projektvermittler
+Description:
+Icon: group
+
+%h1 Für Projekt-Vermittler
+
+.panel.radius.standout
+  %i.icon-calendar.icon-huge
+  %p
+    - case (availability[:free]*100).to_i
+      - when 0..30
+        Ich bin ab <strong>#{l(availability[:next_full], format: :month_and_year)}</strong>  wieder komplett verfügbar.
+      - when 30..70
+        Ich bin aktuell <strong>eingeschränkt</strong> (zu weniger als 70%) und ab <strong>#{l(availability[:next_full], format: :month_and_year)}</strong>  wieder komplett verfügbar.
+      - else
+        Ich bin aktuell verfügbar.
+        %a{ href:'#', data:{ 'reveal-id' => 'contact' } } Rufen Sie gleich an: 02246-208343
+
+
+.panel.radius.standout
+  %i.icon-briefcase.icon-huge
+  %p
+    Mein Profil können Sie hier
+    %a{ href:asset_path('profil.pdf') } als PDF
+    herunterladen.
+
+%p.muted.small Zuletzt aktualisiert am #{l(availability[:valid_from], format: :short)}
+
+.row
+  .large-4.columns
+    %h3.subheader Inhalte
+    :markdown
+      Ich bin *Generalist* und verfüge über *breites Fachwissen*. Ihr Kunde profitiert, wenn ich diese Fähigkeiten im Projekt einsetzen kann. Daher suche ich *attraktive* Projekte für mich aus, die mein Portfolio bereichern. Dazu gehören:
+
+      * Neue Methoden, innovative Technologien
+      * Saubere Projektdefinition, klare Verantwortlichkeit
+      * Ungewöhnliche Themen, neue Produktideen
+
+      Ihre Anfrage erscheint mir hingegen unattraktiv, wenn
+
+      * obsolete Produkte eingesetzt werden müssen
+      * Anfang und Ende nicht präzise definiert sind
+      * die gleiche Tätigkeit üblicherweise von Festangestellten Mitarbeitern ausgeführt wird
+
+  .large-4.columns
+    %h3.subheader Ort &amp; Zeit
+    :markdown
+      Ich arbeite vorwiegend *remote* für meine Kunden. Vor-Ort-Einsätze sind möglich, jedoch nur für kurze Zeit bzw. für wenige Tage pro Monat. Dabei berechne ich die anfallenden Reisekosten stets separat und transparent.
+
+      Bis zu drei Tage sind vor-Ort-Einsätze deutschlandweit möglich. Ansonsten stehe ich ihren Kunden im Gebiet *Köln/Bonn*, *Frankfurt/M.* und *Karlsruhe* zur Verfügung.
+
+      Ein Arbeitstag hat 8 Stunden, das schließt Reisezeit für gewöhnlich ein. Wenn ich gezwungen bin, am Vortag an- oder am nächsten Tag abzureisen, stelle ich Ihnen diese Reisekosten in Rechnung. *Vorstellungsgespräche* finden ausschließlich nach vorherigem Telefoninterview statt.
+
+  .large-4.columns
+    %h3.subheader Vertragliches
+    :markdown
+      Ich akzeptiere keine Kettengeschäfte. Ein solches liegt dann vor, wenn sie meine Leistung nicht direkt dem Endkunden in Rechnung stellen, sondern einer weiteren vermittelnden Partei.
+
+      Meine Rechnungen werden nach 14-30 Tagen zur Zahlung fällig. Skonto gewähre ich nicht. Ich nehme keine Beauftragungen an, denen eine oder mehrere der folgenden Klauseln zugrunde liegen:
+
+      * Kundenschutz länger als 12 Monaten ab Projektende
+      * Kundenschutz für mehr als die ursprünglich beauftragende Organisationseinheit
+      * Abwälzung des Zahlungsausfallrisikos auf mich
+      * Abwälzung des Abnahmerisikos auf mich
+      * Abwälzung der Risiken von Krankheit etc. auf mich
+

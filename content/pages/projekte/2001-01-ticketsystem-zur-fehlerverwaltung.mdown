@@ -1,0 +1,14 @@
+Template: project
+Customer: Unternehmensberatung
+Keywords: projekt, Mac OSX, Java, HTML, CSS, SQL, XML, Apache, Tomcat, Berater, Entwickler
+Description: Intranet System für Fehlerverwaltung und -behandlung in Softwareprojekten
+Tools: Mac OSX, Java, HTML, CSS, SQL, XML, Apache, Tomcat
+Roles: Berater, Entwickler
+Start: 01.2001
+End: 01.2001
+
+# Ticketsystem zur Fehlerverwaltung
+
+Intranet System für Fehlerverwaltung und -behandlung in Softwareprojekten
+
+

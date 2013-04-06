@@ -1,0 +1,14 @@
+Template: project
+Customer: Telekommunikation
+Keywords: projekt, SOA, UML, OOD, Microsoft Office, Berater
+Description: Aufwandsabschätzung einer Integration verschiedener Portale und Webanwendungen einer Telekommunikationskunden mit
+Tools: SOA, UML, OOD, Microsoft Office
+Roles: Berater
+Start: 04.2009
+End: 04.2009
+
+# Aufwandsabschätzung SOA-Implementation
+
+Aufwandsabschätzung einer Integration verschiedener Portale und Webanwendungen einer Telekommunikationskunden mit abschließender Machbarkeitsbewertung.
+
+

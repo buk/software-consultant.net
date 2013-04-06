@@ -1,0 +1,14 @@
+Template: project
+Customer: Verpackungshersteller
+Keywords: projekt, SAP, SAP Enterprise Portal 5, Java, J2EE, Berater, Entwickler
+Description: Erstellung von javabasierten Portalanwendungen für personalwirtschaftliche Prozesse mit SAP HCM.
+Tools: SAP, SAP Enterprise Portal 5, Java, J2EE
+Roles: Berater, Entwickler
+Start: 05.2002
+End: 05.2002
+
+# Implementierung Karriereportal
+
+Erstellung von javabasierten Portalanwendungen für personalwirtschaftliche Prozesse mit SAP HCM.
+
+

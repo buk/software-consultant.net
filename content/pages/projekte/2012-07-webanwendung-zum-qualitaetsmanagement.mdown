@@ -1,0 +1,14 @@
+Template: project
+Customer: Webagentur
+Keywords: projekt, Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, rSpec, git, PostgreSQL, Entwickler
+Description: Für eine renommierte Webagentur verwende ich testgetriebene Entwicklungsmethoden, um eine
+Tools: Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, rSpec, git, PostgreSQL
+Roles: Entwickler
+Start: 07.2012
+End: 07.2012
+
+# Webanwendung zum Qualitätsmanagement
+
+Für eine renommierte Webagentur verwende ich testgetriebene Entwicklungsmethoden, um eine komplexe Schnittstelle zum Datenimport mit einer leicht zu nutzenden Oberfläche zu kombinieren. Die Software liefert Kennzahlen zum Qualitätsmanagement des Endkunden, dazu werden umfangreiche Daten aus Support- und anderen Datenbanken untersucht und aggregiert.
+
+

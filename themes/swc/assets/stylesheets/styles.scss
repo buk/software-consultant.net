@@ -1,0 +1,165 @@
+@import "normalize";
+@import "settings";
+@import "foundation";
+@import "compass/css3";
+
+header.primary {
+  @include box-shadow(rgba(black, 0.4) 0 0 10px);
+  margin-bottom: emCalc(24px);
+  background-color: #fff;
+}
+
+#top {
+  a {
+    display: block;
+    padding-top: emCalc(24px);
+    padding-bottom: emCalc(24px);
+  }
+}
+
+#projects {
+  .year {
+    font-weight: bold;
+    margin-bottom: 2em;
+    ul li {
+      font-weight: $body-font-weight;
+    }
+  }
+}
+
+hgroup {
+  &.standout {
+    margin: 2em 0;
+  }
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h2 {
+    font-family: $body-font-family;
+    font-weight: bold;
+    font-size: emCalc($em-base);
+  }
+  margin-bottom: emCalc(24px);
+}
+
+.top-bar-section ul li > a {
+  text-transform: uppercase;
+}
+
+a {
+  i {
+    position: relative;
+    top: emCalc(-2px);
+  }
+}
+
+.standout {
+  position: relative;
+  i {
+    display: block;
+    float: left;
+    margin-right: 16px;
+  }
+  p {
+    margin-left: 80px;
+  }
+  .icon-huge {
+    font-size: emCalc(48px);
+    position: relative;
+    top: -0.3em;
+  }
+}
+
+.summary {
+  h1 {
+    font-size: emCalc(18px);
+  }
+}
+
+.vcard {
+  p { margin-bottom: 0 }
+  border: none;
+}
+
+.muted {
+  color: #a0a0a0;
+}
+
+.small {
+  font-size: emCalc(12px);
+}
+
+article {
+  margin-bottom: 3em;
+
+  footer {
+    border-top: 1px solid #ddd;
+    padding-top: 0.5em;
+  }
+}
+
+figure {
+  margin-bottom: 20px;
+  &.right {
+    margin-left: 40px;
+  }
+  &.left {
+    margin-right: 40px;
+  }
+  img {
+    margin: 0.75em auto;
+  }
+  figcaption {
+    clear: left;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 0.83em;
+    font-variant: italic;
+  }
+}
+
+.columns, .column {
+  img, object, embed {
+    &.scale {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+img {
+  // Add polaroid-esque trim
+  &.polaroid {
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.2);
+    @include box-shadow(0 1px 3px rgba(0,0,0,.1));
+  }
+}
+
+blockquote {
+  border-left: none;
+  cite {
+    text-align: right;
+  }
+}
+
+ul {
+  list-style-type: square;
+}
+
+.chart-container {
+  border: 1px solid #ccc;
+  padding: emCalc(24px);
+
+  .caption {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .chart {
+    height: 250px;
+  }
+}

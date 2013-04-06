@@ -1,0 +1,14 @@
+Template: project
+Customer: Rundfunk
+Keywords: projekt, Microsoft Office, Microsoft Visio, Access, Interviews, Berater
+Description: Ich begleite den Relaunch eines Portals mehrerer Sparten eines öffentlich-rechtlichen
+Tools: Microsoft Office, Microsoft Visio, Access, Interviews
+Roles: Berater
+Start: 08.2010
+End: 08.2010
+
+# Feinkonzept Website-Relaunch
+
+Ich begleite den Relaunch eines Portals mehrerer Sparten eines öffentlich-rechtlichen Auftraggebers als Berater. Eine Vielzahl von Informationsangeboten soll in einem einheitlichen Erscheinungsbild präsentiert und betrieben werden. Zu meinen Aufgaben gehört die Abstimmung unterschiedlicher Abteilungen, die Moderation der Entscheidungsfindung und die Präsentation von Ergebnissen.
+
+

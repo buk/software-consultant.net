@@ -1,0 +1,13 @@
+Template: simple
+Link text: Über mich
+Icon: user
+
+# Christian Aust, Software Consultant
+
+Ich bin Internet-begeistert seit 1993, als mir an der Universität auf einem grünlich schimmernden Bildschirm das FTP-Prompt eines Servers aus den USA entgegenleuchtete. *Amerika! Per Computer!* Das WWW war noch jung, FTP, Gopher und Telnet prägten die Nutzung. Plötzlich konnte man Informationen nicht nur laden, sondern auch veröffentlichen. "So fühlt sich also Revolution an", dachte ich damals.
+
+Mein Studium der Elektrotechnik gab ich zugunsten einer mehr berufsorientierten Ausbildung auf. In der Folge vertiefte ich als *mathematisch-technischer Assistent* an der RWTH Aachen die nötigen Grundlagen aus Mathematik und Informatik. Mein erstes `hello world` liess als Webanwendung nur kurz auf sich warten, bald danach begann ich, als Freelancer mit den damals erscheinenen ersten Online-Agenturen zu arbeiten.
+
+Heute blicke ich auf 20 Jahre Berufserfahrung im Bereich der Softwareentwicklung zurück. Techniken kamen und gingen, die Methoden haben sich hingegen ständig weiter entwickelt. Heute arbeiten wir effizienter und liefern besser vorhersehbare Qualität. Das WWW entwickelt sich von einer Publikationsplattform, als die es in den ersten 15 Jahren verstanden wurde, zu einem Resourcenorientierten *Netz des Wissens*, und das ist unglaublich spannend. Ich bin schon ein wenig stolz darauf, ein kleiner Teil dieser Entwicklung sein zu dürfen.
+
+Ich bin Jahrgang 1973 und lebe mit Familie und Hund im Rheinland in der Nähe von Köln und Bonn.

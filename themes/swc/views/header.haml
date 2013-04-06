@@ -1,0 +1,22 @@
+%header.primary
+  .row
+    #top.column
+      %a{ href:url('/'), title:'Startseite' }
+        %img{ src:image_path('swc.png'), alt:'Logo von Christian Aust, Software Consultant' }
+  .contain-to-grid
+    %nav.top-bar
+      %ul.title-area
+        %li.name
+          %h1.hide-for-medium-up
+            %a{ href:'#' }
+              Christian Aust
+        %li.toggle-topbar.menu-icon
+          %a{ href:'#' }
+            %span Menu
+      %section.top-bar-section
+        %ul.left.antialiased
+          = menu_for ::Nesta::Menu.top_level
+        - if r = ::Nesta::Page.find_by_path('recruiter')
+          %ul.right.antialiased
+            %li.divider
+            = menu_for r

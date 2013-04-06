@@ -1,0 +1,35 @@
+// Color settings
+$blue: #43b3ff;
+$blueDark: #003c65;
+$red:  #e2002b;
+$yellow: #fec327;
+$yellowDark: #fcaf00;
+
+// We use these to control various global styles
+$body-bg: #fff;
+$body-font-color: #222;
+$body-font-family: Lato, sans-serif;
+$body-font-weight: 300;
+
+$header-font-family: Lato, sans-serif;
+$header-font-weight: 400;
+
+// We use these as default colors throughout
+$primary-color: $red;
+$secondary-color: $blueDark;
+$alert-color: #c60f13;
+$success-color: #5da423;
+
+//
+// Top Bar Variables
+//
+
+$topbar-bg: $red;
+$topbar-margin-bottom: 0;
+$topbar-link-weight: 700;
+$topbar-dropdown-bg: darken($red, 20%);
+
+$microformat-margin: 0;
+$microformat-padding: 0;
+
+$inline-list-children-display: inline-block;

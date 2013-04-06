@@ -1,0 +1,14 @@
+Template: project
+Customer: Verlag
+Keywords: projekt, Ruby, Ruby on Rails, Radiant CMS, Javascript, jQuery, HTML, CSS, HAML, Berechtigungssteuerung, Subversion, Berater, Entwickler
+Description: Erstellung eines themenspezifischen Content-Portals, mit dem größtmögliche Attraktivität für Suchmaschinen
+Tools: Ruby, Ruby on Rails, Radiant CMS, Javascript, jQuery, HTML, CSS, HAML, Berechtigungssteuerung, Subversion
+Roles: Berater, Entwickler
+Start: 02.2010
+End: 02.2010
+
+# Branchenportal (SEO)
+
+Erstellung eines themenspezifischen Content-Portals, mit dem größtmögliche Attraktivität für Suchmaschinen erreicht werden soll. Gleichzeitig soll der im Hinblick auf die redaktionelle Arbeit zu leistende Aufwand minimiert werden.
+
+

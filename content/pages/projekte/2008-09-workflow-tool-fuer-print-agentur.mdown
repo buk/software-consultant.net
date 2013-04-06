@@ -1,0 +1,14 @@
+Template: project
+Customer: Medienagentur
+Keywords: projekt, PHP, PEAR, ExtJS, Javascript, HTML, CSS, Subversion, Berater, Entwickler
+Description: Implementation einer Onlinesoftware zur Projektsteuerung für eine Medienagentur in der
+Tools: PHP, PEAR, ExtJS, Javascript, HTML, CSS, Subversion
+Roles: Berater, Entwickler
+Start: 09.2008
+End: 09.2008
+
+# Workflow-Tool für Print-Agentur
+
+Implementation einer Onlinesoftware zur Projektsteuerung für eine Medienagentur in der Printbranche. Mithilfe der Software wird der komplexe Erstellungs- und Freigabeprozess von Katalogen mit vielen hundert Seiten maßgeblich vereinfacht.
+
+

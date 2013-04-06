@@ -1,0 +1,6 @@
+Link text: Blog
+Icon: comment
+
+%h1= @page.link_text
+
+= haml :summaries, :layout => false, :locals => { :pages => latest_articles(4) }

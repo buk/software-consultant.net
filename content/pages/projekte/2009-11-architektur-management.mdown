@@ -1,0 +1,14 @@
+Template: project
+Customer: Energiewirtschaft
+Keywords: projekt, MS Office, Visio, Umfragen, Berater
+Description: Der IT Dienstleister eines großen Energieunternehmens möchte die strategische Architekturplanung
+Tools: MS Office, Visio, Umfragen
+Roles: Berater
+Start: 11.2009
+End: 11.2009
+
+# Architektur-Management
+
+Der IT Dienstleister eines großen Energieunternehmens möchte die strategische Architekturplanung der eingesetzten Applikationen und Systeme verbessern. Meine Aufgabe ist die Inventarisierung und Katalogisierung vorhandener Assets, die Erarbeitung funktionaler und organisatorischer Übersichtskarten und die Vorbereitung von Präsentationsmaterial als Entscheidungsgrundlage.
+
+

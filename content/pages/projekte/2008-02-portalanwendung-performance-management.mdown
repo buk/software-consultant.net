@@ -1,0 +1,14 @@
+Template: project
+Customer: Pharma
+Keywords: projekt, SAP, SAP Enterprise Portal, Java, SOA, XML, Webservices, HTML, CSS, Javascript, Entwickler
+Description: Design und Implementierung eines benutzerfreundlichen Frontends für personalwirtschaftliche Prozesse. Der
+Tools: SAP, SAP Enterprise Portal, Java, SOA, XML, Webservices, HTML, CSS, Javascript
+Roles: Entwickler
+Start: 02.2008
+End: 02.2008
+
+# Portalanwendung Performance-Management
+
+Design und Implementierung eines benutzerfreundlichen Frontends für personalwirtschaftliche Prozesse. Der Kunde benötigte eine webbasierte und ci-konforme Lösung für die Mitarbeiterbewertung von 65.000 Mitarbeitern weltweit. Unsere Lösung setzte auf eine (zur damaligen Zeit) extrem innovative dynamische Architektur, bei der Daten via Javascript und AJAX zwischen Frontend und Backend ausgetauscht wurden.
+
+

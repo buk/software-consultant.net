@@ -1,0 +1,14 @@
+Template: project
+Customer: Unternehmensberatung
+Keywords: projekt, SAP BI, RFC, SOAP, Ruby, Ruby on Rails, HAML, Sass, HTML, CSS, Javascript, jQuery, Apache, Proxy, Zertifikate, VPN, MySQL, Subversion, Berater, Entwickler
+Description: Im Auftrag eines SAP-Spezialisten entwerfe und betreibe ich ein benutzerfreundliches
+Tools: SAP BI, RFC, SOAP, Ruby, Ruby on Rails, HAML, Sass, HTML, CSS, Javascript, jQuery, Apache, Proxy, Zertifikate, VPN, MySQL, Subversion
+Roles: Berater, Entwickler
+Start: 11.2010
+End: 11.2010
+
+# Produktentwicklung RaaS/SAP BI
+
+Im Auftrag eines SAP-Spezialisten entwerfe und betreibe ich ein benutzerfreundliches Frontend für SAP BI-basierte Dienste meines Kunden. Zahlreiche Schnittstellenthemen sowie die Sicherheit der sensiblen Kundendaten prägen das Projekt auf Basis von Ruby on Rails. Ich leite die Implementierung und bin für Auswahl und Einsatz weiterer externer Entwickler verantwortlich. In Zusammenarbeit mit dem Auftraggeber erstelle ich Pflichtenhefte und Konzepte sowie Aufwandsschätzungen und Zeitplanungen.
+
+

@@ -1,0 +1,14 @@
+Template: project
+Customer: Verwaltung
+Keywords: projekt, Java, Ant, JCoverage, div. Tools, Berater, Entwickler
+Description: Erstellung einer ständigen Qualitätsanalyse für eine sehr umfangreiche Java-Software (mehr
+Tools: Java, Ant, JCoverage, div. Tools
+Roles: Berater, Entwickler
+Start: 10.2003
+End: 10.2003
+
+# Messplatz für Software-Qualität
+
+Erstellung einer ständigen Qualitätsanalyse für eine sehr umfangreiche Java-Software (mehr als 25.000 Java-Klassen).
+
+

@@ -1,0 +1,14 @@
+Template: project
+Customer: Medienagentur
+Keywords: projekt, Perl, CGI, HTML, Entwickler
+Description: Implementierung des ersten Verkaufsportales für Versicherungen im deutschen Internet. Meine
+Tools: Perl, CGI, HTML
+Roles: Entwickler
+Start: 01.1996
+End: 01.1996
+
+# Versicherungsportal
+
+Implementierung des ersten Verkaufsportales für Versicherungen im deutschen Internet. Meine Aufgabe war die Umsetzung von Versicherungsdetails in online-Beratungsfunktionen und die Anbindung an die Vertragsübergabe. Das war das erste Mal, dass eine deutsche Versicherung Verträge direkt online erstellt und vorbereitet hat.
+
+

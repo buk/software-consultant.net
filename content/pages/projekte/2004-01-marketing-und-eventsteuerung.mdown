@@ -1,0 +1,14 @@
+Template: project
+Customer: Medienagentur
+Keywords: projekt, Java, J2EE, Hibernate, HTML, CSS, Javascript, Oracle, MySQL, Struts, Velocity, Tomcat, Entwickler
+Description: Pflege einer bestehenden Webanwendung, über die die deutschen Marketingaktivitäten einer
+Tools: Java, J2EE, Hibernate, HTML, CSS, Javascript, Oracle, MySQL, Struts, Velocity, Tomcat
+Roles: Entwickler
+Start: 01.2004
+End: 01.2004
+
+# Marketing- und  Eventsteuerung
+
+Pflege einer bestehenden Webanwendung, über die die deutschen Marketingaktivitäten einer internationalen Großbank zentralisiert werden.
+
+

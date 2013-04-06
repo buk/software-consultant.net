@@ -1,0 +1,14 @@
+Template: project
+Customer: Medienagentur
+Keywords: projekt, Windows, Delphi 3, Interbase 5, Entwickler
+Description: Abbildung von Funktionen zu Projektmanagement, Dokumentenmanagement, Groupwaresystem, Workflow services. Die
+Tools: Windows, Delphi 3, Interbase 5
+Roles: Entwickler
+Start: 07.1998
+End: 07.1998
+
+# Branchensoftware für Verpackungsindustrie
+
+Abbildung von Funktionen zu Projektmanagement, Dokumentenmanagement, Groupwaresystem, Workflow services. Die Windows-basierte Software verband verschiedene Partner während der Prozesses der Verpackungserstellung: Redaktion und Gestaltung, Textkontrolle, Satz, Lithografie uznd Druck. Als Freigabemedium wurde PDF eingesetzt.
+
+

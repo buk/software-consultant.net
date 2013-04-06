@@ -1,0 +1,14 @@
+Template: project
+Customer: OEM
+Keywords: projekt, Windows, Debugger, Ethernet-Analyse, ODBC, Microsoft Office, Berater
+Description: Untersuchung einer kundenindividuellen BDE-Software auf mögliche datenschutzrechtliche Schwachstellen durch penetration
+Tools: Windows, Debugger, Ethernet-Analyse, ODBC, Microsoft Office
+Roles: Berater
+Start: 12.2008
+End: 12.2008
+
+# Security Audit
+
+Untersuchung einer kundenindividuellen BDE-Software auf mögliche datenschutzrechtliche Schwachstellen durch penetration tests, fuzzing und black box Analysen. Erstellung eines Abschlußberichtes als Grundlage einer Vorstandsentscheidung.
+
+

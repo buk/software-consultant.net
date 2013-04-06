@@ -1,0 +1,14 @@
+Template: project
+Customer: Chemie
+Keywords: projekt, SAP, Java, J2EE, JCO, HTML, CSS, Javascript, Eclipse, Subversion, Entwickler
+Description: Integration einer Webanwendung mit ESS-Funktionen in eine SAP HCM Umgebung.
+Tools: SAP, Java, J2EE, JCO, HTML, CSS, Javascript, Eclipse, Subversion
+Roles: Entwickler
+Start: 05.2009
+End: 05.2009
+
+# SAP HCM Integration
+
+Integration einer Webanwendung mit ESS-Funktionen in eine SAP HCM Umgebung.
+
+

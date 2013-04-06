@@ -1,0 +1,14 @@
+Template: project
+Customer: Medienagentur
+Keywords: projekt, SUN Solaris, WebObjects, Oracle, Java, J2EE, HTML, EJB, Berater, Entwickler
+Description: Review eines webbasierten Wissensportals für Unternehmen, Linksammlung auf der Basis
+Tools: SUN Solaris, WebObjects, Oracle, Java, J2EE, HTML, EJB
+Roles: Berater, Entwickler
+Start: 07.2001
+End: 07.2001
+
+# Knowledge Management
+
+Review eines webbasierten Wissensportals für Unternehmen, Linksammlung auf der Basis von Apple WebObjects.
+
+

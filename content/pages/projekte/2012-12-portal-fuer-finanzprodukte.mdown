@@ -1,0 +1,14 @@
+Template: project
+Customer: Finanzunternehmen
+Keywords: projekt, Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, coffescript, Elasticsearch, rSpec, git, MySQL, memcache, Berater, Entwickler
+Description: Für meinen Kunden aus der Finanzbranche liefere ich eine flexible
+Tools: Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, coffescript, Elasticsearch, rSpec, git, MySQL, memcache
+Roles: Berater, Entwickler
+Start: 12.2012
+End: 12.2012
+
+# Portal für Finanzprodukte
+
+Für meinen Kunden aus der Finanzbranche liefere ich eine flexible Suchmaschine und Datenbank. Die Lösung ist ausgelegt für viele hunderttausende von Produktbeschreibungen. Ein mehrstufiges Berechtigungskonzept erlaubt die Pflege von Daten durch eigenständige Accounts, die über genau definierte Berechtigungen verfügen. Es gibt umfangreiche Integrationen durch REST-basierte Schnittstellen, mit denen Daten zeitgesteuert von sehr unterschiedlichen Quellen importiert werden können. Besonderer Augenmerk liegt auf der Suchmaschinen-Funktion, die umfangreiche Filter- und Anzeigemöglichkeiten bietet.
+
+

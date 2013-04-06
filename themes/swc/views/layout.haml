@@ -1,0 +1,47 @@
+!!!
+%html{ lang:'de' }
+  %head
+    %meta{ charset:'utf-8' }
+    %title
+      = @title
+      | software-consultant.net
+    - if @description
+      %meta{ name:'description', content:@description }
+    - if @keywords
+      %meta{ name:'keywords', content:@keywords }
+    - if @author
+      %meta{ name:'author', content:@author['name'] }
+
+    %meta{ name: 'author', content: 'Christian Aust'}
+    %meta{ name: 'msvalidate.01', content: '9FA092ADA4B197B4445B7FC70E913CAB'}
+    %link{ href:'//fonts.googleapis.com/css?family=Lato:300,700', rel:'stylesheet' }
+    = stylesheet_tag 'application'
+    %link{ href:url('/articles.xml'), rel:'alternate', type:'application/atom+xml' }
+    %link{ rel:'author', href:'/humans.txt' }
+    %link{ rel: 'shortcut icon', href: image_path('/favicon.ico') }
+    /[if IE]
+      %meta{ 'http-equiv'=> 'X-UA-Compatible', content:'IE=edge,chrome=1'}
+    /[if lt IE 9]
+      = javascript_tag 'html5-printshiv.js'
+    /[if lte IE 6]
+      %link{ rel:'stylesheet', href:'http://universal-ie6-css.googlecode.com/files/ie6.1.1.css', media:'screen, projection' }
+
+  %body
+    = haml :header, layout: false
+    - if content_for? :sidebar
+      #main.row
+        #content.large-9.push-3.columns{ role:'main' }
+          = yield
+        %aside#sidebar.large-3.pull-9.columns{ role:'complementary' }
+          = yield_content :sidebar
+          = haml :contact, layout: false
+    - else
+      #main.row{ role:'main' }
+        .column
+          = yield
+    = haml :footer, layout: false
+    = haml :contact_view, layout: false
+    = haml :analytics, layout: false
+    = yield_content :bottom
+    %script{ src:'//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' }
+    = javascript_tag('application')

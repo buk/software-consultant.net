@@ -1,0 +1,12 @@
+- top = ::Nesta::Page.find_by_path(@page.path.split('/').first)
+%nav#projects
+  %ul.side-nav
+    - projects_by_year.each do |year, projects|
+      %li.year
+        = year
+        - display_menu projects.reverse
+
+  - unless top.articles.empty?
+    %nav#categories
+      %h3.subheader Mehr dazu
+      - display_menu(top.articles, :class => "side-nav")
