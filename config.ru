@@ -37,7 +37,7 @@ map Sprockets::Helpers.prefix do
       # For compressed JS and CSS output
       require "yui/compressor"
       env.js_compressor  = YUI::JavaScriptCompressor.new
-      env.css_compressor = YUI::CssCompressor.new
+      # env.css_compressor = YUI::CssCompressor.new
     end
 
     Sprockets::Helpers.configure do |config|
