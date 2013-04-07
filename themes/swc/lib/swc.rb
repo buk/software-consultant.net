@@ -1,3 +1,4 @@
+require 'swc/page_additions'
 require 'swc/availability'
 require 'swc/projects'
 require 'swc/redirects'

@@ -1,5 +1,19 @@
+require 'json'
+
 module SWC
   module PageAdditions
+    def customer
+      @customer ||= metadata('customer')
+    end
+
+    def start
+      @start ||= metadata('start')
+    end
+
+    def end
+      @end ||= metadata('end')
+    end
+
     def tools
       @tools ||= (metadata('tools') || '').split(',').map(&:strip)
     end
@@ -9,15 +23,31 @@ module SWC
     end
 
     def year
-      @year ||= metadata('start') ? metadata('start').split('.').last.to_i : nil
+      @year ||= start ? start.split('.').last.to_i : nil
     end
   end
 
   module Projects
+
+    PARAM_NAMES =  %w{ title description customer roles tools }.map(&:to_sym)
+
     def self.registered(app)
+      app.get '/projects.json' do
+        content_type :json
+
+        terms = {}
+        max = params['max'] ? params['max'].to_i : 0
+
+        PARAM_NAMES.each do |name|
+          terms[name] = params[name] if params[name]
+        end
+
+        search_projects(terms.empty? ? nil : terms, max).to_json
+      end
+
       app.helpers do
         def projects
-          @projects ||= ::Nesta::Page.find_all.select{|p| p.project?}.map{|p| p.send(:extend, PageAdditions)}
+          @projects ||= ::Nesta::Page.find_all.select{|p| p.project?}.map(&:as_project)
         end
 
         def project_stats
@@ -49,6 +79,32 @@ module SWC
             end.sort_by{|year, projects| year.to_i}.reverse
           end
         end
+
+        def search_projects(terms, max=0)
+
+          return projects[0..(max-1)] if terms.nil?
+          terms = { :any=>terms } unless terms.is_a?(Hash)
+
+          projects.reverse.find_all do |project|
+            PARAM_NAMES.any? do |name|
+              t = terms[name] || terms[:any]
+              if t
+                r1 = t.is_a?(Array) ? t.map{|term| Regexp.escape(term.to_s) }.join('|') : Regexp.escape(t.to_s)
+                r2 = Regexp.new("\\b(#{r1})\\b", true)
+                name = name.to_s
+                v = case temp = project.send(name)
+                  when nil then ''
+                  when Array then temp.join(' ')
+                  when String then temp
+                  else temp.to_s
+                end
+                v =~ r2
+              end
+            end
+          end[0..(max-1)]
+        end
+
+
       end
     end
   end

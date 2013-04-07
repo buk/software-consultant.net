@@ -1,4 +1,5 @@
 Template: project
+Flags: project
 Customer: Unternehmensberatung
 Keywords: projekt, Mac OSX, Java, HTML, CSS, SQL, XML, Apache, Tomcat, Entwickler, Hosting
 Description: Intranet System für Fehlerverwaltung und -behandlung in Softwareprojekten

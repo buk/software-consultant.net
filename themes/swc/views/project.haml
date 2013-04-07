@@ -6,19 +6,20 @@
   = haml :page_meta, :layout => false, :locals => { :page => @page }
 
 - if @page.project?
-  %aside.panel
-    %h3.subheader Das Projekt auf einen Blick
-    %p
-      %strong Kunde:
-      = @page.metadata('customer')
-    %p
-      %strong Meine Rolle:
-      = @page.metadata('roles')
-    %p
-      %strong Zeitraum:
-      = @page.metadata('start')
-      –
-      = @page.metadata('end')
-    %p
-      %strong Werkzeuge:
-      = @page.metadata('tools')
+  - @page.as_project do |p|
+    %aside.panel
+      %h3.subheader Das Projekt auf einen Blick
+      %p
+        %strong Kunde:
+        = p.customer
+      %p
+        %strong Meine Rolle:
+        = p.roles.join(', ')
+      %p
+        %strong Zeitraum:
+        = p.start
+        –
+        = p.end
+      %p
+        %strong Werkzeuge:
+        = p.tools.join(', ')

@@ -1,4 +1,5 @@
 Template: project
+Flags: project
 Customer: Finanzunternehmen
 Keywords: projekt, Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, coffescript, Elasticsearch, rSpec, git, MySQL, memcache, Berater, Entwickler, Hosting
 Description: Für meinen Kunden aus der Finanzbranche liefere ich eine flexible Suchmaschine und Datenbank.

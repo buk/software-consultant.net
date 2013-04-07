@@ -1,4 +1,5 @@
 Template: project
+Flags: project
 Customer: Verlag
 Keywords: projekt, Ruby, Ruby on Rails, Radiant CMS, Javascript, jQuery, HTML, CSS, HAML, Berechtigungssteuerung, Subversion, Entwickler, Hosting
 Description: Erstellung eines themenspezifischen Content-Portals, mit dem größtmögliche Attraktivität für Suchmaschinen

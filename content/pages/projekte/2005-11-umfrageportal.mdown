@@ -1,4 +1,5 @@
 Template: project
+Flags: project
 Customer: Unternehmensberatung
 Keywords: projekt, Java, J2EE, SAP, HTML, CSS, Javascript, Tomcat, Hibernate, MySQL, Velocity, Berater, Entwickler, Hosting
 Description: Ich bin verantwirtlich für Konzeption und Erstellung eines mehrsprachigen Portals

@@ -1,4 +1,5 @@
 Template: project
+Flags: project
 Customer: Webagentur
 Keywords: projekt, Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, rSpec, git, PostgreSQL, Entwickler
 Description: Für eine renommierte Webagentur verwende ich testgetriebene Entwicklungsmethoden, um eine

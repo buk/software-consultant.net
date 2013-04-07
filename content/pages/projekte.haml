@@ -3,6 +3,12 @@ Description: Meine umfangreiche Projektliste gibt ihnen einen Überblick über d
 Icon: certificate
 Link text: Projekte
 
+- content_for :head do
+  = stylesheet_tag('morris')
+
+- content_for :bottom do
+  = javascript_tag('chart')
+
 %hgroup
   %h1= @page.link_text
   %h2= @page.description

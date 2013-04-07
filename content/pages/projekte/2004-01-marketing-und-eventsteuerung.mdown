@@ -1,4 +1,5 @@
 Template: project
+Flags: project
 Customer: Medienagentur
 Keywords: projekt, Java, J2EE, Hibernate, HTML, CSS, Javascript, Oracle, MySQL, Struts, Velocity, Tomcat, Entwickler
 Description: Pflege einer bestehenden Webanwendung, über die die deutschen Marketingaktivitäten einer

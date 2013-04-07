@@ -20,6 +20,7 @@ namespace :import do
 
       content = <<EOF
 Template: project
+Flags: project
 Customer: #{project['customer']}
 Keywords: #{(%w{projekt} + project['tools'] + project['roles']).join(', ')}
 Description: #{project['description'][/(\s*\S+){#{10}}/]}

@@ -1,4 +1,5 @@
 Template: project
+Flags: project
 Customer: OEM
 Keywords: projekt, Windows, Debugger, Ethernet-Analyse, ODBC, Microsoft Office, Berater
 Description: Untersuchung einer kundenindividuellen BDE-Software auf mögliche datenschutzrechtliche Schwachstellen durch penetration

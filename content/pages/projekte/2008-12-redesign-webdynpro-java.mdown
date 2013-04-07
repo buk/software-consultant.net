@@ -1,4 +1,5 @@
 Template: project
+Flags: project
 Customer: Energiewirtschaft
 Keywords: projekt, SAP, Oracle 10g, WebDynpro Java, Java, NWDI, HTML, Entwickler
 Description: Re-Implementierung einer bestehenden Webdynpro-Anwendung.

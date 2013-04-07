@@ -1,4 +1,5 @@
 Template: project
+Flags: project
 Customer: Unternehmensberatung
 Keywords: projekt, SAP BI, RFC, SOAP, Ruby, Ruby on Rails, HAML, Sass, HTML, CSS, Javascript, jQuery, Apache, Proxy, Zertifikate, VPN, MySQL, Subversion, Berater, Entwickler, Hosting
 Description: Im Auftrag eines SAP-Spezialisten entwerfe und betreibe ich ein benutzerfreundliches

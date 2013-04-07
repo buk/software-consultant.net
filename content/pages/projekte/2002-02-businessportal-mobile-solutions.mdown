@@ -1,4 +1,5 @@
 Template: project
+Flags: project
 Customer: Telekommunikation
 Keywords: projekt, SAP, ABAP, Java, J2EE, HTML, CSS, Javascript, Tomcat, Tibco, EJB, JCO, Entwickler
 Description: Aufbereitung von Daten aus SAP für ein Portal mit Schwerpunkt

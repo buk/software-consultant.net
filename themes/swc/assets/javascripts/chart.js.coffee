@@ -1,3 +1,6 @@
+//= require raphael-min
+//= require morris
+
 # Reference jQuery
 $ = jQuery
 
@@ -12,7 +15,7 @@ $.fn.extend
   chart: (options) ->
     # Default settings
     settings =
-      debug: true
+      debug: false
 
     # Merge default settings with options.
     settings = $.extend settings, options
@@ -34,3 +37,6 @@ $.fn.extend
           ykeys: ($(this).data('ykeys') || '').split(',')
           labels: ($(this).data('labels') || '').split(',')
           hideHover: boolean($(this).data('hidehover'))
+
+$ ->
+  $('.chart').chart()

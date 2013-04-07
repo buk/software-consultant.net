@@ -9,16 +9,6 @@ require 'swc'
 
 Encoding.default_external = 'utf-8'
 module Nesta
-  class Page
-    def author
-      @author ||= Config.author
-    end
-
-    def project?
-      %w{Customer Roles Tools}.any?{|key|metadata(key) ? true : false}
-    end
-  end
-
   class App
     set :logger, Logger.new(STDOUT)
 

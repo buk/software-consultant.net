@@ -1,4 +1,5 @@
 Template: project
+Flags: project
 Customer: Medienagentur
 Keywords: projekt, Windows, Delphi 3, Entwickler
 Description: Implementierung eines datenbank-gestützten Kataloges auf CD-ROM für einen Unternehmensverband.

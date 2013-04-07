@@ -1,4 +1,5 @@
 Template: project
+Flags: project
 Customer: Konsumgüter
 Keywords: projekt, SAP, SAP Enterprise Portal 5, Java, J2EE, HTML, CSS, Javascript, Berater, Entwickler
 Description: SAP Portal mit Schwerpunkt ESS/MSS, Auslandsprojekt bei einem belgischen Hersteller

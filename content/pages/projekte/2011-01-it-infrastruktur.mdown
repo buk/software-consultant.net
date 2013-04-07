@@ -1,4 +1,5 @@
 Template: project
+Flags: project
 Customer: Unternehmensberatung
 Keywords: projekt, Linux, Firewall, DNS, Email, Apache, Postfix, SSL, Berater
 Description: Für meinen Kunden betreibe ich den zentralen Email- und Webserver sowie Satellitensysteme in den Niederlassungen.
