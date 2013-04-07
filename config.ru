@@ -33,6 +33,13 @@ map Sprockets::Helpers.prefix do
     gem_root = Gem.loaded_specs['zurb-foundation'].full_gem_path
     env.append_path File.join(gem_root, 'js')
 
+    if ENV['RACK_ENV'] == 'production'
+      # For compressed JS and CSS output
+      require "yui/compressor"
+      env.js_compressor  = YUI::JavaScriptCompressor.new
+      env.css_compressor = YUI::CssCompressor.new
+    end
+
     Sprockets::Helpers.configure do |config|
       config.environment = env
     end

@@ -13,13 +13,15 @@ module Nesta
     set :logger, Logger.new(STDOUT)
 
     configure do
-      # register SWC::Redirects
       register SWC::Projects
       register SWC::Availability
       register SWC::Redirects
       register Sinatra::I18nSupport
       load_locales File.join(Env.root, 'config', 'locales')
       set :default_locale, 'de'
+      if ENV['RACK_ENV'] == 'production'
+        Sprockets::Sass.options[:style] = :compressed
+      end
     end
 
     helpers do
