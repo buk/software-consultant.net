@@ -1,7 +1,7 @@
 Template: project
 Customer: Unternehmensberatung
-Keywords: projekt, Linux, Firewall, DNS, Email, Apache, Postfix, SSL, Berater, Hosting
-Description: Für meinen Kunden betreibe ich den zentralen Email- und Webserver
+Keywords: projekt, Linux, Firewall, DNS, Email, Apache, Postfix, SSL, Berater
+Description: Für meinen Kunden betreibe ich den zentralen Email- und Webserver sowie Satellitensysteme in den Niederlassungen.
 Tools: Linux, Firewall, DNS, Email, Apache, Postfix, SSL
 Roles: Berater, Hosting
 Start: 01.2011

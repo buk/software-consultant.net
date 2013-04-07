@@ -1,7 +1,7 @@
 Template: project
 Customer: Webagentur
 Keywords: projekt, Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, coffescript, Nokia Maps, Elasticsearch, rSpec, git, Redis, MySQL, Entwickler
-Description: Im Rahmen eines Forschungsprojektes entwickle ich eine Anwendung zur geographischen
+Description: Im Rahmen eines Forschungsprojektes entwickle ich eine Anwendung zur geographischen Analyse von Betriebsdaten.
 Tools: Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, coffescript, Nokia Maps, Elasticsearch, rSpec, git, Redis, MySQL
 Roles: Entwickler
 Start: 10.2012
@@ -11,4 +11,4 @@ End: 02.2013
 
 Im Rahmen eines Forschungsprojektes entwickle ich eine Anwendung zur geographischen Analyse von Betriebsdaten im Mobilfunkumfeld. Dazu gehört auch die Ausgestaltung einer in Zukunft erweiterbaren REST-basierten Schnittstelle (API).
 
-
+Die mit [Ruby on Rails](http://rubyonrails.org) und [Twitter Bootstrap](http://twitter.github.io/bootstrap/) implementierte Anwendung bezieht aggregierte Informationen aus einer Auswertungseinheit und stellt diese dem Nutzer in Form von Kartenmaterial und statistischen Auswertungen zur Verfügung.
