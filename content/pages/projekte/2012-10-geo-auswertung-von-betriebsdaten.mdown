@@ -5,7 +5,7 @@ Description: Im Rahmen eines Forschungsprojektes entwickle ich eine Anwendung zu
 Tools: Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, coffescript, Nokia Maps, Elasticsearch, rSpec, git, Redis, MySQL
 Roles: Entwickler
 Start: 10.2012
-End: 10.2012
+End: 02.2013
 
 # Geo-Auswertung von Betriebsdaten
 

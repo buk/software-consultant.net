@@ -1,11 +1,11 @@
 Template: project
 Customer: Verlag
-Keywords: projekt, Ruby, Ruby on Rails, Radiant CMS, Javascript, jQuery, HTML, CSS, HAML, Berechtigungssteuerung, Subversion, Berater, Entwickler
+Keywords: projekt, Ruby, Ruby on Rails, Radiant CMS, Javascript, jQuery, HTML, CSS, HAML, Berechtigungssteuerung, Subversion, Entwickler, Hosting
 Description: Erstellung eines themenspezifischen Content-Portals, mit dem größtmögliche Attraktivität für Suchmaschinen
 Tools: Ruby, Ruby on Rails, Radiant CMS, Javascript, jQuery, HTML, CSS, HAML, Berechtigungssteuerung, Subversion
-Roles: Berater, Entwickler
+Roles: Entwickler, Hosting
 Start: 02.2010
-End: 02.2010
+End: 04.2010
 
 # Branchenportal (SEO)
 

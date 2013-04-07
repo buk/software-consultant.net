@@ -5,7 +5,7 @@ Description: Erweiterung und Migration einer bestehenden Portalanwendung IE6 nac
 Tools: SAP, XML, Javascript, Webservices, VPN, Berechtigungen, HTML, CSS
 Roles: Berater
 Start: 05.2010
-End: 05.2010
+End: 07.2010
 
 # Migration einer SAP Portalanwendung
 

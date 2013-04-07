@@ -1,11 +1,11 @@
 Template: project
 Customer: Unternehmensberatung
-Keywords: projekt, SAP BI, RFC, SOAP, Ruby, Ruby on Rails, HAML, Sass, HTML, CSS, Javascript, jQuery, Apache, Proxy, Zertifikate, VPN, MySQL, Subversion, Berater, Entwickler
+Keywords: projekt, SAP BI, RFC, SOAP, Ruby, Ruby on Rails, HAML, Sass, HTML, CSS, Javascript, jQuery, Apache, Proxy, Zertifikate, VPN, MySQL, Subversion, Berater, Entwickler, Hosting
 Description: Im Auftrag eines SAP-Spezialisten entwerfe und betreibe ich ein benutzerfreundliches
 Tools: SAP BI, RFC, SOAP, Ruby, Ruby on Rails, HAML, Sass, HTML, CSS, Javascript, jQuery, Apache, Proxy, Zertifikate, VPN, MySQL, Subversion
-Roles: Berater, Entwickler
+Roles: Berater, Entwickler, Hosting
 Start: 11.2010
-End: 11.2010
+End: aktuell
 
 # Produktentwicklung RaaS/SAP BI
 

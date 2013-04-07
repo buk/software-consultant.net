@@ -9,7 +9,7 @@ description: >
   Als Interim Manager betreue ich die CRM-Aktivitäten des Accounts meines Kunden.
 ---
 title: Portal für Finanzprodukte
-roles: [Berater, Entwickler]
+roles: [Berater, Entwickler, Hosting]
 start: '12.2012'
 end: 'aktuell'
 tools: [Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, coffescript, Elasticsearch, rSpec, git, MySQL, memcache]
@@ -23,7 +23,7 @@ description: >
   und Anzeigemöglichkeiten bietet.
 ---
 title: IT Infrastruktur
-roles: [Berater, Entwickler]
+roles: [Berater]
 start: '12.2012'
 end: '12.2012'
 tools: [Webserver, Firewall]
@@ -44,7 +44,7 @@ description: >
   erweiterbaren REST-basierten Schnittstelle (API).
 ---
 title: IT Infrastruktur
-roles: [Berater]
+roles: [Berater, Hosting]
 start: '09.2012'
 end: 'aktuell'
 tools: [Linux, Email, Webserver, Postfix, Apache, Firewall, TCP/IP, DNS, typo3]
@@ -97,7 +97,7 @@ description: >
   kommt der Datensicherheit und Compliance gem. BDSG zu.
 ---
 title: IT Infrastruktur
-roles: [Berater]
+roles: [Berater, Hosting]
 start: '01.2011'
 end: 'aktuell'
 tools: [Linux, Email, Webserver, Postfix, Apache, DNS, trac, Subversion, SSL]
@@ -109,7 +109,7 @@ description: >
   Verfügbarkeit sicherzustellen.
 ---
 title: Produktentwicklung RaaS/SAP BI
-roles: [Berater, Entwickler]
+roles: [Berater, Entwickler, Hosting]
 start: '11.2010'
 end: 'aktuell'
 tools: [SAP BI, RFC, SOAP, Ruby, Ruby on Rails, HAML, Sass, HTML, CSS, Javascript, jQuery, Apache, Proxy, Zertifikate, VPN, MySQL, Subversion]
@@ -136,7 +136,7 @@ description: >
   und die Präsentation von Ergebnissen.
 ---
 title: Relaunch Job-Suchmaschine
-roles: [Berater, Entwickler]
+roles: [Entwickler, Hosting]
 start: '06.2010'
 end: '07.2010'
 tools: [Ruby, Ruby on Rails, sphinx, Shell scripting, HTML, CSS, HAML, Sass, jQuery, Javascript, Subversion]
@@ -159,7 +159,7 @@ description: >
   Dienstleister.
 ---
 title: Branchenportal (SEO)
-roles: [Berater, Entwickler]
+roles: [Entwickler, Hosting]
 start: '02.2010'
 end: '04.2010'
 tools: [Ruby, Ruby on Rails, Radiant CMS, Javascript, jQuery, HTML, CSS, HAML, Berechtigungssteuerung, Subversion]
@@ -183,7 +183,7 @@ description: >
   von Präsentationsmaterial als Entscheidungsgrundlage.
 ---
 title: SWC-Webseite
-roles: [Berater]
+roles: [Berater, Hosting]
 start: '12.2009'
 end: '12.2009'
 tools: [Ruby, Ruby on Rails, Radiant CMS, Javascript, jQuery, HTML, CSS, HAML, Sass, Subversion]
@@ -193,7 +193,7 @@ description: >
   Content management system auf der Basis von Ruby on rails.
 ---
 title: Präsentationsgenerator
-roles: [Architekt, Entwickler]
+roles: [Berater, Entwickler]
 start: '09.2009'
 end: '10.2009'
 tools: [Ruby, Ruby on rails, Shell scripting, HTML, CSS, HAML, Sass, ExtJS, Javascript, Subversion]
@@ -204,7 +204,7 @@ description: >
   (POS) eingesetzt und können automatisiert ablaufen, jedoch personalisierte Inhalte haben.
 ---
 title: Job-Suchmaschine
-roles: [Architekt, Entwickler]
+roles: [Entwickler, Hosting]
 start: '06.2009'
 end: '08.2009'
 tools: [Ruby, Ruby on Rails, sphinx Suchmaschine, Shell scripting, HTML, CSS, HAML, Sass, ExtJS, Javascript, Subversion]
@@ -224,7 +224,7 @@ description: >
   Integration einer Webanwendung mit ESS-Funktionen in eine SAP HCM Umgebung.
 ---
 title: IT Infrastruktur
-roles: [Berater]
+roles: [Berater, Hosting]
 start: '01.2011'
 end: 'aktuell'
 tools: [Linux, Firewall, DNS, Email, Apache, Postfix, SSL]
@@ -287,7 +287,7 @@ description: >
   von Katalogen mit vielen hundert Seiten maßgeblich vereinfacht.
 ---
 title: Volltextsuche für SAP Materialwirtschaft
-roles: [Berater, Entwickler]
+roles: [Entwickler]
 start: '04.2008'
 end: '08.2008'
 tools: [SAP, RFC, Java, JCO, J2EE, Lucene, HTML, CSS, Javascript, AIX, Subversion, NWDI]
@@ -324,7 +324,7 @@ description: >
   und Backend ausgetauscht wurden.
 ---
 title: Umfrageportal
-roles: [Berater, Entwickler]
+roles: [Berater, Entwickler, Hosting]
 start: '11.2005'
 end: '12.2006'
 tools: [Java, J2EE, SAP, HTML, CSS, Javascript, Tomcat, Hibernate, MySQL, Velocity]
@@ -361,7 +361,7 @@ description: >
   einer internationalen Großbank zentralisiert werden.
 ---
 title: Messplatz für Software-Qualität
-roles: [Berater, Entwickler]
+roles: [Berater]
 start: '10.2003'
 end: '12.2003'
 tools: [Java, Ant, JCoverage, div. Tools]
@@ -371,7 +371,7 @@ description: >
   (mehr als 25.000 Java-Klassen).
 ---
 title: e-Recruiting Applikation
-roles: [Berater, Entwickler]
+roles: [Entwickler]
 start: '06.2003'
 end: '08.2003'
 tools: [SAP, ITS Internet Transaction Server, HTML, CSS, Javascript]
@@ -428,7 +428,7 @@ description: >
   Review eines webbasierten Wissensportals für Unternehmen, Linksammlung auf der Basis von Apple WebObjects.
 ---
 title: Ticketsystem zur Fehlerverwaltung
-roles: [Berater, Entwickler]
+roles: [Entwickler, Hosting]
 start: '01.2001'
 end: '03.2001'
 tools: [Mac OSX, Java, HTML, CSS, SQL, XML, Apache, Tomcat]
@@ -437,7 +437,7 @@ description: >
   Intranet System für Fehlerverwaltung und -behandlung in Softwareprojekten
 ---
 title: Auktionsportal
-roles: [Berater, Entwickler]
+roles: [Berater, Entwickler, Hosting]
 start: '03.2000'
 end: '12.2000'
 tools: [Mac OSX, Java, HTML, CSS, SQL, XML, Apache, Tomcat]

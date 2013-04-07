@@ -1,9 +1,9 @@
 Template: project
 Customer: Verband
-Keywords: projekt, Webserver, Firewall, Berater, Entwickler
+Keywords: projekt, Webserver, Firewall, Berater
 Description: Für einen Verband konzipiere ich eine verteilte Infrastruktur zur Ablage
 Tools: Webserver, Firewall
-Roles: Berater, Entwickler
+Roles: Berater
 Start: 12.2012
 End: 12.2012
 

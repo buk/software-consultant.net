@@ -1,11 +1,11 @@
 Template: project
 Customer: Energiewirtschaft
-Keywords: projekt, SAP, RFC, Java, JCO, J2EE, Lucene, HTML, CSS, Javascript, AIX, Subversion, NWDI, Berater, Entwickler
+Keywords: projekt, SAP, RFC, Java, JCO, J2EE, Lucene, HTML, CSS, Javascript, AIX, Subversion, NWDI, Entwickler
 Description: Implementierung einer performanten und komfortablen Suchfunktion für SAP MM (Materialwirtschaft).
 Tools: SAP, RFC, Java, JCO, J2EE, Lucene, HTML, CSS, Javascript, AIX, Subversion, NWDI
-Roles: Berater, Entwickler
+Roles: Entwickler
 Start: 04.2008
-End: 04.2008
+End: 08.2008
 
 # Volltextsuche für SAP Materialwirtschaft
 

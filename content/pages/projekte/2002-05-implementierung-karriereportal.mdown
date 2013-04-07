@@ -5,7 +5,7 @@ Description: Erstellung von javabasierten Portalanwendungen für personalwirtsch
 Tools: SAP, SAP Enterprise Portal 5, Java, J2EE
 Roles: Berater, Entwickler
 Start: 05.2002
-End: 05.2002
+End: 01.2003
 
 # Implementierung Karriereportal
 

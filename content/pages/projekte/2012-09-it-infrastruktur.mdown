@@ -1,11 +1,11 @@
 Template: project
 Customer: Verein
-Keywords: projekt, Linux, Email, Webserver, Postfix, Apache, Firewall, TCP/IP, DNS, typo3, Berater
+Keywords: projekt, Linux, Email, Webserver, Postfix, Apache, Firewall, TCP/IP, DNS, typo3, Berater, Hosting
 Description: Mein Kunde ist als gemeinnütziger Verein Träger zweier Programme zur
 Tools: Linux, Email, Webserver, Postfix, Apache, Firewall, TCP/IP, DNS, typo3
-Roles: Berater
+Roles: Berater, Hosting
 Start: 09.2012
-End: 09.2012
+End: aktuell
 
 # IT Infrastruktur
 

@@ -5,7 +5,7 @@ Description: Der IT Dienstleister eines großen Energieunternehmens möchte die 
 Tools: MS Office, Visio, Umfragen
 Roles: Berater
 Start: 11.2009
-End: 11.2009
+End: 02.2010
 
 # Architektur-Management
 

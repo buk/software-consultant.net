@@ -5,7 +5,7 @@ Description: Für eine renommierte Webagentur verwende ich testgetriebene Entwic
 Tools: Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, rSpec, git, PostgreSQL
 Roles: Entwickler
 Start: 07.2012
-End: 07.2012
+End: 08.2012
 
 # Webanwendung zum Qualitätsmanagement
 

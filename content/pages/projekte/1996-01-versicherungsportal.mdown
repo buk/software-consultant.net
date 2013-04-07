@@ -5,7 +5,7 @@ Description: Implementierung des ersten Verkaufsportales für Versicherungen im 
 Tools: Perl, CGI, HTML
 Roles: Entwickler
 Start: 01.1996
-End: 01.1996
+End: 08.1996
 
 # Versicherungsportal
 

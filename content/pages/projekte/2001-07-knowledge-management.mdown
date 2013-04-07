@@ -5,7 +5,7 @@ Description: Review eines webbasierten Wissensportals für Unternehmen, Linksamm
 Tools: SUN Solaris, WebObjects, Oracle, Java, J2EE, HTML, EJB
 Roles: Berater, Entwickler
 Start: 07.2001
-End: 07.2001
+End: 09.2001
 
 # Knowledge Management
 

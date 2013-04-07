@@ -5,7 +5,7 @@ Description: Implementierung eines datenbank-gest√ºtzten Kataloges auf CD-ROM f√
 Tools: Windows, Delphi 3
 Roles: Entwickler
 Start: 01.1997
-End: 01.1997
+End: 04.1997
 
 # Multimedia-Datenbank
 

@@ -5,7 +5,7 @@ Description: Design und Implementierung eines benutzerfreundlichen Frontends fü
 Tools: SAP, SAP Enterprise Portal, Java, SOA, XML, Webservices, HTML, CSS, Javascript
 Roles: Entwickler
 Start: 02.2008
-End: 02.2008
+End: 04.2008
 
 # Portalanwendung Performance-Management
 

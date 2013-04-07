@@ -5,7 +5,7 @@ Description: Aufbereitung von Daten aus SAP für ein Portal mit Schwerpunkt
 Tools: SAP, ABAP, Java, J2EE, HTML, CSS, Javascript, Tomcat, Tibco, EJB, JCO
 Roles: Entwickler
 Start: 02.2002
-End: 02.2002
+End: 04.2003
 
 # Businessportal "mobile solutions"
 

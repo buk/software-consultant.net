@@ -5,7 +5,7 @@ Description: Für einen mittelständischen Softwarehersteller konzipiere und ent
 Tools: Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, memcache, subversion, solr, MySQL, LDAP
 Roles: Berater, Entwickler
 Start: 02.2011
-End: 02.2011
+End: 03.2012
 
 # Produktentwicklung eRecruiting
 

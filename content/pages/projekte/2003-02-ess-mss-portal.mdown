@@ -5,7 +5,7 @@ Description: SAP Portal mit Schwerpunkt ESS/MSS, Auslandsprojekt bei einem belgi
 Tools: SAP, SAP Enterprise Portal 5, Java, J2EE, HTML, CSS, Javascript
 Roles: Berater, Entwickler
 Start: 02.2003
-End: 02.2003
+End: 05.2003
 
 # ESS/MSS Portal
 

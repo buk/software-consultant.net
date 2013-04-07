@@ -26,7 +26,7 @@ Description: #{project['description'][/(\s*\S+){#{10}}/]}
 Tools: #{project['tools'].join(', ')}
 Roles: #{project['roles'].join(', ')}
 Start: #{project['start']}
-End: #{project['start']}
+End: #{project['end']}
 
 # #{project['title']}
 

@@ -1,11 +1,11 @@
 Template: project
 Customer: Unternehmensberatung
-Keywords: projekt, Java, J2EE, SAP, HTML, CSS, Javascript, Tomcat, Hibernate, MySQL, Velocity, Berater, Entwickler
+Keywords: projekt, Java, J2EE, SAP, HTML, CSS, Javascript, Tomcat, Hibernate, MySQL, Velocity, Berater, Entwickler, Hosting
 Description: Ich bin verantwirtlich für Konzeption und Erstellung eines mehrsprachigen Portals
 Tools: Java, J2EE, SAP, HTML, CSS, Javascript, Tomcat, Hibernate, MySQL, Velocity
-Roles: Berater, Entwickler
+Roles: Berater, Entwickler, Hosting
 Start: 11.2005
-End: 11.2005
+End: 12.2006
 
 # Umfrageportal
 

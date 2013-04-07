@@ -1,11 +1,11 @@
 Template: project
 Customer: Auktionator
-Keywords: projekt, Mac OSX, Java, HTML, CSS, SQL, XML, Apache, Tomcat, Berater, Entwickler
+Keywords: projekt, Mac OSX, Java, HTML, CSS, SQL, XML, Apache, Tomcat, Berater, Entwickler, Hosting
 Description: Mehrsprachiges Internet Portal Software für Kunsthandel, Versteigerung von Kunstgegenständen und
 Tools: Mac OSX, Java, HTML, CSS, SQL, XML, Apache, Tomcat
-Roles: Berater, Entwickler
+Roles: Berater, Entwickler, Hosting
 Start: 03.2000
-End: 03.2000
+End: 12.2000
 
 # Auktionsportal
 

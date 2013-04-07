@@ -1,11 +1,11 @@
 Template: project
 Customer: Medienagentur
-Keywords: projekt, Ruby, Ruby on rails, Shell scripting, HTML, CSS, HAML, Sass, ExtJS, Javascript, Subversion, Architekt, Entwickler
+Keywords: projekt, Ruby, Ruby on rails, Shell scripting, HTML, CSS, HAML, Sass, ExtJS, Javascript, Subversion, Berater, Entwickler
 Description: Entwicklung eines Mehrbenutzer-Portals, mit dem individuelle Präsentationen geplant werden. Die
 Tools: Ruby, Ruby on rails, Shell scripting, HTML, CSS, HAML, Sass, ExtJS, Javascript, Subversion
-Roles: Architekt, Entwickler
+Roles: Berater, Entwickler
 Start: 09.2009
-End: 09.2009
+End: 10.2009
 
 # Präsentationsgenerator
 

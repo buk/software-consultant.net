@@ -5,7 +5,7 @@ Description: Ich begleite den Relaunch eines Portals mehrerer Sparten eines öff
 Tools: Microsoft Office, Microsoft Visio, Access, Interviews
 Roles: Berater
 Start: 08.2010
-End: 08.2010
+End: 09.2010
 
 # Feinkonzept Website-Relaunch
 

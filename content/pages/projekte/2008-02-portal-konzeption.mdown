@@ -5,7 +5,7 @@ Description: Ein Telekommunikationskonzern plante die Integration verschiedener 
 Tools: Webservices, SOA, UML, XML, OOD, Office
 Roles: Berater
 Start: 02.2008
-End: 02.2008
+End: 04.2008
 
 # Portal-Konzeption
 

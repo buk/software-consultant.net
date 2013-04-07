@@ -5,7 +5,7 @@ Description: Abbildung von Funktionen zu Projektmanagement, Dokumentenmanagement
 Tools: Windows, Delphi 3, Interbase 5
 Roles: Entwickler
 Start: 07.1998
-End: 07.1998
+End: 08.1999
 
 # Branchensoftware für Verpackungsindustrie
 

@@ -9,12 +9,12 @@ Link text: Projekte
 
 .row
   .large-6.columns
-    = chart 'Rollen', project_stats[:roles].map{|k, v| {label:k, value:v}}
+    = chart 'Rollen im Projekt', project_stats[:roles].map{|k, v| {label:k, value:v}}
   .large-6.columns
     = chart 'Werkzeuge', project_stats[:tools].map{|k, v| {label:k, value:v}}, type:'bar', xkey:'label', ykeys:'value'
 
 :markdown
-  In meinen Projekten arbeite ich nicht nur als Entwickler, sondern für gewöhnlich auch als Berater. Ich konzipiere und entwerfe und stehe als Ansprechpartner zur Verfügung. Einer meiner Kunden sagt es so über meine Arbeit:
+  In meinen Projekten arbeite ich nicht nur als Entwickler, sondern für gewöhnlich auch als Berater. Ich konzipiere und entwerfe und stehe als Ansprechpartner zur Verfügung. Häufig liefere ich zum Ende der Entwicklungsphase auch Unterstützung bei [Hosting und Betrieb](/software-consulting/hosting). Einer meiner Kunden sagt es so über meine Arbeit:
 
   > Christian Aust is a very well thought of and quick thinking consultant. [...] Christian Aust delivers consultancy as it is: he is consulting and giving advice and not only developing. He has a broad range of skills and knowledge which is very benficial if it comes to Interfaces where skills of various areas are needed.
   > <cite>GF ROC Deutschland GmbH</cite>

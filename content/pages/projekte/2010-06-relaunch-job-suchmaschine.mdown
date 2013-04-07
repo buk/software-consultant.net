@@ -1,11 +1,11 @@
 Template: project
 Customer: Unternehmensberatung
-Keywords: projekt, Ruby, Ruby on Rails, sphinx, Shell scripting, HTML, CSS, HAML, Sass, jQuery, Javascript, Subversion, Berater, Entwickler
+Keywords: projekt, Ruby, Ruby on Rails, sphinx, Shell scripting, HTML, CSS, HAML, Sass, jQuery, Javascript, Subversion, Entwickler, Hosting
 Description: Konzeptionelle, technische und grafische Überarbeitung des Prototypen der Job-Suchmaschine metajob.it,
 Tools: Ruby, Ruby on Rails, sphinx, Shell scripting, HTML, CSS, HAML, Sass, jQuery, Javascript, Subversion
-Roles: Berater, Entwickler
+Roles: Entwickler, Hosting
 Start: 06.2010
-End: 06.2010
+End: 07.2010
 
 # Relaunch Job-Suchmaschine
 

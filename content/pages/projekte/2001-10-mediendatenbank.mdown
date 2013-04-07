@@ -5,7 +5,7 @@ Description: Multilinguales Verkaufsportal für Werbemedien (Print, TV, Außenwe
 Tools: Java, J2EE, Tomcat, HTML, CSS, Oracle, EJB
 Roles: Entwickler
 Start: 10.2001
-End: 10.2001
+End: 12.2001
 
 # Mediendatenbank
 

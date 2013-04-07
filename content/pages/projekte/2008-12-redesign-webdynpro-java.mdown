@@ -5,7 +5,7 @@ Description: Re-Implementierung einer bestehenden Webdynpro-Anwendung.
 Tools: SAP, Oracle 10g, WebDynpro Java, Java, NWDI, HTML
 Roles: Entwickler
 Start: 12.2008
-End: 12.2008
+End: 03.2009
 
 # Redesign WebDynpro/Java
 
