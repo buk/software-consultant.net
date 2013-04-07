@@ -6,11 +6,11 @@ module SWC
       @customer ||= metadata('customer')
     end
 
-    def start
+    def project_start
       @start ||= metadata('start')
     end
 
-    def end
+    def project_end
       @end ||= metadata('end')
     end
 
@@ -23,7 +23,18 @@ module SWC
     end
 
     def year
-      @year ||= start ? start.split('.').last.to_i : nil
+      @year ||= project_start ? project_start.split('.').last.to_i : nil
+    end
+
+    def duration
+      m1, d1 = *project_start.split('.').map(&:to_i)
+      if project_end=='aktuell'
+        m2 = Time.now.month
+        d2 = Time.now.year
+      else
+        m2, d2 = *project_end.split('.').map(&:to_i)
+      end
+      (d2-d1)*12 + (m2-m1)+1
     end
   end
 
@@ -65,8 +76,6 @@ module SWC
                 p.roles.each{|role| h[role.strip] += 1}
               end
               h
-            end,
-            years: begin
             end
           }
         end

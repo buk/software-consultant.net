@@ -14,6 +14,23 @@ Link text: Projekte
   %h2= @page.description
 
 .row
+  .large-2.columns
+    .panel.radius.stats
+      %span= projects.size
+      Projekte
+
+  .large-4.columns
+    .panel.radius.stats
+      %span= projects.sort{|p1, p2| p1.year <=> p2.year}.first.year
+      Erster Einsatz
+
+  .large-4.pull-2.columns
+    .panel.radius.stats
+      - d = projects.map(&:duration)
+      %span= (d.inject(:+).to_f / d.size).round(2)
+      ⌀ Monate pro Projekt
+
+.row
   .large-6.columns
     = chart 'Rollen im Projekt', project_stats[:roles].map{|k, v| {label:k, value:v}}
   .large-6.columns

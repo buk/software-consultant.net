@@ -163,3 +163,11 @@ ul {
     height: 250px;
   }
 }
+
+.stats {
+  span {
+    font-size: emCalc(36px);
+    font-weight: bold;
+    display: block;
+  }
+}
