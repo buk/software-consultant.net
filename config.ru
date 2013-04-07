@@ -13,8 +13,8 @@ nesta_theme = nesta_config['theme']
 nesta_content = nesta_config['content']
 
 if ENV['RACK_ENV'] == 'production'
-  use Rack::ConditionalGet
-  use Rack::ETag
+  # use Rack::ConditionalGet
+  # use Rack::ETag
   use Rack::Cache
 else
   # Nice looking errors
