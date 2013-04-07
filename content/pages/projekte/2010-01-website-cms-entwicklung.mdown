@@ -1,0 +1,13 @@
+Template: project
+Flags: project
+Customer: Verein
+Keywords: projekt, Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, Radiant, subversion, MySQL, Entwickler, Hosting
+Description: Ich entwerfe und implementiere eine Vereinswebseite auf der Basis von Radiant CMS.
+Tools: Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, Radiant, subversion, MySQL
+Roles: Entwickler, Hosting
+Start: 01.2010
+End: aktuell
+
+# Website CMS Entwicklung
+
+Für einen Sportverein entwerfe und implementiere ich eine Webseite auf der Basis von [Radiant CMS](http://radiantcms.org). Die Webseite verfügt über ein einfach zu bedienendes Management-System. Für den Kunden bin ich Ansprechpartner für Hosting und Betrieb der Infrastruktur, incl. Email- und Webservices sowie DNS.
