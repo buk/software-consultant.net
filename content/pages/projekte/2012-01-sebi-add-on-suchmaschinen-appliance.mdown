@@ -12,4 +12,4 @@ End: 06.2012
 
 Ich entwickele eine auf opensource-Komponenten basierte Suchmaschine, die sich für die Verwendung mit SAP eignet. Die Suchmaschine zeichnet sich durch hohe Trefferqualität, fortschrittliche Suchfunktionen und gleichzeitig hohe Geschwindigkeit aus. Das Produkt wird als betriebsfertige Appliance einschließlich Hardware von mir konzipiert.
 
-
+Als technische Basis des Projektes kommt neben [Ruby on Rails](http://rubyonrails.org) die freie Software [Elasticsearch](http://www.elasticsearch.org) zum Einsatz.

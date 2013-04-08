@@ -11,5 +11,3 @@ End: 12.2012
 # IT Infrastruktur
 
 Für einen Verband konzipiere ich eine verteilte Infrastruktur zur Ablage elektronischer Medien. In einer weiteren Phase wird eine prototypische Implementation der dafür notwendigen Serversoftware erstellt.
-
-

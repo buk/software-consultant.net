@@ -11,5 +11,3 @@ End: aktuell
 # IT Infrastruktur
 
 Für meinen Kunden betreibe ich den zentralen Email- und Webserver sowie Satellitensysteme in den Niederlassungen. Dabei bin ich zentraler Ansprechpartner für alle technischen und organisatorischen Belange. Dies schließt Wartung und Monitoring der Dienste ein, um eine maximale Verfügbarkeit sicherzustellen.
-
-

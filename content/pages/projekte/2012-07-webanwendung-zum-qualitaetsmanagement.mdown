@@ -11,5 +11,3 @@ End: 08.2012
 # Webanwendung zum Qualitätsmanagement
 
 Für eine renommierte Webagentur verwende ich [testgetriebene Entwicklungsmethoden](https://de.wikipedia.org/wiki/Testgetriebene_Entwicklung), um eine komplexe Schnittstelle zum Datenimport mit einer leicht zu nutzenden Oberfläche zu kombinieren. Die Software liefert Kennzahlen zum Qualitätsmanagement des Endkunden, dazu werden umfangreiche Daten aus Support- und anderen Datenbanken untersucht und aggregiert.
-
-

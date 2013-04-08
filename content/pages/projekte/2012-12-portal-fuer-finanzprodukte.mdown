@@ -12,4 +12,4 @@ End: aktuell
 
 Für meinen Kunden aus der Finanzbranche liefere ich eine flexible Suchmaschine und Datenbank. Die Lösung ist ausgelegt für viele hunderttausende von Produktbeschreibungen. Ein mehrstufiges Berechtigungskonzept erlaubt die Pflege von Daten durch eigenständige Accounts, die über genau definierte Berechtigungen verfügen. Es gibt umfangreiche Integrationen durch REST-basierte Schnittstellen, mit denen Daten zeitgesteuert von sehr unterschiedlichen Quellen importiert werden können. Besonderer Augenmerk liegt auf der Suchmaschinen-Funktion, die umfangreiche Filter- und Anzeigemöglichkeiten bietet.
 
-
+Als technische Basis des Projektes kommt neben [Ruby on Rails](http://rubyonrails.org) erneut [Elasticsearch](http://www.elasticsearch.org) zum Einsatz.

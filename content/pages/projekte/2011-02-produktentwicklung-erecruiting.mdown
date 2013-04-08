@@ -11,5 +11,3 @@ End: 03.2012
 # Produktentwicklung eRecruiting
 
 Für einen mittelständischen Softwarehersteller konzipiere und entwickele ich die Neugestaltung einer Recruiting-Software. Meine Aufgaben umfassen neben konzeptioneller Arbeit auch die Schulung des vorhandenen Teams. Die für ASP-Betrieb konzipierte Lösung zeichnet sich durch extreme Anpassungsfähigkeit bei gleichzeitiger Standardisierung des Betriebs aus. Als technologische Basis kommt u.a. Ruby on Rails und HTML5 zum Einsatz. In Zusammenarbeit mit dem Auftraggeber erstelle ich Pflichtenhefte und Konzepte sowie Aufwandsschätzungen und Zeitplanungen. Besondere Bedeutung kommt der Datensicherheit und Compliance gem. BDSG zu.
-
-

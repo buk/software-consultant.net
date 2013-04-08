@@ -11,5 +11,3 @@ End: aktuell
 # IT Infrastruktur
 
 Mein Kunde ist als gemeinnütziger Verein Träger zweier Programme zur Kinder- und Jugendförderung. Ich betreibe und warte die externe Infrastruktur aus Web- und Emailservern, erstelle Backups und stehe bei allen Fragen rund um das Thema Internet-Software hilfreich zur Seite.
-
-
