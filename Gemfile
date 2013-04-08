@@ -21,10 +21,10 @@ gem 'haml-coderay'
 
 gem 'compass'
 gem 'zurb-foundation'
+gem 'sprockets'
 gem 'sprockets-sass'
 gem 'sprockets-helpers'
 gem 'coffee-script'
-gem 'yui-compressor', group: :production
 
 gem 'activesupport'
 
