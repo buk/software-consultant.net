@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Medienagentur
 Keywords: projekt, Windows, Delphi 3, Interbase 5, Entwickler
-Description: Abbildung von Funktionen zu Projektmanagement, Dokumentenmanagement, Groupwaresystem, Workflow services. Die
+Description: Abbildung von Funktionen zu Projektmanagement, Dokumentenmanagement, Groupwaresystem, Workflow services.
 Tools: Windows, Delphi 3, Interbase 5
 Roles: Entwickler
 Start: 07.1998

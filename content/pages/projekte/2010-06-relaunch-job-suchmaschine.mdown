@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Unternehmensberatung
 Keywords: projekt, Ruby, Ruby on Rails, sphinx, Shell scripting, HTML, CSS, HAML, Sass, jQuery, Javascript, Subversion, Entwickler, Hosting
-Description: Konzeptionelle, technische und grafische Überarbeitung des Prototypen der Job-Suchmaschine metajob.it,
+Description: Konzeptionelle, technische und grafische Überarbeitung des Prototypen der Job-Suchmaschine metajob.it
 Tools: Ruby, Ruby on Rails, sphinx, Shell scripting, HTML, CSS, HAML, Sass, jQuery, Javascript, Subversion
 Roles: Entwickler, Hosting
 Start: 06.2010

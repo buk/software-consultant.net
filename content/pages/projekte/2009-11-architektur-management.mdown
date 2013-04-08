@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Energiewirtschaft
 Keywords: projekt, MS Office, Visio, Umfragen, Berater
-Description: Der IT Dienstleister eines großen Energieunternehmens möchte die strategische Architekturplanung
+Description: Meine Aufgabe ist die Inventarisierung und Katalogisierung vorhandener Software-Assets.
 Tools: MS Office, Visio, Umfragen
 Roles: Berater
 Start: 11.2009

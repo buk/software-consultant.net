@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Telekommunikation
 Keywords: projekt, SOA, UML, OOD, Microsoft Office, Berater
-Description: Aufwandsabschätzung einer Integration verschiedener Portale und Webanwendungen einer Telekommunikationskunden mit
+Description: Aufwandsabschätzung einer Integration verschiedener Portale und Webanwendungen einer Telekommunikationskunden.
 Tools: SOA, UML, OOD, Microsoft Office
 Roles: Berater
 Start: 04.2009

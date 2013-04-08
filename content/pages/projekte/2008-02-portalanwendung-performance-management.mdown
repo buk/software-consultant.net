@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Pharma
 Keywords: projekt, SAP, SAP Enterprise Portal, Java, SOA, XML, Webservices, HTML, CSS, Javascript, Entwickler
-Description: Design und Implementierung eines benutzerfreundlichen Frontends für personalwirtschaftliche Prozesse. Der
+Description: Design und Implementierung eines benutzerfreundlichen Frontends für personalwirtschaftliche Prozesse.
 Tools: SAP, SAP Enterprise Portal, Java, SOA, XML, Webservices, HTML, CSS, Javascript
 Roles: Entwickler
 Start: 02.2008

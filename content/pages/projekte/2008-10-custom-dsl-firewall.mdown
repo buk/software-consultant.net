@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Unternehmensberatung
 Keywords: projekt, Debian Linux, Firewall, TCP/IP, iptables, webmin, Perl, custom hardware, VPN, RSA Token, Berater
-Description: Entwicklung und Inbetriebnahme einer spezialisierten Firewall zur Bündelung von mehreren
+Description: Entwicklung und Inbetriebnahme einer spezialisierten Firewall.
 Tools: Debian Linux, Firewall, TCP/IP, iptables, webmin, Perl, custom hardware, VPN, RSA Token
 Roles: Berater
 Start: 10.2008

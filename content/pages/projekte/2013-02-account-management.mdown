@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Werbeagentur
 Keywords: projekt, Microsoft Office, Berater
-Description: Als Interim Manager betreue ich die CRM-Aktivitäten des Accounts meines
+Description: Als Interim Manager betreue ich die CRM-Aktivitäten des Accounts meines Kunden.
 Tools: Microsoft Office
 Roles: Berater
 Start: 02.2013

@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Softwarehersteller
 Keywords: projekt, Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, memcache, subversion, solr, MySQL, LDAP, Berater, Entwickler
-Description: Für einen mittelständischen Softwarehersteller konzipiere und entwickele ich die Neugestaltung
+Description: Für einen mittelständischen Softwarehersteller konzipiere und entwickele ich die Neugestaltung einer Recruiting-Software.
 Tools: Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, memcache, subversion, solr, MySQL, LDAP
 Roles: Berater, Entwickler
 Start: 02.2011

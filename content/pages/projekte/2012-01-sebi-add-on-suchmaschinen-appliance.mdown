@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Unternehmensberatung
 Keywords: projekt, Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, Elasticsearch, memcache, git, Debian, MySQL, nginx, Berater, Entwickler
-Description: Ich entwickele eine auf opensource-Komponenten basierte Suchmaschine, die sich für
+Description: Ich entwickele eine auf opensource-Komponenten basierte Suchmaschine, die sich für die Verwendung mit SAP eignet.
 Tools: Ruby, Ruby on Rails, HTML, CSS, HAML, Sass, Javascript, jQuery, Elasticsearch, memcache, git, Debian, MySQL, nginx
 Roles: Berater, Entwickler
 Start: 01.2012

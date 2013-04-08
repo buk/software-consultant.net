@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Bank
 Keywords: projekt, SAP, ITS Internet Transaction Server, HTML, CSS, Javascript, Entwickler
-Description: Konzerninterne Karrieresite für deutsche Großbank, incl. Liste offener Vakanzen, Qualifikationsanalyse
+Description: Konzerninterne Karrieresite für deutsche Großbank
 Tools: SAP, ITS Internet Transaction Server, HTML, CSS, Javascript
 Roles: Entwickler
 Start: 06.2003

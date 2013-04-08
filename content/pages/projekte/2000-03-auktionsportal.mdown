@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Auktionator
 Keywords: projekt, Mac OSX, Java, HTML, CSS, SQL, XML, Apache, Tomcat, Berater, Entwickler, Hosting
-Description: Mehrsprachiges Internet Portal Software für Kunsthandel, Versteigerung von Kunstgegenständen und
+Description: Mehrsprachiges Internet Portal Software für Kunsthandel und Versteigerung von Kunstgegenständen.
 Tools: Mac OSX, Java, HTML, CSS, SQL, XML, Apache, Tomcat
 Roles: Berater, Entwickler, Hosting
 Start: 03.2000

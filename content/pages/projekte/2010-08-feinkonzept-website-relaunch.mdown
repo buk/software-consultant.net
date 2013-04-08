@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Rundfunk
 Keywords: projekt, Microsoft Office, Microsoft Visio, Access, Interviews, Berater
-Description: Ich begleite den Relaunch eines Portals mehrerer Sparten eines öffentlich-rechtlichen
+Description: Ich begleite den Relaunch eines Portals.
 Tools: Microsoft Office, Microsoft Visio, Access, Interviews
 Roles: Berater
 Start: 08.2010

@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Medienagentur
 Keywords: projekt, Java, J2EE, Hibernate, HTML, CSS, Javascript, Oracle, MySQL, Struts, Velocity, Tomcat, Berater, Entwickler
-Description: Planung, Aufbau und Inbetriebnahme eines Produkt-Planungssystems, mit dem mehrere Dutzend
+Description: Planung, Aufbau und Inbetriebnahme eines Produkt-Planungssystems.
 Tools: Java, J2EE, Hibernate, HTML, CSS, Javascript, Oracle, MySQL, Struts, Velocity, Tomcat
 Roles: Berater, Entwickler
 Start: 08.2004

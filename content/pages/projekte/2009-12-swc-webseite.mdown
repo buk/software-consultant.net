@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Unternehmensberatung
 Keywords: projekt, Ruby, Ruby on Rails, Radiant CMS, Javascript, jQuery, HTML, CSS, HAML, Sass, Subversion, Berater, Hosting
-Description: Ich erstelle eine neue Unternehmenshomepage mithilfe von Radiant CMS, einem
+Description: Ich erstelle eine neue Unternehmenshomepage mithilfe von Radiant CMS.
 Tools: Ruby, Ruby on Rails, Radiant CMS, Javascript, jQuery, HTML, CSS, HAML, Sass, Subversion
 Roles: Berater, Hosting
 Start: 12.2009

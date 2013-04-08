@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Pharma/Chemie
 Keywords: projekt, SAP, XML, Javascript, Webservices, VPN, Berechtigungen, HTML, CSS, Berater
-Description: Erweiterung und Migration einer bestehenden Portalanwendung IE6 nach IE8, Anfertigung
+Description: Erweiterung und Migration einer bestehenden Portalanwendung IE6 nach IE8
 Tools: SAP, XML, Javascript, Webservices, VPN, Berechtigungen, HTML, CSS
 Roles: Berater
 Start: 05.2010

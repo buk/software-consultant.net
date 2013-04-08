@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Medienagentur
 Keywords: projekt, Java, J2EE, Tomcat, HTML, CSS, Oracle, EJB, Entwickler
-Description: Multilinguales Verkaufsportal für Werbemedien (Print, TV, Außenwerbung); Entwicklung und Einsatz
+Description: Multilinguales Verkaufsportal für Werbemedien (Print, TV, Außenwerbung).
 Tools: Java, J2EE, Tomcat, HTML, CSS, Oracle, EJB
 Roles: Entwickler
 Start: 10.2001

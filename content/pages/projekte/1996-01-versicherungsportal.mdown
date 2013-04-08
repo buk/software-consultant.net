@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Medienagentur
 Keywords: projekt, Perl, CGI, HTML, Entwickler
-Description: Implementierung des ersten Verkaufsportales für Versicherungen im deutschen Internet. Meine
+Description: Implementierung des ersten Verkaufsportales für Versicherungen im deutschen Internet.
 Tools: Perl, CGI, HTML
 Roles: Entwickler
 Start: 01.1996

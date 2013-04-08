@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Verwaltung
 Keywords: projekt, Java, Ant, JCoverage, div. Tools, Berater
-Description: Erstellung einer ständigen Qualitätsanalyse für eine sehr umfangreiche Java-Software (mehr
+Description: Erstellung einer ständigen Qualitätsanalyse für eine sehr umfangreiche Java-Software.
 Tools: Java, Ant, JCoverage, div. Tools
 Roles: Berater
 Start: 10.2003

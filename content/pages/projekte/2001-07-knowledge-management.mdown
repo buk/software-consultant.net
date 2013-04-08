@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Medienagentur
 Keywords: projekt, SUN Solaris, WebObjects, Oracle, Java, J2EE, HTML, EJB, Berater, Entwickler
-Description: Review eines webbasierten Wissensportals für Unternehmen, Linksammlung auf der Basis
+Description: Review eines webbasierten Wissensportals für Unternehmen.
 Tools: SUN Solaris, WebObjects, Oracle, Java, J2EE, HTML, EJB
 Roles: Berater, Entwickler
 Start: 07.2001

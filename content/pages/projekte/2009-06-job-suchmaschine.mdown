@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Unternehmensberatung
 Keywords: projekt, Ruby, Ruby on Rails, sphinx Suchmaschine, Shell scripting, HTML, CSS, HAML, Sass, ExtJS, Javascript, Subversion, Entwickler, Hosting
-Description: Entwicklung eines Proof-of-concept Prototypen einer Suchmaschine, die Webseiten mittels eines
+Description: Entwicklung eines Proof-of-concept Prototypen einer Suchmaschine.
 Tools: Ruby, Ruby on Rails, sphinx Suchmaschine, Shell scripting, HTML, CSS, HAML, Sass, ExtJS, Javascript, Subversion
 Roles: Entwickler, Hosting
 Start: 06.2009

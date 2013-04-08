@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Unternehmensberatung
 Keywords: projekt, Java, J2EE, SAP, HTML, CSS, Javascript, Tomcat, Hibernate, MySQL, Velocity, Berater, Entwickler, Hosting
-Description: Ich bin verantwirtlich für Konzeption und Erstellung eines mehrsprachigen Portals
+Description: Ich bin verantwortlich für Konzeption und Erstellung eines mehrsprachigen Portals für Online-Umfragen.
 Tools: Java, J2EE, SAP, HTML, CSS, Javascript, Tomcat, Hibernate, MySQL, Velocity
 Roles: Berater, Entwickler, Hosting
 Start: 11.2005
@@ -10,6 +10,6 @@ End: 12.2006
 
 # Umfrageportal
 
-Ich bin verantwirtlich für Konzeption und Erstellung eines mehrsprachigen Portals für Online-Umfragen. Das Produkt auf der Basis von Java erlaubt die Zusammenstellung von komplexen Fragebögen und den Export der Ergebnisse in nachgelagerte Auswertung. Ein Berechtigungssystem ermöglicht es, von anonymen öffentlichen Umfragen bis hin zu persönlichen Zugangscodes verschiedene Szenarien abzubilden. In den folgenden sechs Jahren war ich auch Partner für Betrieb und Wartung der Lösung.
+Ich bin verantwortlich für Konzeption und Erstellung eines mehrsprachigen Portals für Online-Umfragen. Das Produkt auf der Basis von Java erlaubt die Zusammenstellung von komplexen Fragebögen und den Export der Ergebnisse in nachgelagerte Auswertung. Ein Berechtigungssystem ermöglicht es, von anonymen öffentlichen Umfragen bis hin zu persönlichen Zugangscodes verschiedene Szenarien abzubilden. In den folgenden sechs Jahren war ich auch Partner für Betrieb und Wartung der Lösung.
 
 

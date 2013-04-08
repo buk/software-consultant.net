@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Medienagentur
 Keywords: projekt, PHP, PEAR, ExtJS, Javascript, HTML, CSS, Subversion, Berater, Entwickler
-Description: Implementation einer Onlinesoftware zur Projektsteuerung für eine Medienagentur in der
+Description: Implementation einer Onlinesoftware zur Projektsteuerung für eine Medienagentur in der Printbranche.
 Tools: PHP, PEAR, ExtJS, Javascript, HTML, CSS, Subversion
 Roles: Berater, Entwickler
 Start: 09.2008

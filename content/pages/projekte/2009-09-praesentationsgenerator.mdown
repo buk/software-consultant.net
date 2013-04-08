@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Medienagentur
 Keywords: projekt, Ruby, Ruby on rails, Shell scripting, HTML, CSS, HAML, Sass, ExtJS, Javascript, Subversion, Berater, Entwickler
-Description: Entwicklung eines Mehrbenutzer-Portals, mit dem individuelle Präsentationen geplant werden. Die
+Description: Entwicklung eines Mehrbenutzer-Portals, mit dem individuelle Präsentationen geplant werden.
 Tools: Ruby, Ruby on rails, Shell scripting, HTML, CSS, HAML, Sass, ExtJS, Javascript, Subversion
 Roles: Berater, Entwickler
 Start: 09.2009

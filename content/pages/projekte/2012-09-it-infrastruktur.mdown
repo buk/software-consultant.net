@@ -2,7 +2,7 @@ Template: project
 Flags: project
 Customer: Verein
 Keywords: projekt, Linux, Email, Webserver, Postfix, Apache, Firewall, TCP/IP, DNS, typo3, Berater, Hosting
-Description: Mein Kunde ist als gemeinnütziger Verein Träger zweier Programme zur
+Description: Ich betreibe und warte die externe Infrastruktur aus Web- und Emailservern.
 Tools: Linux, Email, Webserver, Postfix, Apache, Firewall, TCP/IP, DNS, typo3
 Roles: Berater, Hosting
 Start: 09.2012
