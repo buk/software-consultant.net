@@ -25,19 +25,24 @@ map Sprockets::Helpers.prefix do
   environment = Sprockets::Environment.new(Nesta::Env.root) do |env|
     env.append_path File.join(Nesta::Env.root, nesta_content, 'attachments')
     %w{javascripts stylesheets images fonts}.each do |type|
-      env.append_path File.join(Nesta::Env.root, nesta_content, 'assets', type)
-      env.append_path File.join(Nesta::Env.root, 'themes', nesta_theme, 'assets', type)
+      if f = File.join(Nesta::Env.root, nesta_content, 'assets', type)
+        env.append_path f if File.exist?(f)
+      end
+      if f = File.join(Nesta::Env.root, 'themes', nesta_theme, 'assets', type)
+        env.append_path f if File.exist?(f)
+      end
     end
 
     # Add zurb-foundation asset paths
     gem_root = Gem.loaded_specs['zurb-foundation'].full_gem_path
     env.append_path File.join(gem_root, 'js')
-
-    Sprockets::Helpers.configure do |config|
-      config.environment = env
-      config.digest      = false
-    end
   end
+
+  Sprockets::Helpers.configure do |config|
+    config.environment = environment
+    config.digest      = false
+  end
+
   run environment
 end
 
