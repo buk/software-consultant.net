@@ -35,19 +35,21 @@ module SWC
       end
     end
 
-    def maps_image
+    def maps_image(options={})
       u = URI.parse("http://maps.googleapis.com/maps/api/staticmap")
+      h, w = 140, 640
       opts = {
         center:'Auelsweg 22, 53797 Lohmar, Deutschland',
         maptype:'roadmap',
-        scale:2,
+        scale:1,
         zoom:14,
-        size:'866x140',
+        size:"#{w}x#{h}",
         markers:'color:red|Auelsweg 22, 53797 Lohmar, Deutschland',
         sensor:false
       }
       u.query = opts.map{|k,v| "#{k}=#{CGI.escape(v.to_s)}"}.join('&')
-      content_tag :img, alt:'Map', src:u.to_s
+      i_opt = options.symbolize_keys!.reverse_merge(alt:'Map', src:u.to_s, width:w, height:h)
+      content_tag :img, i_opt
     end
 
     def current_path?(path)
