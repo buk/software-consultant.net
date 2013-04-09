@@ -1,6 +1,10 @@
+require 'uri'
+
 module SWC
   module Helpers
     CHART_DEFAULTS = {type:'donut'}
+
+    VOID_TAGS = %w{area base br col command embed hr img input keygen link meta param source track wbr}
 
     def menu_for(elements)
       elements = [elements] unless elements.is_a?(Array)
@@ -29,6 +33,21 @@ module SWC
         %w{type xkey ykeys labels hidehover}.map(&:to_sym).each{|o| opts[o] = options[o] if options.key?(o)}
         c << content_tag(:div, '', class:'chart', data:opts)
       end
+    end
+
+    def maps_image
+      u = URI.parse("http://maps.googleapis.com/maps/api/staticmap")
+      opts = {
+        center:'Auelsweg 22, 53797 Lohmar, Deutschland',
+        maptype:'roadmap',
+        scale:2,
+        zoom:14,
+        size:'866x140',
+        markers:'color:red|Auelsweg 22, 53797 Lohmar, Deutschland',
+        sensor:false
+      }
+      u.query = opts.map{|k,v| "#{k}=#{CGI.escape(v.to_s)}"}.join('&')
+      content_tag :img, alt:'Map', src:u.to_s
     end
 
     def current_path?(path)
@@ -69,12 +88,15 @@ module SWC
         s << " #{attributes}"
       end
       s << ">"
-      if block_given?
-        s << yield
-      else
-        s << content
+      unless VOID_TAGS.include?(type.to_s)
+        if block_given?
+          s << yield
+        else
+          s << content
+        end
+        s << "</#{type}>"
       end
-      s << "</#{type}>"
+      s
     end
 
     private
