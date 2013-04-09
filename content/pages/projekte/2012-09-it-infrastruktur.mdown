@@ -1,4 +1,5 @@
 Template: project
+Title: IT Infrastruktur 2012
 Flags: project
 Customer: Verein
 Keywords: projekt, Linux, Email, Webserver, Postfix, Apache, Firewall, TCP/IP, DNS, typo3, Berater, Hosting
